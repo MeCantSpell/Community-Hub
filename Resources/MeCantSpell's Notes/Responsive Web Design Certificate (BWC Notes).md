@@ -1,0 +1,456 @@
+
+# Table of Contents
+
+1.  [Responsive Web Design Certificate (BWC Notes)](#org6408d89)
+    1.  [Computers Basics](#org5dfdca4)
+        1.  [Parts of a Computer](#orge1148b9)
+        2.  [Working Effectively With Input Devices](#orgff6c48c)
+        3.  [Internet Service Providers](#orga723f0a)
+        4.  [Sign In Security](#org7ab0c94)
+        5.  [Developer Tools](#orga1a2a19)
+        6.  [File Management Applications](#orga5dd54e)
+        7.  [Naming Files for Web Applications](#orgcac2996)
+        8.  [File/Folder Organization for Web Applications](#org07cb586)
+        9.  [Creating, Moving and Deleting Files](#orgd44365b)
+        10. [Searching for Files](#org435ef88)
+        11. [File Types used in Web Applications](#org1a482ca)
+        12. [Web Browsers](#org3675893)
+        13. [Web Terms](#org681b4d1)
+        14. [Advanced Search Engine Capabilities](#org2737589)
+    2.  [HTML](#org5e96585)
+        1.  [Elements](#org2582944)
+        2.  [HTML Syntax](#org358ce7c)
+    3.  [CSS](#orgd32b411)
+
+
+<a id="org6408d89"></a>
+
+# Responsive Web Design Certificate (BWC Notes)
+
+This file contains the notes for my Responsive Web Design Certificate. I am following a Bad Website
+Club bootcamp!
+
+
+<a id="org5dfdca4"></a>
+
+## Computers Basics
+
+Computers are machines that allow people to accomplish certain tasks including playing games,
+browsing the internet and even writing this note.
+As a developer it's important to take a look at the parts of a computer as it's the machine for
+which we will be developing software for.
+
+
+<a id="orge1148b9"></a>
+
+### Parts of a Computer
+
+**Motherboard** : The motherboard is the main part of a computer as it's the circuit board that houses
+all of the other important components. It can be thought of as the skull of the computer.
+**CPU** : CPU stands for Central Processing Unit, it's needed for
+the computer to function. It's a small square chip tht goes into a CPU Socket on the
+motherboard. It's speed is calculated in MHz and GHz (Million and Billion Cycles per Second
+respectively). It's responsible for calculations, providing CPU time for tasks and other functions
+as well. It can be thought of as the brain of the computer/
+**RAM** : RAM stands for Random Access Memory and and it's needed to store important details required
+to perform functions by the CPU. The CPU takes data and information stored in the RAM when it needs
+to complete its tasks. Memory stored in the RAM is not persistent among
+restarts of the computer. Any important data must therefore be saved to the permanent memory. It can
+be thought of as the short term memory of the computer.
+**HDD/SSD** : HDD stands for Hard Disk Drive and is one of the most important storage devices in the
+history of computers. Utilizing platters and heads it stores data across the platters for
+retrieval. While in today's modern computers they are overshadowed by their newer counterpart of
+SSD, standing for Solid State Drives, they are still cheaper and can be found in often larger
+sizes. These storage devices are persistent and can be considered as the long term memory of the
+computer.
+**PSU** : PSU stands for Power Supply Unit and is the device by which a computer recieves electricity
+to function. It converts the power from out powerlines into power suitable to be consumed by the
+computer(AC &#x2013;> DC). Without it the computer will not function. The PSU can be thought of as the
+digestive tract of the computer.
+**Expansion Cards** : In order to give the computer additional functionality, the motherboard will
+house certain expansion slots in which expansion cards can be slot in. Expansion cards that are
+commonly used include:
+
+1.  Video Cards - Also known as GPUs which help with rendering video graphics.
+2.  Sound Cards - Responsible for the audio output of a computer
+3.  Network Cards - Responsible for connecting the computer to the internet.
+
+
+<a id="orgff6c48c"></a>
+
+### Working Effectively With Input Devices
+
+There are certain ways in which we can improve the efficiency of our work on the computer with
+computer peripherals. We'll take a look at some of the tips we can incorporate in our daily tech
+lives.
+
+1.  Gripping the mouse gently in a relaxed manner
+2.  Using ergonomic peripherals
+3.  Keeping the mouse at the same height as the keyboard
+4.  Maintaining good posture **(No slouching!)**
+5.  Using keyboard shortcuts
+6.  **MOST IMPORTANTLY** Taking regular breaks
+
+
+<a id="orga723f0a"></a>
+
+### Internet Service Providers
+
+Internet Service Providers or ISPs are companies that sell people the access to the global
+internet. There are 3 types of ISPs.
+
+1.  **Tier 1 ISPs** : These are ISPs that can handle most of their network traffic independently. They
+    can also access most of the internet without any restrictions.
+    E.g.: Lumen Technology (Rank 1)
+2.  **Tier 2 ISPs** : These are the ISPs that handle the network of a country mostly. They can access
+    some parts of the internet without restrictions but have to pay to access some parts of the
+    internet.
+    E.g.: Vodafone (Purchases access from Arelion)
+3.  **Tier 3 ISPs** : These are the ISPs that handle regional networks and solely rely on larger ISPs
+    to access parts of the internet.
+    E.g.: Hutch (4 million users though)
+
+These ISPs will offer different types of connections to access the internet. We'll take a look at
+some connections here.
+
+1.  **Fibre Connections** : Transmits data via glass or plastic fibre cables, allows for very high speed
+    connections and data exchanges. (We have fibre UwU)
+2.  **Cable Connections** : Transmits data via television cables making them readily available and
+    accessible in many regions.
+3.  **DSL Connections** : Transmits data via landline cables making them much more accessible than
+    cable connections.
+4.  **Dial-UP Connections** : They also transmit data via landline cables, however they are only able
+    to do one thing at a time (either calls or internet). This is an archaic form of internet
+    connection.
+5.  **Satellite Connections** : They transmit data between an array of satellites.
+6.  **Cellular Network Connections (4G/5G)** : They transmit data between cellular
+
+
+<a id="org7ab0c94"></a>
+
+### Sign In Security
+
+When it comes to your computer it's important to make sure it's password protected. When setting up
+a password use a password that is long and complex, and not an easy password. Passwords should also
+not use personal information such as names, dates and ages. On your computer, if your device allows
+it, setting up biometric methods (fingerprints, face recognition) to sign in is considered a safer
+approach when compared to traditional passwords.
+When setting up your passwords for services, using 2FA (two factor authorization) and a password
+manager (E.g.:[Proton Pass](https://proton.me/pass)) are recommended.
+
+
+<a id="orga1a2a19"></a>
+
+### Developer Tools
+
+In order to create software, developers rely on a bunch of tools to make their work more productive
+and efficient.
+
+1.  **Computers** : Developers have to use a computer in order to write their code. However compared to
+    the average user, a developer would require a computer with higher processing power and RAM so
+    they can carryout resource intensive tasks.
+2.  **IDEs/Code Editors** : The software that a developer chooses to write their code in is referred to
+    as a code editor. The software in which this note is being written on (Emacs) is also a code
+    editor. IDEs on the other hand stand for Integrated Development Environments and provide powerful
+    features including code completion, debugging and integrated terminal support (All of this can be
+    kind of added to Emacs, so I dunno&#x2026; it's also an IDE or something).
+3.  **VC Systems** : When writing code, code is likely to break. Also, when a team is involved in
+    development, different developers will code in different styles and ways. A VC (Version Control)
+    system allows developers to retrieve previous versions of a codebase in case something goes
+    wrong. Think of it as an elaborate undo button for code. The most popular version control system
+    is GitHub (we'll get magit later, don't worry)
+4.  **Package Managers** : When writing complex code, developers will make use of packages and
+    libraries. Package managers simplify the process of adding, updating and removing these packages.
+    E.g.: PIP for Python
+5.  **Testing Frameworks** : In order to test whether the code that developers have written is
+    functioning as expected. While you can manually test your code by running it through test cases
+    and documenting the pass/fail of your code, a testing framework allows you to automatically do
+    that.
+    E.g.: pytest for Python
+6.  **Web Browsers** : Developers also need to test what the code looks like visually beyond just the
+    functionality. This can be done using browsers like Mozilla Firefox, Vivaldi, Opera GX,
+    Thorium. Testing on different browsers is important to make sure the product is accessible by as
+    many users as possible.
+
+
+<a id="orga5dd54e"></a>
+
+### File Management Applications
+
+A file management application makes it easy to store, organize and view the files on your
+computer. On Windows the default file management application is File Explorer whereas on Mac it's
+finder.
+File Explorer can be accessed via the <span class="underline">Start Menu by pressing the Windows Key on your keyboard or by</span>
+<span class="underline">clicking the Windows Icon on your taskbar.</span> Using File Explorer you can pin, copy and move files
+around.
+These file management applications provide features like tags,search and Smart Folders.
+
+
+<a id="orgcac2996"></a>
+
+### Naming Files for Web Applications
+
+HTML files used for web applications have the extension **.html** after the name of the file. For web
+applications we will also use files like CSS files and JavaScript files which have the extensions
+**.css** and **.js** respectively.
+While there are no set conventions for naming your web application files, it is recommended that you
+name them using sensible names and avoid using special characters that can make the name look
+confusing. Importantly, when working with a team it is vital to follow your team's style-guide when
+naming you files.
+The exception to this is **index.html** which is a special file that represents the main page of the
+website. It's the first file that is loaded when you visit a website.
+
+
+<a id="org07cb586"></a>
+
+### File/Folder Organization for Web Applications
+
+When building out web applications (or any applications in general), it makes sense to have all the
+files and folders you need arranged in a way that makes your workflow productive.
+In a file system a root directory is referred to as the top-level directory in a file system, all
+other files and sub-directories located within this root directory are referenced via the root
+directory.
+Think of the root directory as the District you live in, and the sub directories point to the street
+you live in and the files within them finally point to your house (I am in your walls).
+A root directory can be represented by a single dot **(.)**
+You can have sub directories within your directory for the assets used in your website, CSS
+stylesheets, JS scripts and perhaps one for your webpages.
+A best practice directory will look like this:
+
+    .
+    |___/assets
+    |___/css
+    |___/pages
+    |___/js
+    |___/admin
+    |___/blogs
+    |___index.html
+    |___README.org
+
+Personally I like to add a little TODO.org so that I have an idea what I have to do next and a
+little note of what I have already done, or failed doing.
+
+
+<a id="orgd44365b"></a>
+
+### Creating, Moving and Deleting Files
+
+In windows while in File Explorer, once you have entered your desire directory you can create a new
+file <span class="underline">by right-clicking and going to the "New" menu and selecting the type of file you would like to</span>
+<span class="underline">create.</span> You can also rename files <span class="underline">by either selecting your file and clicking the rename button on</span>
+<span class="underline">the top, right-clicking and choosing the rename option, selecting your file and hitting F2 or by</span>
+<span class="underline">double-clicking on the name underneath the file.</span> By default you don't have to enter the extension as
+files will be saved in their appropriate file extension, in order to change the file extension you
+can either <span class="underline">enable file extensions on your systema and manually edit the extensions of your desired</span>
+<span class="underline">files or by editing the extension name in your "Save As" prompt when you are initially saving.</span>
+Deleting files in Windows is really easy, you just have to <span class="underline">select the files you want to delete and</span>
+<span class="underline">press the del key, use the delete option on the top or right-click and select the delete option.</span>
+In order to move files you will either have to copy/cut and paste them elsewhere. You can copy files
+<span class="underline">by selecting the desired files and right-clicking to copy or using the Ctrl-C shortcut</span>. You can cut
+files <span class="underline">by selecting the desired files and right-clicking to cut orusing the Ctrl-X shortcut.</span> Finally,
+to paste these files <span class="underline">simply right-click and select paste or use the Ctrl-V shortcut.</span>
+In order to select multiple files on Windows you can either <span class="underline">click and drag your mouse or use</span>
+<span class="underline">Ctrl+click over the relevant files (Ctrl+click really helps when the files aren't adjacent).</span>
+
+
+<a id="org435ef88"></a>
+
+### Searching for Files
+
+In Windows you used to be able to search for the files you needed using the taskbar, this no longer
+works properly. You could go to the directory where you know the file is and search from there. But honestly
+if you have internalized all the details from the previous chapter you won't need to search for
+anything as you will be well organized to always know where everything is.
+
+
+<a id="org1a482ca"></a>
+
+### File Types used in Web Applications
+
+Earlier in [1.1.7](#orgcac2996) we looked at files like .html, .css and .js that we
+will use when we develop web applications. Apart from these we will also use some other files types
+such as:
+
+1.  **JPEG** : Joint Photographic Experts Group
+2.  **PNG** : Portable Network Graphics
+3.  **GIF** : Graphics Interchange Format (pronounced JIF)
+4.  **SVG** : Scalable Vector Graphics
+
+Which are some image formats used in web applications.
+
+5.  **MP3** : A lossy audio format
+6.  **WAV** : A lossless audio format
+7.  **MP4** : The most common video format
+8.  **WebM** : A high-quality lossless open-source video format
+9.  **TFF** : A font format
+10. **WOFF** : A modern font format
+11. **WOFF2** : WOFF but 2
+12. **ZIP** : Compressed folders
+13. **Markdown** : Files that can be used to create structured documents (use org though, org files can
+    be exported as markdown, html and even pdf)
+
+
+<a id="org3675893"></a>
+
+### Web Browsers
+
+Web browsers are appilcations that allow you to access the internet. The current most popular
+browsers are Microsoft Edge, Mozilla Firefox, Google Chrome and Safari. Your system should come with
+a default browser and if you feel like you want to change your browser it's just a matter of looking
+up your preferred browser on your defualt browser and downloading the one you want.
+On some systems you can install a browser using your operating system's package manager like on
+MacOS with homebrew or Arch Linux.
+
+
+<a id="org681b4d1"></a>
+
+### Web Terms
+
+We've already looked at what a web browser is, now let's take a look at some terms that are often
+confused for each other, like search engine and website.
+**Web Browsers** : Web browsers are the applications used to navigate the world wide web, they are
+commonly found with features such as an address bar, rendering engine, bookmarks, extensions and
+various security pages.
+**Websites** : Websites on the other hand are the content that is made available on the World Wide Web
+and can be accessed through your web browser. They are a collection of web pages and other files,
+and consist of a domain name and the web pages that make them. Websites often include multimedia and
+can also be static (content rarely changes) or dynamic (content frequently changes) depending on the
+needs of the publisher.
+**Search Engines** : Search engines are web-based tools designed to help users find the content that
+they are looking for on the internet. Key aspects of search-engines include web crawlers also known
+as spiders or bots, which are prorgams that systematically browse the web to discover and index new
+content. They also have complex algorithms that rank the content that they have indexed and display
+them to the user based on factors such as relevance, authority, popularity and user experience.
+Popular search engines include Google, Bing, Yahoo, and DuckDuckGo.
+Broswers, search engines and websites are all interconnected. It can be simply thought of this,
+websites are the content of the internet, they can be accessed via search engines or browsers. If
+you know the website you want to go to you don't need a search engine, however if you are not sure
+of where to go you can use a search engine to help you get there.
+
+
+<a id="org2737589"></a>
+
+### Advanced Search Engine Capabilities
+
+When using your search engine there are certain ways that you can search more efficiently. For
+example if you want to search for a specific phrase you can put that phrase in between **quotation
+marks ("")**. If you want to search for specific words but they do not have to necessarily be together
+you can use the **plus symbol (+)** before the words. If you want your search engine to not return
+search results with certain words you can instead use the **minus symbol (-)**. To search within a
+specific website or domain you can use the following syntax **site:**
+A few example searches may look like this:
+
+    "freecodecamp curriculum"
+
+This one will return only results that have the exact phrase of "freecodecamp curriculum".
+
+    site:freecodecamp.org/news +python -curriculum
+
+This one looks at any webpages with the domain freecodecamp.org and within their "news" path.
+Note that search engines are not case-sensitive and essentially convert all searches to lower
+case. The above capabilities will be available on Google Search Engine, and also work on
+Startpage. However, it makes sense to read the documentation on the search engine you are using to
+see the exact syntax that is used for these advanced functionalities.
+For more tips on using the Google Search Engine, and by extension Startpage, visit this [site](https://woodward.libguides.com/google/basicsearch).
+
+
+<a id="org5e96585"></a>
+
+## HTML
+
+HTML stands for Hypertext Markup Language and is a language used for building webpages. When you
+visit a website, its content including headings, paragraphs, sentences, images, videos and links are
+all made of HTML.
+While HTML is enough to create a functional website, and it is considered a best-practice to have
+website functionality in HTML. A modern day website also needs CSS for styling and JavaScript for
+interactivity.
+
+
+<a id="org2582944"></a>
+
+### Elements
+
+HTML is made up of elements. This elements usually have an opening tag and an ending tag. Elements
+that do not have ending tags are referred to as void elements. These elements can also be classified
+as semantic and non-semantic elements. Simply put, semantic elements are elements that have meaning
+whereas non-semantic elements are elements that do not have meaning.
+Using semantic elements over non-semantic elements has certain benefits including increased
+accessibility for screen readers, enhanced SEO for search engine indexing and finally to increase
+code readability.
+After the opening tag of an element we will enter in the content. If the element also has a closing
+tag, once we are done entering our content we will use the closing tag to close it, otherwise if it
+is a void element there is no need.
+HTML tags are case-insensitive, however the widely adopted best-practice is to use simple-case
+letters when typing them in. Most tags will start with **<** and end with **>**. For example:
+
+    <p>
+
+A closing tag however will also include a forward slash **/** as well. Taking the above example:
+
+    </p>
+
+We have explained that void tags do not have a closing tag earlier, and therefore they will follow
+the convention of the opening tags. However, one can write a void tag as such and it will be valid:
+
+    <img/>
+
+Many code formatters indeed choose to format void tags like this. However the HTML spec states that
+the presence of **/** "does not mark the start tag as self-closing but instead is unnecessary and has no
+effect of any kind".
+Some elements will take in values known as attributes that define the way the content will behave in
+said tag is displayed. The basic syntax for an attribute is the attribute name followed by an **=** sign
+For example the image element will take in attributes such as **src** which
+indicates the source/location of the image and **alt** which gives alternative text for the user in case
+the image isn't displayed correctly. For example:
+
+    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/catsjpg" alt="Two tabby kittens sleeping together on a couch." >
+
+Another example is the attributes used for hyperlinks. Hyperlinks are created using the anchor
+element **<a>**, and attributes such as **href** and **target** can be used. "href" refers to href stands for
+hypertext reference and is the reference link of the hyperlink and the target attribute indicates
+how the hyperlink will open up. For example:
+
+    <a href="https://www.freecodecamp.org" target="_blank"> Visit freeCodeCamp </a>
+
+The **\_blank** value of the target attribute indicates that this hyperlink must be opened in a new tab.
+Just like how some elements are unique in their syntax some attributes are also unique in their
+syntax like the **checked** attribute which indicates whether or not an input element of the type
+checkbox is checked by default.
+
+    <input type="checkbox" checked/>
+
+Such attributes are referred to as boolean attributes because just like boolean they can either be
+present or absent. Other boolean attributes include disabled, readonly and required which describe
+the state of an element.
+
+
+<a id="org358ce7c"></a>
+
+### HTML Syntax
+
+This list has been created using the syntax that I have personally encountered and syntax that I am
+much likely to use. For a full reference on all the HTML syntax please refer to this [link](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes).
+
+1.  Anchor/Hyperlink - <a>,</a>
+    1.  Hypertext Reference - href
+    2.  Browsing Context - target
+        ("<sub>self</sub>" for the same tab, "<sub>blank</sub>" for a new tab or new window, there are other values as
+        well but since they are values that deal with the now obsolete frames we will ignore them)
+2.  Image - <img/>
+    1.  Source - src
+    2.  Alternative Text - alt
+3.  Input - <input/>
+    1.  Type - type
+        Sets the type of input obtained (checkbox, password, email, url)
+    2.  Autocrrect - autocorrect
+    3.  Defualt check for checkbox - checked
+    4.  Disable element by default - disabled
+    5.  Make element immutable - readonly
+    6.  Makes the element mandatorily accept a value - required
+4.  Paragraph - <p>,</p>
+
+
+<a id="orgd32b411"></a>
+
+## CSS
+

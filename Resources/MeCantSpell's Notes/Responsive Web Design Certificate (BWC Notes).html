@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2026-05-20 Wed 18:29 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org0693fc2">1. Responsive Web Design Certificate (BWC Notes)</a>
+<ul>
+<li><a href="#orga7e86ff">1.1. Computers Basics</a>
+<ul>
+<li><a href="#org82b160b">1.1.1. Parts of a Computer</a></li>
+<li><a href="#org80abe9d">1.1.2. Working Effectively With Input Devices</a></li>
+<li><a href="#org7ce10ac">1.1.3. Internet Service Providers</a></li>
+<li><a href="#org1a7cf55">1.1.4. Sign In Security</a></li>
+<li><a href="#orge56e478">1.1.5. Developer Tools</a></li>
+<li><a href="#org7c1f219">1.1.6. File Management Applications</a></li>
+<li><a href="#orgccc5b2f">1.1.7. Naming Files for Web Applications</a></li>
+<li><a href="#org8a3c3ff">1.1.8. File/Folder Organization for Web Applications</a></li>
+<li><a href="#org7266452">1.1.9. Creating, Moving and Deleting Files</a></li>
+<li><a href="#org742e6c8">1.1.10. Searching for Files</a></li>
+<li><a href="#orgfb08a6f">1.1.11. File Types used in Web Applications</a></li>
+<li><a href="#org0c2f73b">1.1.12. Web Browsers</a></li>
+<li><a href="#org2a3dde5">1.1.13. Web Terms</a></li>
+<li><a href="#orgc371ef2">1.1.14. Advanced Search Engine Capabilities</a></li>
+</ul>
+</li>
+<li><a href="#orgd3c818b">1.2. HTML</a>
+<ul>
+<li><a href="#org2c801ff">1.2.1. Elements</a></li>
+<li><a href="#org1adf300">1.2.2. HTML Syntax</a></li>
+</ul>
+</li>
+<li><a href="#org2bce539">1.3. CSS</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org0693fc2" class="outline-2">
+<h2 id="org0693fc2"><span class="section-number-2">1.</span> Responsive Web Design Certificate (BWC Notes)</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+This file contains the notes for my Responsive Web Design Certificate. I am following a Bad Website
+Club bootcamp!
+</p>
+</div>
+<div id="outline-container-orga7e86ff" class="outline-3">
+<h3 id="orga7e86ff"><span class="section-number-3">1.1.</span> Computers Basics</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+Computers are machines that allow people to accomplish certain tasks including playing games,
+browsing the internet and even writing this note.
+As a developer it's important to take a look at the parts of a computer as it's the machine for
+which we will be developing software for.
+</p>
+</div>
+<div id="outline-container-org82b160b" class="outline-4">
+<h4 id="org82b160b"><span class="section-number-4">1.1.1.</span> Parts of a Computer</h4>
+<div class="outline-text-4" id="text-1-1-1">
+<p>
+<b>Motherboard</b> : The motherboard is the main part of a computer as it's the circuit board that houses
+all of the other important components. It can be thought of as the skull of the computer.
+<b>CPU</b> : CPU stands for Central Processing Unit, it's needed for
+the computer to function. It's a small square chip tht goes into a CPU Socket on the
+motherboard. It's speed is calculated in MHz and GHz (Million and Billion Cycles per Second
+respectively). It's responsible for calculations, providing CPU time for tasks and other functions
+as well. It can be thought of as the brain of the computer/
+<b>RAM</b> : RAM stands for Random Access Memory and and it's needed to store important details required
+to perform functions by the CPU. The CPU takes data and information stored in the RAM when it needs
+to complete its tasks. Memory stored in the RAM is not persistent among
+restarts of the computer. Any important data must therefore be saved to the permanent memory. It can
+be thought of as the short term memory of the computer.
+<b>HDD/SSD</b> : HDD stands for Hard Disk Drive and is one of the most important storage devices in the
+history of computers. Utilizing platters and heads it stores data across the platters for
+retrieval. While in today's modern computers they are overshadowed by their newer counterpart of
+SSD, standing for Solid State Drives, they are still cheaper and can be found in often larger
+sizes. These storage devices are persistent and can be considered as the long term memory of the
+computer.
+<b>PSU</b> : PSU stands for Power Supply Unit and is the device by which a computer recieves electricity
+to function. It converts the power from out powerlines into power suitable to be consumed by the
+computer(AC &#x2013;&gt; DC). Without it the computer will not function. The PSU can be thought of as the
+digestive tract of the computer.
+<b>Expansion Cards</b> : In order to give the computer additional functionality, the motherboard will
+house certain expansion slots in which expansion cards can be slot in. Expansion cards that are
+commonly used include:
+</p>
+<ol class="org-ol">
+<li>Video Cards - Also known as GPUs which help with rendering video graphics.</li>
+<li>Sound Cards - Responsible for the audio output of a computer</li>
+<li>Network Cards - Responsible for connecting the computer to the internet.</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org80abe9d" class="outline-4">
+<h4 id="org80abe9d"><span class="section-number-4">1.1.2.</span> Working Effectively With Input Devices</h4>
+<div class="outline-text-4" id="text-1-1-2">
+<p>
+There are certain ways in which we can improve the efficiency of our work on the computer with
+computer peripherals. We'll take a look at some of the tips we can incorporate in our daily tech
+lives.
+</p>
+<ol class="org-ol">
+<li>Gripping the mouse gently in a relaxed manner</li>
+<li>Using ergonomic peripherals</li>
+<li>Keeping the mouse at the same height as the keyboard</li>
+<li>Maintaining good posture <b>(No slouching!)</b></li>
+<li>Using keyboard shortcuts</li>
+<li><b>MOST IMPORTANTLY</b> Taking regular breaks</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org7ce10ac" class="outline-4">
+<h4 id="org7ce10ac"><span class="section-number-4">1.1.3.</span> Internet Service Providers</h4>
+<div class="outline-text-4" id="text-1-1-3">
+<p>
+Internet Service Providers or ISPs are companies that sell people the access to the global
+internet. There are 3 types of ISPs.
+</p>
+<ol class="org-ol">
+<li><b>Tier 1 ISPs</b> : These are ISPs that can handle most of their network traffic independently. They
+can also access most of the internet without any restrictions.
+E.g.: Lumen Technology (Rank 1)</li>
+<li><b>Tier 2 ISPs</b> : These are the ISPs that handle the network of a country mostly. They can access
+some parts of the internet without restrictions but have to pay to access some parts of the
+internet.
+E.g.: Vodafone (Purchases access from Arelion)</li>
+<li><b>Tier 3 ISPs</b> : These are the ISPs that handle regional networks and solely rely on larger ISPs
+to access parts of the internet.
+E.g.: Hutch (4 million users though)</li>
+</ol>
+
+<p>
+These ISPs will offer different types of connections to access the internet. We'll take a look at
+some connections here.
+</p>
+<ol class="org-ol">
+<li><b>Fibre Connections</b> : Transmits data via glass or plastic fibre cables, allows for very high speed
+connections and data exchanges. (We have fibre UwU)</li>
+<li><b>Cable Connections</b> : Transmits data via television cables making them readily available and
+accessible in many regions.</li>
+<li><b>DSL Connections</b> : Transmits data via landline cables making them much more accessible than
+cable connections.</li>
+<li><b>Dial-UP Connections</b> : They also transmit data via landline cables, however they are only able
+to do one thing at a time (either calls or internet). This is an archaic form of internet
+connection.</li>
+<li><b>Satellite Connections</b> : They transmit data between an array of satellites.</li>
+<li><b>Cellular Network Connections (4G/5G)</b> : They transmit data between cellular</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org1a7cf55" class="outline-4">
+<h4 id="org1a7cf55"><span class="section-number-4">1.1.4.</span> Sign In Security</h4>
+<div class="outline-text-4" id="text-1-1-4">
+<p>
+When it comes to your computer it's important to make sure it's password protected. When setting up
+a password use a password that is long and complex, and not an easy password. Passwords should also
+not use personal information such as names, dates and ages. On your computer, if your device allows
+it, setting up biometric methods (fingerprints, face recognition) to sign in is considered a safer
+approach when compared to traditional passwords.
+When setting up your passwords for services, using 2FA (two factor authorization) and a password
+manager (E.g.:<a href="https://proton.me/pass">Proton Pass</a>) are recommended.
+</p>
+</div>
+</div>
+<div id="outline-container-orge56e478" class="outline-4">
+<h4 id="orge56e478"><span class="section-number-4">1.1.5.</span> Developer Tools</h4>
+<div class="outline-text-4" id="text-1-1-5">
+<p>
+In order to create software, developers rely on a bunch of tools to make their work more productive
+and efficient.
+</p>
+<ol class="org-ol">
+<li><b>Computers</b> : Developers have to use a computer in order to write their code. However compared to
+the average user, a developer would require a computer with higher processing power and RAM so
+they can carryout resource intensive tasks.</li>
+<li><b>IDEs/Code Editors</b> : The software that a developer chooses to write their code in is referred to
+as a code editor. The software in which this note is being written on (Emacs) is also a code
+editor. IDEs on the other hand stand for Integrated Development Environments and provide powerful
+features including code completion, debugging and integrated terminal support (All of this can be
+kind of added to Emacs, so I dunno&#x2026; it's also an IDE or something).</li>
+<li><b>VC Systems</b> : When writing code, code is likely to break. Also, when a team is involved in
+development, different developers will code in different styles and ways. A VC (Version Control)
+system allows developers to retrieve previous versions of a codebase in case something goes
+wrong. Think of it as an elaborate undo button for code. The most popular version control system
+is GitHub (we'll get magit later, don't worry)</li>
+<li><b>Package Managers</b> : When writing complex code, developers will make use of packages and
+libraries. Package managers simplify the process of adding, updating and removing these packages.
+E.g.: PIP for Python</li>
+<li><b>Testing Frameworks</b> : In order to test whether the code that developers have written is
+functioning as expected. While you can manually test your code by running it through test cases
+and documenting the pass/fail of your code, a testing framework allows you to automatically do
+that.
+E.g.: pytest for Python</li>
+<li><b>Web Browsers</b> : Developers also need to test what the code looks like visually beyond just the
+functionality. This can be done using browsers like Mozilla Firefox, Vivaldi, Opera GX,
+Thorium. Testing on different browsers is important to make sure the product is accessible by as
+many users as possible.</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org7c1f219" class="outline-4">
+<h4 id="org7c1f219"><span class="section-number-4">1.1.6.</span> File Management Applications</h4>
+<div class="outline-text-4" id="text-1-1-6">
+<p>
+A file management application makes it easy to store, organize and view the files on your
+computer. On Windows the default file management application is File Explorer whereas on Mac it's
+finder.
+File Explorer can be accessed via the <span class="underline">Start Menu by pressing the Windows Key on your keyboard or by</span>
+<span class="underline">clicking the Windows Icon on your taskbar.</span> Using File Explorer you can pin, copy and move files
+around.
+These file management applications provide features like tags,search and Smart Folders.
+</p>
+</div>
+</div>
+<div id="outline-container-orgccc5b2f" class="outline-4">
+<h4 id="orgccc5b2f"><span class="section-number-4">1.1.7.</span> Naming Files for Web Applications</h4>
+<div class="outline-text-4" id="text-1-1-7">
+<p>
+HTML files used for web applications have the extension <b>.html</b> after the name of the file. For web
+applications we will also use files like CSS files and JavaScript files which have the extensions
+<b>.css</b> and <b>.js</b> respectively.
+While there are no set conventions for naming your web application files, it is recommended that you
+name them using sensible names and avoid using special characters that can make the name look
+confusing. Importantly, when working with a team it is vital to follow your team's style-guide when
+naming you files.
+The exception to this is <b>index.html</b> which is a special file that represents the main page of the
+website. It's the first file that is loaded when you visit a website.
+</p>
+</div>
+</div>
+<div id="outline-container-org8a3c3ff" class="outline-4">
+<h4 id="org8a3c3ff"><span class="section-number-4">1.1.8.</span> File/Folder Organization for Web Applications</h4>
+<div class="outline-text-4" id="text-1-1-8">
+<p>
+When building out web applications (or any applications in general), it makes sense to have all the
+files and folders you need arranged in a way that makes your workflow productive.
+In a file system a root directory is referred to as the top-level directory in a file system, all
+other files and sub-directories located within this root directory are referenced via the root
+directory.
+Think of the root directory as the District you live in, and the sub directories point to the street
+you live in and the files within them finally point to your house (I am in your walls).
+A root directory can be represented by a single dot <b>(.)</b>
+You can have sub directories within your directory for the assets used in your website, CSS
+stylesheets, JS scripts and perhaps one for your webpages.
+A best practice directory will look like this:
+</p>
+<div class="org-src-container">
+<pre class="src src-nil">.
+|___/assets
+|___/css
+|___/pages
+|___/js
+|___/admin
+|___/blogs
+|___index.html
+|___README.org
+</pre>
+</div>
+<p>
+Personally I like to add a little TODO.org so that I have an idea what I have to do next and a
+little note of what I have already done, or failed doing.
+</p>
+</div>
+</div>
+<div id="outline-container-org7266452" class="outline-4">
+<h4 id="org7266452"><span class="section-number-4">1.1.9.</span> Creating, Moving and Deleting Files</h4>
+<div class="outline-text-4" id="text-1-1-9">
+<p>
+In windows while in File Explorer, once you have entered your desire directory you can create a new
+file <span class="underline">by right-clicking and going to the "New" menu and selecting the type of file you would like to</span>
+<span class="underline">create.</span> You can also rename files <span class="underline">by either selecting your file and clicking the rename button on</span>
+<span class="underline">the top, right-clicking and choosing the rename option, selecting your file and hitting F2 or by</span>
+<span class="underline">double-clicking on the name underneath the file.</span> By default you don't have to enter the extension as
+files will be saved in their appropriate file extension, in order to change the file extension you
+can either <span class="underline">enable file extensions on your systema and manually edit the extensions of your desired</span>
+<span class="underline">files or by editing the extension name in your "Save As" prompt when you are initially saving.</span>
+Deleting files in Windows is really easy, you just have to <span class="underline">select the files you want to delete and</span>
+<span class="underline">press the del key, use the delete option on the top or right-click and select the delete option.</span>
+In order to move files you will either have to copy/cut and paste them elsewhere. You can copy files
+<span class="underline">by selecting the desired files and right-clicking to copy or using the Ctrl-C shortcut</span>. You can cut
+files <span class="underline">by selecting the desired files and right-clicking to cut orusing the Ctrl-X shortcut.</span> Finally,
+to paste these files <span class="underline">simply right-click and select paste or use the Ctrl-V shortcut.</span>
+In order to select multiple files on Windows you can either <span class="underline">click and drag your mouse or use</span>
+<span class="underline">Ctrl+click over the relevant files (Ctrl+click really helps when the files aren't adjacent).</span>
+</p>
+</div>
+</div>
+<div id="outline-container-org742e6c8" class="outline-4">
+<h4 id="org742e6c8"><span class="section-number-4">1.1.10.</span> Searching for Files</h4>
+<div class="outline-text-4" id="text-1-1-10">
+<p>
+In Windows you used to be able to search for the files you needed using the taskbar, this no longer
+works properly. You could go to the directory where you know the file is and search from there. But honestly
+if you have internalized all the details from the previous chapter you won't need to search for
+anything as you will be well organized to always know where everything is.
+</p>
+</div>
+</div>
+<div id="outline-container-orgfb08a6f" class="outline-4">
+<h4 id="orgfb08a6f"><span class="section-number-4">1.1.11.</span> File Types used in Web Applications</h4>
+<div class="outline-text-4" id="text-1-1-11">
+<p>
+Earlier in <a href="#orgccc5b2f">1.1.7</a> we looked at files like .html, .css and .js that we
+will use when we develop web applications. Apart from these we will also use some other files types
+such as:
+</p>
+<ol class="org-ol">
+<li><b>JPEG</b> : Joint Photographic Experts Group</li>
+<li><b>PNG</b> : Portable Network Graphics</li>
+<li><b>GIF</b> : Graphics Interchange Format (pronounced JIF)</li>
+<li><b>SVG</b> : Scalable Vector Graphics</li>
+</ol>
+<p>
+Which are some image formats used in web applications.
+</p>
+<ol class="org-ol">
+<li value="5"><b>MP3</b> : A lossy audio format</li>
+<li><b>WAV</b> : A lossless audio format</li>
+<li><b>MP4</b> : The most common video format</li>
+<li><b>WebM</b> : A high-quality lossless open-source video format</li>
+<li><b>TFF</b> : A font format</li>
+<li><b>WOFF</b> : A modern font format</li>
+<li><b>WOFF2</b> : WOFF but 2</li>
+<li><b>ZIP</b> : Compressed folders</li>
+<li><b>Markdown</b> : Files that can be used to create structured documents (use org though, org files can
+be exported as markdown, html and even pdf)</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org0c2f73b" class="outline-4">
+<h4 id="org0c2f73b"><span class="section-number-4">1.1.12.</span> Web Browsers</h4>
+<div class="outline-text-4" id="text-1-1-12">
+<p>
+Web browsers are appilcations that allow you to access the internet. The current most popular
+browsers are Microsoft Edge, Mozilla Firefox, Google Chrome and Safari. Your system should come with
+a default browser and if you feel like you want to change your browser it's just a matter of looking
+up your preferred browser on your defualt browser and downloading the one you want.
+On some systems you can install a browser using your operating system's package manager like on
+MacOS with homebrew or Arch Linux.
+</p>
+</div>
+</div>
+<div id="outline-container-org2a3dde5" class="outline-4">
+<h4 id="org2a3dde5"><span class="section-number-4">1.1.13.</span> Web Terms</h4>
+<div class="outline-text-4" id="text-1-1-13">
+<p>
+We've already looked at what a web browser is, now let's take a look at some terms that are often
+confused for each other, like search engine and website.
+<b>Web Browsers</b> : Web browsers are the applications used to navigate the world wide web, they are
+commonly found with features such as an address bar, rendering engine, bookmarks, extensions and
+various security pages.
+<b>Websites</b> : Websites on the other hand are the content that is made available on the World Wide Web
+and can be accessed through your web browser. They are a collection of web pages and other files,
+and consist of a domain name and the web pages that make them. Websites often include multimedia and
+can also be static (content rarely changes) or dynamic (content frequently changes) depending on the
+needs of the publisher.
+<b>Search Engines</b> : Search engines are web-based tools designed to help users find the content that
+they are looking for on the internet. Key aspects of search-engines include web crawlers also known
+as spiders or bots, which are prorgams that systematically browse the web to discover and index new
+content. They also have complex algorithms that rank the content that they have indexed and display
+them to the user based on factors such as relevance, authority, popularity and user experience.
+Popular search engines include Google, Bing, Yahoo, and DuckDuckGo.
+Broswers, search engines and websites are all interconnected. It can be simply thought of this,
+websites are the content of the internet, they can be accessed via search engines or browsers. If
+you know the website you want to go to you don't need a search engine, however if you are not sure
+of where to go you can use a search engine to help you get there.
+</p>
+</div>
+</div>
+<div id="outline-container-orgc371ef2" class="outline-4">
+<h4 id="orgc371ef2"><span class="section-number-4">1.1.14.</span> Advanced Search Engine Capabilities</h4>
+<div class="outline-text-4" id="text-1-1-14">
+<p>
+When using your search engine there are certain ways that you can search more efficiently. For
+example if you want to search for a specific phrase you can put that phrase in between <b>quotation
+marks ("")</b>. If you want to search for specific words but they do not have to necessarily be together
+you can use the <b>plus symbol (+)</b> before the words. If you want your search engine to not return
+search results with certain words you can instead use the <b>minus symbol (-)</b>. To search within a
+specific website or domain you can use the following syntax <b>site:</b>
+A few example searches may look like this:
+</p>
+<div class="org-src-container">
+<pre class="src src-nil">"freecodecamp curriculum"
+</pre>
+</div>
+<p>
+This one will return only results that have the exact phrase of "freecodecamp curriculum".
+</p>
+<div class="org-src-container">
+<pre class="src src-nil">site:freecodecamp.org/news +python -curriculum
+</pre>
+</div>
+<p>
+This one looks at any webpages with the domain freecodecamp.org and within their "news" path.
+Note that search engines are not case-sensitive and essentially convert all searches to lower
+case. The above capabilities will be available on Google Search Engine, and also work on
+Startpage. However, it makes sense to read the documentation on the search engine you are using to
+see the exact syntax that is used for these advanced functionalities.
+For more tips on using the Google Search Engine, and by extension Startpage, visit this <a href="https://woodward.libguides.com/google/basicsearch">site</a>.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgd3c818b" class="outline-3">
+<h3 id="orgd3c818b"><span class="section-number-3">1.2.</span> HTML</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+HTML stands for Hypertext Markup Language and is a language used for building webpages. When you
+visit a website, its content including headings, paragraphs, sentences, images, videos and links are
+all made of HTML.
+While HTML is enough to create a functional website, and it is considered a best-practice to have
+website functionality in HTML. A modern day website also needs CSS for styling and JavaScript for
+interactivity.
+</p>
+</div>
+<div id="outline-container-org2c801ff" class="outline-4">
+<h4 id="org2c801ff"><span class="section-number-4">1.2.1.</span> Elements</h4>
+<div class="outline-text-4" id="text-1-2-1">
+<p>
+HTML is made up of elements. This elements usually have an opening tag and an ending tag. Elements
+that do not have ending tags are referred to as void elements. These elements can also be classified
+as semantic and non-semantic elements. Simply put, semantic elements are elements that have meaning
+whereas non-semantic elements are elements that do not have meaning.
+Using semantic elements over non-semantic elements has certain benefits including increased
+accessibility for screen readers, enhanced SEO for search engine indexing and finally to increase
+code readability.
+After the opening tag of an element we will enter in the content. If the element also has a closing
+tag, once we are done entering our content we will use the closing tag to close it, otherwise if it
+is a void element there is no need.
+HTML tags are case-insensitive, however the widely adopted best-practice is to use simple-case
+letters when typing them in. Most tags will start with <b>&lt;</b> and end with <b>&gt;</b>. For example:
+</p>
+<div class="org-src-container">
+<pre class="src src-nil">&lt;p&gt;
+</pre>
+</div>
+<p>
+A closing tag however will also include a forward slash <b>/</b> as well. Taking the above example:
+</p>
+<div class="org-src-container">
+<pre class="src src-nil">&lt;/p&gt;
+</pre>
+</div>
+<p>
+We have explained that void tags do not have a closing tag earlier, and therefore they will follow
+the convention of the opening tags. However, one can write a void tag as such and it will be valid:
+</p>
+<div class="org-src-container">
+<pre class="src src-nil">&lt;img/&gt;
+</pre>
+</div>
+<p>
+Many code formatters indeed choose to format void tags like this. However the HTML spec states that
+the presence of <b>/</b> "does not mark the start tag as self-closing but instead is unnecessary and has no
+effect of any kind".
+Some elements will take in values known as attributes that define the way the content will behave in
+said tag is displayed. The basic syntax for an attribute is the attribute name followed by an <b>=</b> sign
+For example the image element will take in attributes such as <b>src</b> which
+indicates the source/location of the image and <b>alt</b> which gives alternative text for the user in case
+the image isn't displayed correctly. For example:
+</p>
+<div class="org-src-container">
+<pre class="src src-nil">&lt;img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/catsjpg" alt="Two tabby kittens sleeping together on a couch." &gt;
+</pre>
+</div>
+<p>
+Another example is the attributes used for hyperlinks. Hyperlinks are created using the anchor
+element <b>&lt;a&gt;</b>, and attributes such as <b>href</b> and <b>target</b> can be used. "href" refers to href stands for
+hypertext reference and is the reference link of the hyperlink and the target attribute indicates
+how the hyperlink will open up. For example:
+</p>
+<div class="org-src-container">
+<pre class="src src-nil">&lt;a href="https://www.freecodecamp.org" target="_blank"&gt; Visit freeCodeCamp &lt;/a&gt;
+</pre>
+</div>
+<p>
+The <b>_blank</b> value of the target attribute indicates that this hyperlink must be opened in a new tab.
+Just like how some elements are unique in their syntax some attributes are also unique in their
+syntax like the <b>checked</b> attribute which indicates whether or not an input element of the type
+checkbox is checked by default.
+</p>
+<div class="org-src-container">
+<pre class="src src-nil">&lt;input type="checkbox" checked/&gt;
+</pre>
+</div>
+<p>
+Such attributes are referred to as boolean attributes because just like boolean they can either be
+present or absent. Other boolean attributes include disabled, readonly and required which describe
+the state of an element.
+</p>
+</div>
+</div>
+<div id="outline-container-org1adf300" class="outline-4">
+<h4 id="org1adf300"><span class="section-number-4">1.2.2.</span> HTML Syntax</h4>
+<div class="outline-text-4" id="text-1-2-2">
+<p>
+This list has been created using the syntax that I have personally encountered and syntax that I am
+much likely to use. For a full reference on all the HTML syntax please refer to this <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes">link</a>.
+</p>
+<ol class="org-ol">
+<li>Anchor/Hyperlink - &lt;a&gt;,&lt;/a&gt;
+<ol class="org-ol">
+<li>Hypertext Reference - href</li>
+<li>Browsing Context - target
+("<sub>self</sub>" for the same tab, "<sub>blank</sub>" for a new tab or new window, there are other values as
+well but since they are values that deal with the now obsolete frames we will ignore them)</li>
+</ol></li>
+<li>Image - &lt;img/&gt;
+<ol class="org-ol">
+<li>Source - src</li>
+<li>Alternative Text - alt</li>
+</ol></li>
+<li>Input - &lt;input/&gt;
+<ol class="org-ol">
+<li>Type - type
+Sets the type of input obtained (checkbox, password, email, url)</li>
+<li>Autocrrect - autocorrect</li>
+<li>Defualt check for checkbox - checked</li>
+<li>Disable element by default - disabled</li>
+<li>Make element immutable - readonly</li>
+<li>Makes the element mandatorily accept a value - required</li>
+</ol></li>
+<li>Paragraph - &lt;p&gt;,&lt;/p&gt;</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-org2bce539" class="outline-3">
+<h3 id="org2bce539"><span class="section-number-3">1.3.</span> CSS</h3>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Created: 2026-05-20 Wed 18:29</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
