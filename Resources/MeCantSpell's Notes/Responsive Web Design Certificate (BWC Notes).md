@@ -1,29 +1,30 @@
 
 # Table of Contents
 
-1.  [Responsive Web Design Certificate (BWC Notes)](#org6408d89)
-    1.  [Computers Basics](#org5dfdca4)
-        1.  [Parts of a Computer](#orge1148b9)
-        2.  [Working Effectively With Input Devices](#orgff6c48c)
-        3.  [Internet Service Providers](#orga723f0a)
-        4.  [Sign In Security](#org7ab0c94)
-        5.  [Developer Tools](#orga1a2a19)
-        6.  [File Management Applications](#orga5dd54e)
-        7.  [Naming Files for Web Applications](#orgcac2996)
-        8.  [File/Folder Organization for Web Applications](#org07cb586)
-        9.  [Creating, Moving and Deleting Files](#orgd44365b)
-        10. [Searching for Files](#org435ef88)
-        11. [File Types used in Web Applications](#org1a482ca)
-        12. [Web Browsers](#org3675893)
-        13. [Web Terms](#org681b4d1)
-        14. [Advanced Search Engine Capabilities](#org2737589)
-    2.  [HTML](#org5e96585)
-        1.  [Elements](#org2582944)
-        2.  [HTML Syntax](#org358ce7c)
-    3.  [CSS](#orgd32b411)
+1.  [Responsive Web Design Certificate (BWC Notes)](#orgf46e99d)
+    1.  [Computers Basics](#orgd1260e0)
+        1.  [Parts of a Computer](#org3af6c7f)
+        2.  [Working Effectively With Input Devices](#org9dec24f)
+        3.  [Internet Service Providers](#orge3f9c3d)
+        4.  [Sign In Security](#org683c43c)
+        5.  [Developer Tools](#org824ba4e)
+        6.  [File Management Applications](#orgc9a4afa)
+        7.  [Naming Files for Web Applications](#org96fadb3)
+        8.  [File/Folder Organization for Web Applications](#orgc9c196c)
+        9.  [Creating, Moving and Deleting Files](#orgfa90f8a)
+        10. [Searching for Files](#org8b7ef77)
+        11. [File Types used in Web Applications](#org655f513)
+        12. [Web Browsers](#org184947b)
+        13. [Web Terms](#org4caf1c7)
+        14. [Advanced Search Engine Capabilities](#orgc2a1146)
+    2.  [HTML](#org397e753)
+        1.  [Elements](#org0a45c72)
+        2.  [Boilerplate](#orgaf4bfad)
+        3.  [HTML Syntax](#orgc3e04a4)
+    3.  [CSS](#org9df084a)
 
 
-<a id="org6408d89"></a>
+<a id="orgf46e99d"></a>
 
 # Responsive Web Design Certificate (BWC Notes)
 
@@ -31,7 +32,7 @@ This file contains the notes for my Responsive Web Design Certificate. I am foll
 Club bootcamp!
 
 
-<a id="org5dfdca4"></a>
+<a id="orgd1260e0"></a>
 
 ## Computers Basics
 
@@ -41,7 +42,7 @@ As a developer it's important to take a look at the parts of a computer as it's 
 which we will be developing software for.
 
 
-<a id="orge1148b9"></a>
+<a id="org3af6c7f"></a>
 
 ### Parts of a Computer
 
@@ -76,7 +77,7 @@ commonly used include:
 3.  Network Cards - Responsible for connecting the computer to the internet.
 
 
-<a id="orgff6c48c"></a>
+<a id="org9dec24f"></a>
 
 ### Working Effectively With Input Devices
 
@@ -92,7 +93,7 @@ lives.
 6.  **MOST IMPORTANTLY** Taking regular breaks
 
 
-<a id="orga723f0a"></a>
+<a id="orge3f9c3d"></a>
 
 ### Internet Service Providers
 
@@ -126,7 +127,7 @@ some connections here.
 6.  **Cellular Network Connections (4G/5G)** : They transmit data between cellular
 
 
-<a id="org7ab0c94"></a>
+<a id="org683c43c"></a>
 
 ### Sign In Security
 
@@ -139,7 +140,7 @@ When setting up your passwords for services, using 2FA (two factor authorization
 manager (E.g.:[Proton Pass](https://proton.me/pass)) are recommended.
 
 
-<a id="orga1a2a19"></a>
+<a id="org824ba4e"></a>
 
 ### Developer Tools
 
@@ -173,7 +174,7 @@ and efficient.
     many users as possible.
 
 
-<a id="orga5dd54e"></a>
+<a id="orgc9a4afa"></a>
 
 ### File Management Applications
 
@@ -186,7 +187,7 @@ around.
 These file management applications provide features like tags,search and Smart Folders.
 
 
-<a id="orgcac2996"></a>
+<a id="org96fadb3"></a>
 
 ### Naming Files for Web Applications
 
@@ -201,7 +202,7 @@ The exception to this is **index.html** which is a special file that represents 
 website. It's the first file that is loaded when you visit a website.
 
 
-<a id="org07cb586"></a>
+<a id="orgc9c196c"></a>
 
 ### File/Folder Organization for Web Applications
 
@@ -231,7 +232,7 @@ Personally I like to add a little TODO.org so that I have an idea what I have to
 little note of what I have already done, or failed doing.
 
 
-<a id="orgd44365b"></a>
+<a id="orgfa90f8a"></a>
 
 ### Creating, Moving and Deleting Files
 
@@ -253,7 +254,7 @@ In order to select multiple files on Windows you can either <span class="underli
 <span class="underline">Ctrl+click over the relevant files (Ctrl+click really helps when the files aren't adjacent).</span>
 
 
-<a id="org435ef88"></a>
+<a id="org8b7ef77"></a>
 
 ### Searching for Files
 
@@ -263,11 +264,11 @@ if you have internalized all the details from the previous chapter you won't nee
 anything as you will be well organized to always know where everything is.
 
 
-<a id="org1a482ca"></a>
+<a id="org655f513"></a>
 
 ### File Types used in Web Applications
 
-Earlier in [1.1.7](#orgcac2996) we looked at files like .html, .css and .js that we
+Earlier in [1.1.7](#org96fadb3) we looked at files like .html, .css and .js that we
 will use when we develop web applications. Apart from these we will also use some other files types
 such as:
 
@@ -290,7 +291,7 @@ Which are some image formats used in web applications.
     be exported as markdown, html and even pdf)
 
 
-<a id="org3675893"></a>
+<a id="org184947b"></a>
 
 ### Web Browsers
 
@@ -302,7 +303,7 @@ On some systems you can install a browser using your operating system's package 
 MacOS with homebrew or Arch Linux.
 
 
-<a id="org681b4d1"></a>
+<a id="org4caf1c7"></a>
 
 ### Web Terms
 
@@ -328,7 +329,7 @@ you know the website you want to go to you don't need a search engine, however i
 of where to go you can use a search engine to help you get there.
 
 
-<a id="org2737589"></a>
+<a id="orgc2a1146"></a>
 
 ### Advanced Search Engine Capabilities
 
@@ -354,7 +355,7 @@ see the exact syntax that is used for these advanced functionalities.
 For more tips on using the Google Search Engine, and by extension Startpage, visit this [site](https://woodward.libguides.com/google/basicsearch).
 
 
-<a id="org5e96585"></a>
+<a id="org397e753"></a>
 
 ## HTML
 
@@ -366,7 +367,7 @@ website functionality in HTML. A modern day website also needs CSS for styling a
 interactivity.
 
 
-<a id="org2582944"></a>
+<a id="org0a45c72"></a>
 
 ### Elements
 
@@ -424,7 +425,21 @@ present or absent. Other boolean attributes include disabled, readonly and requi
 the state of an element.
 
 
-<a id="org358ce7c"></a>
+<a id="orgaf4bfad"></a>
+
+### Boilerplate
+
+A boilerplate is a readymade template for making websites using HTML. The boilerplate can be
+considered as the skeleton of the site, and you can add the bones and meat to it using the specific
+HTML that is required for the instance, as well as using CSS and JS.
+A boilerplate is important because it ensures that your pages are structured correctly and work well
+across multiple web browsers. Using a boilerplate helps you avoid common mistakes and follow
+best-practices.
+As you personalize your own boilerplate, you will realize that it saves time when creating new
+projects and it will become your default starting point for any web project.
+
+
+<a id="orgc3e04a4"></a>
 
 ### HTML Syntax
 
@@ -448,9 +463,38 @@ much likely to use. For a full reference on all the HTML syntax please refer to 
     5.  Make element immutable - readonly
     6.  Makes the element mandatorily accept a value - required
 4.  Paragraph - <p>,</p>
+5.  Figure - <figure>,</figure>
+    The figure is a new element introduced in HTML5 with the goal of adding semantics to figures
+    including images, video clips, drawings and other visual content. Within the figure element you
+    can add <figcaption></figcaption> that will add a caption to the image/s as well as the images
+    themselves.
+6.  HTML initialization - <!DOCTYPE html>
+7.  HTML - <html>,</html>
+    Webpage language - lang
+8.  Head - <head>,</head>
+9.  Title - <title>,</title>
+    Title is displayed on the browser tab
+10. Body - <body>,</body>
+11. Main - <main>,</main>
+12. Content Division - <div>,</div>
+13. Headings - <h1 - 6>,</h1 - 6>
+14. Bold - <b>,</b>
+15. Italicize - <i>,</i>
+16. Moving around - <marquee>,</marquee>
+    Marquee is now a depecrated HTML syntax
+17. Blink - <blink>,</blink>
+    Blink is now a depecrated HTML syntax
+18. Linking to external resources - <link/>
+    1.  Defining the relationship - rel
+        Sets the relationship type (stylesheet, preconnect, icon)
+    2.  Hyperlink reference - href
+19. Metadata - <meta/>
+    Defining the character set - charset
+    Defining a metadata - name
+    Entering content for the metadata - content
 
 
-<a id="orgd32b411"></a>
+<a id="org9df084a"></a>
 
 ## CSS
 

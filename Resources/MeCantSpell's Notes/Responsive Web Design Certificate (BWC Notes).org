@@ -318,6 +318,32 @@ Such attributes are referred to as boolean attributes because just like boolean 
 present or absent. Other boolean attributes include disabled, readonly and required which describe
 the state of an element.
 
+*** Boilerplate
+A boilerplate is a readymade template for making websites using HTML. The boilerplate can be
+considered as the skeleton of the site, and you can add the bones and meat to it using the specific
+HTML that is required for the instance, as well as using CSS and JS.
+A boilerplate is important because it ensures that your pages are structured correctly and work well
+across multiple web browsers. Using a boilerplate helps you avoid common mistakes and follow
+best-practices.
+As you personalize your own boilerplate, you will realize that it saves time when creating new
+projects and it will become your default starting point for any web project.
+
+*** UTF-8
+UTF-8 stands for UCS Transformation Format-8, UCS in turn stands for Universal Character Set. It is
+the standardized character encoding widely used on the web (99% of the web uses UTF-8). The other
+unicode standard that exists (existed) is UTF-16 which is now nearly obsolete with only 0.004% of
+cwebpages using it.
+Using UTF-8 and by that extent, setting it as the characterset in a meta element in your webpages,
+is crucial to maintaining the standards of the internet as it supports every character in the
+Unicode set from all writing systems, languages and techincal symbols. It's why you can type in
+Tamil and Sinhala and Emojis.
+The syntax that is therefore required to enter into your webpage withing the <head></head> element
+is:
+#+begin_src 
+  <meta charset="UTF-8" />
+#+end_src
+Having this code in your boilerplate will also prove efficient.
+
 *** HTML Syntax
 This list has been created using the syntax that I have personally encountered and syntax that I am
 much likely to use. For a full reference on all the HTML syntax please refer to this [[https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes][link]].
@@ -326,17 +352,47 @@ much likely to use. For a full reference on all the HTML syntax please refer to 
    b. Browsing Context - target
       ("_self" for the same tab, "_blank" for a new tab or new window, there are other values as
       well but since they are values that deal with the now obsolete frames we will ignore them)
-2. Image - <img/>
-   a. Source - src
-   b. Alternative Text - alt
-3. Input - <input/>
-   a. Type - type
-      Sets the type of input obtained (checkbox, password, email, url)
-   b. Autocrrect - autocorrect
-   c. Defualt check for checkbox - checked
-   d. Disable element by default - disabled
-   e. Make element immutable - readonly
-   f. Makes the element mandatorily accept a value - required
-4. Paragraph - <p>,</p>
-   
+2. Blink - <blink>,</blink>
+   Blink is now a depecrated HTML syntax
+3. Body - <body>,</body>
+4. Bold - <b>,</b>
+5. Content Division - <div>,</div>
+6. Figure - <figure>,</figure>
+   The figure is a new element introduced in HTML5 with the goal of adding semantics to figures
+   including images, video clips, drawings and other visual content. Within the figure element you
+   can add <figcaption></figcaption> that will add a caption to the image/s as well as the images
+   themselves.
+7. Head - <head>,</head>
+8. Headings - <h1 - 6>,</h1 - 6>
+9. HTML - <html>,</html>
+   Webpage language - lang
+10. HTML initialization - <!DOCTYPE html>
+11. Image - <img/>
+    a. Source - src
+    b. Alternative Text - alt
+12. Input - <input/>
+    a. Type - type
+       Sets the type of input obtained (checkbox, password, email, url)
+    b. Autocrrect - autocorrect
+    c. Defualt check for checkbox - checked
+    d. Disable element by default - disabled
+    e. Make element immutable - readonly
+    f. Makes the element mandatorily accept a value - required
+13. Italicize - <i>,</i>
+14. Linking to external resources - <link/>
+    a. Defining the relationship - rel
+       Sets the relationship type (stylesheet, preconnect, icon)
+    b. Hyperlink reference - href
+15. Main - <main>,</main>
+16. Metadata - <meta/>
+    Defining the character set - charset
+    Defining a metadata - name
+    Entering content for the metadata - content
+17. Moving around - <marquee>,</marquee>
+    Marquee is now a depecrated HTML syntax
+18. Paragraph - <p>,</p>
+19. Semantic Sections - <section>,</section>
+20. Title - <title>,</title>
+    Title is displayed on the browser tab
+    
 ** CSS
