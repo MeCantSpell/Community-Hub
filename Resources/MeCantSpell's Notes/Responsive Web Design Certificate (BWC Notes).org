@@ -362,6 +362,42 @@ start with an *ampersand(&)* and end with a *semi-colon(;)* in common.
    hexadecimal numerics that correlate to the relevant symbol. Finally it is also closed with a
    *semi-colon(;)*.
 
+*** Media Assets
+In order to enhance the visual aspect of a webpage or to pass out visual inforamtion we will use
+media assets such as images, audios and videos. However it is important to note that using such
+assets will take a heavier toll on the data consumed to retrieve them, loading times and
+storage. Therefore using these media assets in an optimal way is encouraged and a best
+practice. There are three important things to consider when using an image, they are the display
+size, file format and compression.
+When it comes to the display size, it is important to remember
+that our media assets should match the size we are displaying on our webpage. If our webpage is
+displaying an image that is 640x480 but the image has not been scaled down and is instead a
+1920x1080 image, we are making the users download additional data and storing unnecessary data as
+well.
+When it comes to format it is important to use the most ideal format, while PNGs and JPEGs
+are the most common formats for images, they are not the most ideal formats and instead you should
+use WEBP or AVIF formats. Below we will give a list of optimal file formats for various media
+assets:
+1. *Images*: *WEBP*, AVIF, *SVG*
+2. *Audios*: *OGG*, *WEBM*, WAV, M4A, MP3
+3. *Videos*: *WEBM*, MP4
+   Note however that MP4 with codecs like H.264 and HVEC may open you up to legal issues
+Finally it must be noted that in order to make our files smaller and more efficient, we can make use
+of compression algorithms. Note that compression takes two forms: lossy and lossless. Their names
+are self-explanatory. One of them preserves the quality of the original, whereas the other loses
+data to reduce its size.
+Another important point to consider when using media assets in your webpages, is the license they
+hold. By default all creative works released are released with all rights reserved, meaning the
+creator or publisher holds all the rights for the media asset. Such assets cannot be used unless one
+of three things has occurred:
+1. You have expressed written permission by the author.
+2. You have purchased a licensing fee.
+3. You incorporate the media under fair use.
+   Fair use requires that your use of the original media is both limited and transformative.
+
+   
+*** Accessibility
+
 *** HTML Syntax
 This list has been created using the syntax that I have personally encountered and syntax that I am
 much likely to use. For a full reference on all the HTML syntax please refer to this [[https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes][link]].
@@ -434,6 +470,7 @@ much likely to use. For a full reference on all the HTML syntax please refer to 
     c. Autoplay Audio - autoplay
     d. Mute audio by default - muted
     e. Loop audio - loop
+    f. Video Format - type       
 27. Source - <source/>
     Used as a nested element to store multiple sources for its parent element.
 28. Video - <video>,</video>       
@@ -444,6 +481,37 @@ much likely to use. For a full reference on all the HTML syntax please refer to 
     e. Loop video - loop
     f. Adjust width - width
     g. Put a video thumbnail while the video is downloading - poster
+    h. Video Format - type
+29. Audio and video text tracks - <track/>
+    a. Source - src
+    b. Kind/Type of track - kind
+       Values can be captions (includes descriptions of sounds), subtitles, chapters (for
+       navigation), descriptions (summary of the media) and metadata
+    c. Language - srclang
+    d. Language Label - label
+    e. Enable the track by default - default
+30. Inline Frame used to embed content such as videos, maps and documents - <iframe>,</iframe>
+    a. Source - src
+    b. HTML Source - srcdoc
+    c. Width - width
+    d. Height - height
+    e. Title which works like alt-text - title
+    f. Allowing what the iframe can do - allow 
+31. SVG - <svg>,</svg>
+    a. Width - width
+    b. Height - height
+    c. How much the browser will display - viewbox
+32. SVG Circles - <circle/>
+    a. Border - stroke
+    b. Border width - stroke-width
+    c. Colour fill - fill
+33. SVG Paths - <path/>
+    a. Path colour - stroke
+    b. Path width - stroke-width
+    c. Area between path colour - fill	  
+34. Embedded content - <embed>,</embed>
+    General purpose embedding tool with little to no use
+35. Embedded content - <object>,</object>    
+    General purpose embedding tool with little to no use
 
-    
 ** CSS

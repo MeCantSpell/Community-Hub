@@ -1,32 +1,34 @@
 
 # Table of Contents
 
-1.  [Responsive Web Design Certificate (BWC Notes)](#org4357269)
-    1.  [Computers Basics](#orgd54e79b)
-        1.  [Parts of a Computer](#orge21f59e)
-        2.  [Working Effectively With Input Devices](#org5d5ceb4)
-        3.  [Internet Service Providers](#org7f4fdd8)
-        4.  [Sign In Security](#org3478e45)
-        5.  [Developer Tools](#orga5a8954)
-        6.  [File Management Applications](#org63188f1)
-        7.  [Naming Files for Web Applications](#orgdfa9375)
-        8.  [File/Folder Organization for Web Applications](#orgd40f01f)
-        9.  [Creating, Moving and Deleting Files](#org9f62837)
-        10. [Searching for Files](#orgdfd46d9)
-        11. [File Types used in Web Applications](#org7c95582)
-        12. [Web Browsers](#orge31b9f2)
-        13. [Web Terms](#org21c8200)
-        14. [Advanced Search Engine Capabilities](#orgf6eaf74)
-    2.  [HTML](#org1aafa4c)
-        1.  [Elements](#orge836fea)
-        2.  [Boilerplate](#org789ce39)
-        3.  [UTF-8](#org7943694)
-        4.  [HTML Entities](#org149c35c)
-        5.  [HTML Syntax](#org1358bc8)
-    3.  [CSS](#org0819a19)
+1.  [Responsive Web Design Certificate (BWC Notes)](#orgeee7160)
+    1.  [Computers Basics](#org5959c42)
+        1.  [Parts of a Computer](#org8aec7d1)
+        2.  [Working Effectively With Input Devices](#org594e45d)
+        3.  [Internet Service Providers](#org39d466c)
+        4.  [Sign In Security](#org354c5ef)
+        5.  [Developer Tools](#org8f2ce3d)
+        6.  [File Management Applications](#org647d75a)
+        7.  [Naming Files for Web Applications](#orgb0d9293)
+        8.  [File/Folder Organization for Web Applications](#orgeaa7802)
+        9.  [Creating, Moving and Deleting Files](#org6bb7c58)
+        10. [Searching for Files](#org1614a3f)
+        11. [File Types used in Web Applications](#org600d095)
+        12. [Web Browsers](#orgc519d11)
+        13. [Web Terms](#org2ac0499)
+        14. [Advanced Search Engine Capabilities](#org01078b0)
+    2.  [HTML](#org63a9f61)
+        1.  [Elements](#orgd79dd6f)
+        2.  [Boilerplate](#org6bc0fb2)
+        3.  [UTF-8](#org6cfb428)
+        4.  [HTML Entities](#orgf8124d9)
+        5.  [Media Assets](#org8f82fc7)
+        6.  [Accessibility](#org5024df9)
+        7.  [HTML Syntax](#orga29380c)
+    3.  [CSS](#org4fd4f19)
 
 
-<a id="org4357269"></a>
+<a id="orgeee7160"></a>
 
 # Responsive Web Design Certificate (BWC Notes)
 
@@ -34,7 +36,7 @@ This file contains the notes for my Responsive Web Design Certificate. I am foll
 Club bootcamp!
 
 
-<a id="orgd54e79b"></a>
+<a id="org5959c42"></a>
 
 ## Computers Basics
 
@@ -44,7 +46,7 @@ As a developer it's important to take a look at the parts of a computer as it's 
 which we will be developing software for.
 
 
-<a id="orge21f59e"></a>
+<a id="org8aec7d1"></a>
 
 ### Parts of a Computer
 
@@ -79,7 +81,7 @@ commonly used include:
 3.  Network Cards - Responsible for connecting the computer to the internet.
 
 
-<a id="org5d5ceb4"></a>
+<a id="org594e45d"></a>
 
 ### Working Effectively With Input Devices
 
@@ -95,7 +97,7 @@ lives.
 6.  **MOST IMPORTANTLY** Taking regular breaks
 
 
-<a id="org7f4fdd8"></a>
+<a id="org39d466c"></a>
 
 ### Internet Service Providers
 
@@ -129,7 +131,7 @@ some connections here.
 6.  **Cellular Network Connections (4G/5G)** : They transmit data between cellular
 
 
-<a id="org3478e45"></a>
+<a id="org354c5ef"></a>
 
 ### Sign In Security
 
@@ -142,7 +144,7 @@ When setting up your passwords for services, using 2FA (two factor authorization
 manager (E.g.:[Proton Pass](https://proton.me/pass)) are recommended.
 
 
-<a id="orga5a8954"></a>
+<a id="org8f2ce3d"></a>
 
 ### Developer Tools
 
@@ -176,7 +178,7 @@ and efficient.
     many users as possible.
 
 
-<a id="org63188f1"></a>
+<a id="org647d75a"></a>
 
 ### File Management Applications
 
@@ -189,7 +191,7 @@ around.
 These file management applications provide features like tags,search and Smart Folders.
 
 
-<a id="orgdfa9375"></a>
+<a id="orgb0d9293"></a>
 
 ### Naming Files for Web Applications
 
@@ -204,7 +206,7 @@ The exception to this is **index.html** which is a special file that represents 
 website. It's the first file that is loaded when you visit a website.
 
 
-<a id="orgd40f01f"></a>
+<a id="orgeaa7802"></a>
 
 ### File/Folder Organization for Web Applications
 
@@ -234,7 +236,7 @@ Personally I like to add a little TODO.org so that I have an idea what I have to
 little note of what I have already done, or failed doing.
 
 
-<a id="org9f62837"></a>
+<a id="org6bb7c58"></a>
 
 ### Creating, Moving and Deleting Files
 
@@ -256,7 +258,7 @@ In order to select multiple files on Windows you can either <span class="underli
 <span class="underline">Ctrl+click over the relevant files (Ctrl+click really helps when the files aren't adjacent).</span>
 
 
-<a id="orgdfd46d9"></a>
+<a id="org1614a3f"></a>
 
 ### Searching for Files
 
@@ -266,11 +268,11 @@ if you have internalized all the details from the previous chapter you won't nee
 anything as you will be well organized to always know where everything is.
 
 
-<a id="org7c95582"></a>
+<a id="org600d095"></a>
 
 ### File Types used in Web Applications
 
-Earlier in [1.1.7](#orgdfa9375) we looked at files like .html, .css and .js that we
+Earlier in [1.1.7](#orgb0d9293) we looked at files like .html, .css and .js that we
 will use when we develop web applications. Apart from these we will also use some other files types
 such as:
 
@@ -293,7 +295,7 @@ Which are some image formats used in web applications.
     be exported as markdown, html and even pdf)
 
 
-<a id="orge31b9f2"></a>
+<a id="orgc519d11"></a>
 
 ### Web Browsers
 
@@ -305,7 +307,7 @@ On some systems you can install a browser using your operating system's package 
 MacOS with homebrew or Arch Linux.
 
 
-<a id="org21c8200"></a>
+<a id="org2ac0499"></a>
 
 ### Web Terms
 
@@ -331,7 +333,7 @@ you know the website you want to go to you don't need a search engine, however i
 of where to go you can use a search engine to help you get there.
 
 
-<a id="orgf6eaf74"></a>
+<a id="org01078b0"></a>
 
 ### Advanced Search Engine Capabilities
 
@@ -357,7 +359,7 @@ see the exact syntax that is used for these advanced functionalities.
 For more tips on using the Google Search Engine, and by extension Startpage, visit this [site](https://woodward.libguides.com/google/basicsearch).
 
 
-<a id="org1aafa4c"></a>
+<a id="org63a9f61"></a>
 
 ## HTML
 
@@ -369,7 +371,7 @@ website functionality in HTML. A modern day website also needs CSS for styling a
 interactivity.
 
 
-<a id="orge836fea"></a>
+<a id="orgd79dd6f"></a>
 
 ### Elements
 
@@ -427,7 +429,7 @@ present or absent. Other boolean attributes include disabled, readonly and requi
 the state of an element.
 
 
-<a id="org789ce39"></a>
+<a id="org6bc0fb2"></a>
 
 ### Boilerplate
 
@@ -441,7 +443,7 @@ As you personalize your own boilerplate, you will realize that it saves time whe
 projects and it will become your default starting point for any web project.
 
 
-<a id="org7943694"></a>
+<a id="org6cfb428"></a>
 
 ### UTF-8
 
@@ -461,7 +463,7 @@ is:
 Having this code in your boilerplate will also prove efficient.
 
 
-<a id="org149c35c"></a>
+<a id="orgf8124d9"></a>
 
 ### HTML Entities
 
@@ -484,7 +486,52 @@ start with an **ampersand(&)** and end with a **semi-colon(;)** in common.
     **semi-colon(;)**.
 
 
-<a id="org1358bc8"></a>
+<a id="org8f82fc7"></a>
+
+### Media Assets
+
+In order to enhance the visual aspect of a webpage or to pass out visual inforamtion we will use
+media assets such as images, audios and videos. However it is important to note that using such
+assets will take a heavier toll on the data consumed to retrieve them, loading times and
+storage. Therefore using these media assets in an optimal way is encouraged and a best
+practice. There are three important things to consider when using an image, they are the display
+size, file format and compression.
+When it comes to the display size, it is important to remember
+that our media assets should match the size we are displaying on our webpage. If our webpage is
+displaying an image that is 640x480 but the image has not been scaled down and is instead a
+1920x1080 image, we are making the users download additional data and storing unnecessary data as
+well.
+When it comes to format it is important to use the most ideal format, while PNGs and JPEGs
+are the most common formats for images, they are not the most ideal formats and instead you should
+use WEBP or AVIF formats. Below we will give a list of optimal file formats for various media
+assets:
+
+1.  **Images**: **WEBP**, AVIF, **SVG**
+2.  **Audios**: **OGG**, **WEBM**, WAV, M4A, MP3
+3.  **Videos**: **WEBM**, MP4
+    Note however that MP4 with codecs like H.264 and HVEC may open you up to legal issues
+
+Finally it must be noted that in order to make our files smaller and more efficient, we can make use
+of compression algorithms. Note that compression takes two forms: lossy and lossless. Their names
+are self-explanatory. One of them preserves the quality of the original, whereas the other loses
+data to reduce its size.
+Another important point to consider when using media assets in your webpages, is the license they
+hold. By default all creative works released are released with all rights reserved, meaning the
+creator or publisher holds all the rights for the media asset. Such assets cannot be used unless one
+of three things has occurred:
+
+1.  You have expressed written permission by the author.
+2.  You have purchased a licensing fee.
+3.  You incorporate the media under fair use.
+    Fair use requires that your use of the original media is both limited and transformative.
+
+
+<a id="org5024df9"></a>
+
+### Accessibility
+
+
+<a id="orga29380c"></a>
 
 ### HTML Syntax
 
@@ -560,6 +607,7 @@ much likely to use. For a full reference on all the HTML syntax please refer to 
     3.  Autoplay Audio - autoplay
     4.  Mute audio by default - muted
     5.  Loop audio - loop
+    6.  Video Format - type
 27. Source - <source/>
     Used as a nested element to store multiple sources for its parent element.
 28. Video - <video>,</video>       
@@ -570,9 +618,41 @@ much likely to use. For a full reference on all the HTML syntax please refer to 
     5.  Loop video - loop
     6.  Adjust width - width
     7.  Put a video thumbnail while the video is downloading - poster
+    8.  Video Format - type
+29. Audio and video text tracks - <track/>
+    1.  Source - src
+    2.  Kind/Type of track - kind
+        Values can be captions (includes descriptions of sounds), subtitles, chapters (for
+        navigation), descriptions (summary of the media) and metadata
+    3.  Language - srclang
+    4.  Language Label - label
+    5.  Enable the track by default - default
+30. Inline Frame used to embed content such as videos, maps and documents - <iframe>,</iframe>
+    1.  Source - src
+    2.  HTML Source - srcdoc
+    3.  Width - width
+    4.  Height - height
+    5.  Title which works like alt-text - title
+    6.  Allowing what the iframe can do - allow
+31. SVG - <svg>,</svg>
+    1.  Width - width
+    2.  Height - height
+    3.  How much the browser will display - viewbox
+32. SVG Circles - <circle/>
+    1.  Border - stroke
+    2.  Border width - stroke-width
+    3.  Colour fill - fill
+33. SVG Paths - <path/>
+    1.  Path colour - stroke
+    2.  Path width - stroke-width
+    3.  Area between path colour - fill
+34. Embedded content - <embed>,</embed>
+    General purpose embedding tool with little to no use
+35. Embedded content - <object>,</object>    
+    General purpose embedding tool with little to no use
 
 
-<a id="org0819a19"></a>
+<a id="org4fd4f19"></a>
 
 ## CSS
 
