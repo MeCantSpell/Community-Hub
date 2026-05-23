@@ -15,7 +15,7 @@ all of the other important components. It can be thought of as the skull of the 
 the computer to function. It's a small square chip tht goes into a CPU Socket on the
 motherboard. It's speed is calculated in MHz and GHz (Million and Billion Cycles per Second
 respectively). It's responsible for calculations, providing CPU time for tasks and other functions
-as well. It can be thought of as the brain of the computer/
+as well. It can be thought of as the brain of the computer.
 *RAM* : RAM stands for Random Access Memory and and it's needed to store important details required
 to perform functions by the CPU. The CPU takes data and information stored in the RAM when it needs
 to complete its tasks. Memory stored in the RAM is not persistent among
@@ -344,6 +344,60 @@ is:
 #+end_src
 Having this code in your boilerplate will also prove efficient.
 
+*** HTML Entities
+As you may have seen when creating your web document you will have used a varying amount of syntax
+including symbols like "<",">" and "=". However sometimes, there may be a need to display those
+symbols on your webpage. An HTML entity is therefore referred to as a set of characters used to
+represent a reserved charcter in HTML. They are also known as character references.
+There are three different types of character references but it is important to note that all of them
+start with an *ampersand(&)* and end with a *semi-colon(;)* in common.
+1. *Named character references*: Named character references start with an *ampersand(&)* and end with a
+   *semi-colon(;)*. These are references that are used for actual HTML elements and prevents the
+   parser from confusing them for the actual elements.
+2. *Decimal numeric reference*: Here the reference starts with the usual *ampersand(&)* but is followed
+   immediately by a *hash(#)* symbol. Here specific decimal numerics that correlate to the relevant
+   symbol are used instead. Then it is finally ended with a *semi-colon(;)*
+3. *Hexadecimal numeric reference*: Just like the decimal numeric reference, it starts with an
+   *ampersand(&)*, *hash(#)* but is the followed by the simple letter *x* then it is followed by the ASCII
+   hexadecimal numerics that correlate to the relevant symbol. Finally it is also closed with a
+   *semi-colon(;)*.
+
+*** Media Assets
+In order to enhance the visual aspect of a webpage or to pass out visual inforamtion we will use
+media assets such as images, audios and videos. However it is important to note that using such
+assets will take a heavier toll on the data consumed to retrieve them, loading times and
+storage. Therefore using these media assets in an optimal way is encouraged and a best
+practice. There are three important things to consider when using an image, they are the display
+size, file format and compression.
+When it comes to the display size, it is important to remember
+that our media assets should match the size we are displaying on our webpage. If our webpage is
+displaying an image that is 640x480 but the image has not been scaled down and is instead a
+1920x1080 image, we are making the users download additional data and storing unnecessary data as
+well.
+When it comes to format it is important to use the most ideal format, while PNGs and JPEGs
+are the most common formats for images, they are not the most ideal formats and instead you should
+use WEBP or AVIF formats. Below we will give a list of optimal file formats for various media
+assets:
+1. *Images*: *WEBP*, AVIF, *SVG*
+2. *Audios*: *OGG*, *WEBM*, WAV, M4A, MP3
+3. *Videos*: *WEBM*, MP4
+   Note however that MP4 with codecs like H.264 and HVEC may open you up to legal issues
+Finally it must be noted that in order to make our files smaller and more efficient, we can make use
+of compression algorithms. Note that compression takes two forms: lossy and lossless. Their names
+are self-explanatory. One of them preserves the quality of the original, whereas the other loses
+data to reduce its size.
+Another important point to consider when using media assets in your webpages, is the license they
+hold. By default all creative works released are released with all rights reserved, meaning the
+creator or publisher holds all the rights for the media asset. Such assets cannot be used unless one
+of three things has occurred:
+1. You have expressed written permission by the author.
+2. You have purchased a licensing fee.
+3. You incorporate the media under fair use.
+   Fair use requires that your use of the original media is both limited and transformative.
+
+   
+*** Accessibility
+
 *** HTML Syntax
 This list has been created using the syntax that I have personally encountered and syntax that I am
 much likely to use. For a full reference on all the HTML syntax please refer to this [[https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes][link]].
@@ -364,6 +418,8 @@ much likely to use. For a full reference on all the HTML syntax please refer to 
    themselves.
 7. Head - <head>,</head>
 8. Headings - <h1 - 6>,</h1 - 6>
+   a. Create a unique id for CSS styling - id
+   b. Create a class to share CSS styling among multiple elements - class
 9. HTML - <html>,</html>
    Webpage language - lang
 10. HTML initialization - <!DOCTYPE html>
@@ -391,8 +447,71 @@ much likely to use. For a full reference on all the HTML syntax please refer to 
 17. Moving around - <marquee>,</marquee>
     Marquee is now a depecrated HTML syntax
 18. Paragraph - <p>,</p>
+    a. Create a unique id for CSS styling - id
+    b. Create a class to share CSS styling among multiple elements - class
 19. Semantic Sections - <section>,</section>
 20. Title - <title>,</title>
     Title is displayed on the browser tab
-    
+    a. Create a unique id for CSS styling - id
+    b. Create a class to share CSS styling among multiple elements - class
+21. Emphasis (Semantic Italicization) - <em>,</em>
+22. Strong (Semantic Bold) - <strong>,</strong>
+23. Adding scripting languages - <script>,</script>
+24. Content Division - <div>,</div>
+    Division elements are non-semantic meaning they don't carry meaning. They are useful for
+    grouping together elements that need to share the same CSS styling. However, more often than not
+    there is usually a more appropriate semantic element that can be used instead.
+    a. Create a unique id for CSS styling - id
+    b. Create a class to share CSS styling among multiple elements - class
+25. Section - <section>,</section>
+26. Audio - <audio>,</audio>
+    a. Source - src
+    b. Audio Controls - controls
+    c. Autoplay Audio - autoplay
+    d. Mute audio by default - muted
+    e. Loop audio - loop
+    f. Video Format - type       
+27. Source - <source/>
+    Used as a nested element to store multiple sources for its parent element.
+28. Video - <video>,</video>       
+    a. Source - src
+    b. Video Controls - controls
+    c. Autoplay video - autoplay
+    d. Mute audio by default - muted
+    e. Loop video - loop
+    f. Adjust width - width
+    g. Put a video thumbnail while the video is downloading - poster
+    h. Video Format - type
+29. Audio and video text tracks - <track/>
+    a. Source - src
+    b. Kind/Type of track - kind
+       Values can be captions (includes descriptions of sounds), subtitles, chapters (for
+       navigation), descriptions (summary of the media) and metadata
+    c. Language - srclang
+    d. Language Label - label
+    e. Enable the track by default - default
+30. Inline Frame used to embed content such as videos, maps and documents - <iframe>,</iframe>
+    a. Source - src
+    b. HTML Source - srcdoc
+    c. Width - width
+    d. Height - height
+    e. Title which works like alt-text - title
+    f. Allowing what the iframe can do - allow 
+31. SVG - <svg>,</svg>
+    a. Width - width
+    b. Height - height
+    c. How much the browser will display - viewbox
+32. SVG Circles - <circle/>
+    a. Border - stroke
+    b. Border width - stroke-width
+    c. Colour fill - fill
+33. SVG Paths - <path/>
+    a. Path colour - stroke
+    b. Path width - stroke-width
+    c. Area between path colour - fill	  
+34. Embedded content - <embed>,</embed>
+    General purpose embedding tool with little to no use
+35. Embedded content - <object>,</object>    
+    General purpose embedding tool with little to no use
+
 ** CSS

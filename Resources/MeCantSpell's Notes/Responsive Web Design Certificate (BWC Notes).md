@@ -1,30 +1,34 @@
 
 # Table of Contents
 
-1.  [Responsive Web Design Certificate (BWC Notes)](#orgf46e99d)
-    1.  [Computers Basics](#orgd1260e0)
-        1.  [Parts of a Computer](#org3af6c7f)
-        2.  [Working Effectively With Input Devices](#org9dec24f)
-        3.  [Internet Service Providers](#orge3f9c3d)
-        4.  [Sign In Security](#org683c43c)
-        5.  [Developer Tools](#org824ba4e)
-        6.  [File Management Applications](#orgc9a4afa)
-        7.  [Naming Files for Web Applications](#org96fadb3)
-        8.  [File/Folder Organization for Web Applications](#orgc9c196c)
-        9.  [Creating, Moving and Deleting Files](#orgfa90f8a)
-        10. [Searching for Files](#org8b7ef77)
-        11. [File Types used in Web Applications](#org655f513)
-        12. [Web Browsers](#org184947b)
-        13. [Web Terms](#org4caf1c7)
-        14. [Advanced Search Engine Capabilities](#orgc2a1146)
-    2.  [HTML](#org397e753)
-        1.  [Elements](#org0a45c72)
-        2.  [Boilerplate](#orgaf4bfad)
-        3.  [HTML Syntax](#orgc3e04a4)
-    3.  [CSS](#org9df084a)
+1.  [Responsive Web Design Certificate (BWC Notes)](#orgeee7160)
+    1.  [Computers Basics](#org5959c42)
+        1.  [Parts of a Computer](#org8aec7d1)
+        2.  [Working Effectively With Input Devices](#org594e45d)
+        3.  [Internet Service Providers](#org39d466c)
+        4.  [Sign In Security](#org354c5ef)
+        5.  [Developer Tools](#org8f2ce3d)
+        6.  [File Management Applications](#org647d75a)
+        7.  [Naming Files for Web Applications](#orgb0d9293)
+        8.  [File/Folder Organization for Web Applications](#orgeaa7802)
+        9.  [Creating, Moving and Deleting Files](#org6bb7c58)
+        10. [Searching for Files](#org1614a3f)
+        11. [File Types used in Web Applications](#org600d095)
+        12. [Web Browsers](#orgc519d11)
+        13. [Web Terms](#org2ac0499)
+        14. [Advanced Search Engine Capabilities](#org01078b0)
+    2.  [HTML](#org63a9f61)
+        1.  [Elements](#orgd79dd6f)
+        2.  [Boilerplate](#org6bc0fb2)
+        3.  [UTF-8](#org6cfb428)
+        4.  [HTML Entities](#orgf8124d9)
+        5.  [Media Assets](#org8f82fc7)
+        6.  [Accessibility](#org5024df9)
+        7.  [HTML Syntax](#orga29380c)
+    3.  [CSS](#org4fd4f19)
 
 
-<a id="orgf46e99d"></a>
+<a id="orgeee7160"></a>
 
 # Responsive Web Design Certificate (BWC Notes)
 
@@ -32,7 +36,7 @@ This file contains the notes for my Responsive Web Design Certificate. I am foll
 Club bootcamp!
 
 
-<a id="orgd1260e0"></a>
+<a id="org5959c42"></a>
 
 ## Computers Basics
 
@@ -42,7 +46,7 @@ As a developer it's important to take a look at the parts of a computer as it's 
 which we will be developing software for.
 
 
-<a id="org3af6c7f"></a>
+<a id="org8aec7d1"></a>
 
 ### Parts of a Computer
 
@@ -52,7 +56,7 @@ all of the other important components. It can be thought of as the skull of the 
 the computer to function. It's a small square chip tht goes into a CPU Socket on the
 motherboard. It's speed is calculated in MHz and GHz (Million and Billion Cycles per Second
 respectively). It's responsible for calculations, providing CPU time for tasks and other functions
-as well. It can be thought of as the brain of the computer/
+as well. It can be thought of as the brain of the computer.
 **RAM** : RAM stands for Random Access Memory and and it's needed to store important details required
 to perform functions by the CPU. The CPU takes data and information stored in the RAM when it needs
 to complete its tasks. Memory stored in the RAM is not persistent among
@@ -77,7 +81,7 @@ commonly used include:
 3.  Network Cards - Responsible for connecting the computer to the internet.
 
 
-<a id="org9dec24f"></a>
+<a id="org594e45d"></a>
 
 ### Working Effectively With Input Devices
 
@@ -93,7 +97,7 @@ lives.
 6.  **MOST IMPORTANTLY** Taking regular breaks
 
 
-<a id="orge3f9c3d"></a>
+<a id="org39d466c"></a>
 
 ### Internet Service Providers
 
@@ -127,7 +131,7 @@ some connections here.
 6.  **Cellular Network Connections (4G/5G)** : They transmit data between cellular
 
 
-<a id="org683c43c"></a>
+<a id="org354c5ef"></a>
 
 ### Sign In Security
 
@@ -140,7 +144,7 @@ When setting up your passwords for services, using 2FA (two factor authorization
 manager (E.g.:[Proton Pass](https://proton.me/pass)) are recommended.
 
 
-<a id="org824ba4e"></a>
+<a id="org8f2ce3d"></a>
 
 ### Developer Tools
 
@@ -174,7 +178,7 @@ and efficient.
     many users as possible.
 
 
-<a id="orgc9a4afa"></a>
+<a id="org647d75a"></a>
 
 ### File Management Applications
 
@@ -187,7 +191,7 @@ around.
 These file management applications provide features like tags,search and Smart Folders.
 
 
-<a id="org96fadb3"></a>
+<a id="orgb0d9293"></a>
 
 ### Naming Files for Web Applications
 
@@ -202,7 +206,7 @@ The exception to this is **index.html** which is a special file that represents 
 website. It's the first file that is loaded when you visit a website.
 
 
-<a id="orgc9c196c"></a>
+<a id="orgeaa7802"></a>
 
 ### File/Folder Organization for Web Applications
 
@@ -232,7 +236,7 @@ Personally I like to add a little TODO.org so that I have an idea what I have to
 little note of what I have already done, or failed doing.
 
 
-<a id="orgfa90f8a"></a>
+<a id="org6bb7c58"></a>
 
 ### Creating, Moving and Deleting Files
 
@@ -254,7 +258,7 @@ In order to select multiple files on Windows you can either <span class="underli
 <span class="underline">Ctrl+click over the relevant files (Ctrl+click really helps when the files aren't adjacent).</span>
 
 
-<a id="org8b7ef77"></a>
+<a id="org1614a3f"></a>
 
 ### Searching for Files
 
@@ -264,11 +268,11 @@ if you have internalized all the details from the previous chapter you won't nee
 anything as you will be well organized to always know where everything is.
 
 
-<a id="org655f513"></a>
+<a id="org600d095"></a>
 
 ### File Types used in Web Applications
 
-Earlier in [1.1.7](#org96fadb3) we looked at files like .html, .css and .js that we
+Earlier in [1.1.7](#orgb0d9293) we looked at files like .html, .css and .js that we
 will use when we develop web applications. Apart from these we will also use some other files types
 such as:
 
@@ -291,7 +295,7 @@ Which are some image formats used in web applications.
     be exported as markdown, html and even pdf)
 
 
-<a id="org184947b"></a>
+<a id="orgc519d11"></a>
 
 ### Web Browsers
 
@@ -303,7 +307,7 @@ On some systems you can install a browser using your operating system's package 
 MacOS with homebrew or Arch Linux.
 
 
-<a id="org4caf1c7"></a>
+<a id="org2ac0499"></a>
 
 ### Web Terms
 
@@ -329,7 +333,7 @@ you know the website you want to go to you don't need a search engine, however i
 of where to go you can use a search engine to help you get there.
 
 
-<a id="orgc2a1146"></a>
+<a id="org01078b0"></a>
 
 ### Advanced Search Engine Capabilities
 
@@ -355,7 +359,7 @@ see the exact syntax that is used for these advanced functionalities.
 For more tips on using the Google Search Engine, and by extension Startpage, visit this [site](https://woodward.libguides.com/google/basicsearch).
 
 
-<a id="org397e753"></a>
+<a id="org63a9f61"></a>
 
 ## HTML
 
@@ -367,7 +371,7 @@ website functionality in HTML. A modern day website also needs CSS for styling a
 interactivity.
 
 
-<a id="org0a45c72"></a>
+<a id="orgd79dd6f"></a>
 
 ### Elements
 
@@ -425,7 +429,7 @@ present or absent. Other boolean attributes include disabled, readonly and requi
 the state of an element.
 
 
-<a id="orgaf4bfad"></a>
+<a id="org6bc0fb2"></a>
 
 ### Boilerplate
 
@@ -439,7 +443,95 @@ As you personalize your own boilerplate, you will realize that it saves time whe
 projects and it will become your default starting point for any web project.
 
 
-<a id="orgc3e04a4"></a>
+<a id="org6cfb428"></a>
+
+### UTF-8
+
+UTF-8 stands for UCS Transformation Format-8, UCS in turn stands for Universal Character Set. It is
+the standardized character encoding widely used on the web (99% of the web uses UTF-8). The other
+unicode standard that exists (existed) is UTF-16 which is now nearly obsolete with only 0.004% of
+cwebpages using it.
+Using UTF-8 and by that extent, setting it as the characterset in a meta element in your webpages,
+is crucial to maintaining the standards of the internet as it supports every character in the
+Unicode set from all writing systems, languages and techincal symbols. It's why you can type in
+Tamil and Sinhala and Emojis.
+The syntax that is therefore required to enter into your webpage withing the <head></head> element
+is:
+
+    <meta charset="UTF-8" />
+
+Having this code in your boilerplate will also prove efficient.
+
+
+<a id="orgf8124d9"></a>
+
+### HTML Entities
+
+As you may have seen when creating your web document you will have used a varying amount of syntax
+including symbols like "<",">" and "=". However sometimes, there may be a need to display those
+symbols on your webpage. An HTML entity is therefore referred to as a set of characters used to
+represent a reserved charcter in HTML. They are also known as character references.
+There are three different types of character references but it is important to note that all of them
+start with an **ampersand(&)** and end with a **semi-colon(;)** in common.
+
+1.  **Named character references**: Named character references start with an **ampersand(&)** and end with a
+    **semi-colon(;)**. These are references that are used for actual HTML elements and prevents the
+    parser from confusing them for the actual elements.
+2.  **Decimal numeric reference**: Here the reference starts with the usual **ampersand(&)** but is followed
+    immediately by a **hash(#)** symbol. Here specific decimal numerics that correlate to the relevant
+    symbol are used instead. Then it is finally ended with a **semi-colon(;)**
+3.  **Hexadecimal numeric reference**: Just like the decimal numeric reference, it starts with an
+    **ampersand(&)**, **hash(#)** but is the followed by the simple letter **x** then it is followed by the ASCII
+    hexadecimal numerics that correlate to the relevant symbol. Finally it is also closed with a
+    **semi-colon(;)**.
+
+
+<a id="org8f82fc7"></a>
+
+### Media Assets
+
+In order to enhance the visual aspect of a webpage or to pass out visual inforamtion we will use
+media assets such as images, audios and videos. However it is important to note that using such
+assets will take a heavier toll on the data consumed to retrieve them, loading times and
+storage. Therefore using these media assets in an optimal way is encouraged and a best
+practice. There are three important things to consider when using an image, they are the display
+size, file format and compression.
+When it comes to the display size, it is important to remember
+that our media assets should match the size we are displaying on our webpage. If our webpage is
+displaying an image that is 640x480 but the image has not been scaled down and is instead a
+1920x1080 image, we are making the users download additional data and storing unnecessary data as
+well.
+When it comes to format it is important to use the most ideal format, while PNGs and JPEGs
+are the most common formats for images, they are not the most ideal formats and instead you should
+use WEBP or AVIF formats. Below we will give a list of optimal file formats for various media
+assets:
+
+1.  **Images**: **WEBP**, AVIF, **SVG**
+2.  **Audios**: **OGG**, **WEBM**, WAV, M4A, MP3
+3.  **Videos**: **WEBM**, MP4
+    Note however that MP4 with codecs like H.264 and HVEC may open you up to legal issues
+
+Finally it must be noted that in order to make our files smaller and more efficient, we can make use
+of compression algorithms. Note that compression takes two forms: lossy and lossless. Their names
+are self-explanatory. One of them preserves the quality of the original, whereas the other loses
+data to reduce its size.
+Another important point to consider when using media assets in your webpages, is the license they
+hold. By default all creative works released are released with all rights reserved, meaning the
+creator or publisher holds all the rights for the media asset. Such assets cannot be used unless one
+of three things has occurred:
+
+1.  You have expressed written permission by the author.
+2.  You have purchased a licensing fee.
+3.  You incorporate the media under fair use.
+    Fair use requires that your use of the original media is both limited and transformative.
+
+
+<a id="org5024df9"></a>
+
+### Accessibility
+
+
+<a id="orga29380c"></a>
 
 ### HTML Syntax
 
@@ -451,10 +543,27 @@ much likely to use. For a full reference on all the HTML syntax please refer to 
     2.  Browsing Context - target
         ("<sub>self</sub>" for the same tab, "<sub>blank</sub>" for a new tab or new window, there are other values as
         well but since they are values that deal with the now obsolete frames we will ignore them)
-2.  Image - <img/>
+2.  Blink - <blink>,</blink>
+    Blink is now a depecrated HTML syntax
+3.  Body - <body>,</body>
+4.  Bold - <b>,</b>
+5.  Content Division - <div>,</div>
+6.  Figure - <figure>,</figure>
+    The figure is a new element introduced in HTML5 with the goal of adding semantics to figures
+    including images, video clips, drawings and other visual content. Within the figure element you
+    can add <figcaption></figcaption> that will add a caption to the image/s as well as the images
+    themselves.
+7.  Head - <head>,</head>
+8.  Headings - <h1 - 6>,</h1 - 6>
+    1.  Create a unique id for CSS styling - id
+    2.  Create a class to share CSS styling among multiple elements - class
+9.  HTML - <html>,</html>
+    Webpage language - lang
+10. HTML initialization - <!DOCTYPE html>
+11. Image - <img/>
     1.  Source - src
     2.  Alternative Text - alt
-3.  Input - <input/>
+12. Input - <input/>
     1.  Type - type
         Sets the type of input obtained (checkbox, password, email, url)
     2.  Autocrrect - autocorrect
@@ -462,39 +571,88 @@ much likely to use. For a full reference on all the HTML syntax please refer to 
     4.  Disable element by default - disabled
     5.  Make element immutable - readonly
     6.  Makes the element mandatorily accept a value - required
-4.  Paragraph - <p>,</p>
-5.  Figure - <figure>,</figure>
-    The figure is a new element introduced in HTML5 with the goal of adding semantics to figures
-    including images, video clips, drawings and other visual content. Within the figure element you
-    can add <figcaption></figcaption> that will add a caption to the image/s as well as the images
-    themselves.
-6.  HTML initialization - <!DOCTYPE html>
-7.  HTML - <html>,</html>
-    Webpage language - lang
-8.  Head - <head>,</head>
-9.  Title - <title>,</title>
-    Title is displayed on the browser tab
-10. Body - <body>,</body>
-11. Main - <main>,</main>
-12. Content Division - <div>,</div>
-13. Headings - <h1 - 6>,</h1 - 6>
-14. Bold - <b>,</b>
-15. Italicize - <i>,</i>
-16. Moving around - <marquee>,</marquee>
-    Marquee is now a depecrated HTML syntax
-17. Blink - <blink>,</blink>
-    Blink is now a depecrated HTML syntax
-18. Linking to external resources - <link/>
+13. Italicize - <i>,</i>
+14. Linking to external resources - <link/>
     1.  Defining the relationship - rel
         Sets the relationship type (stylesheet, preconnect, icon)
     2.  Hyperlink reference - href
-19. Metadata - <meta/>
+15. Main - <main>,</main>
+16. Metadata - <meta/>
     Defining the character set - charset
     Defining a metadata - name
     Entering content for the metadata - content
+17. Moving around - <marquee>,</marquee>
+    Marquee is now a depecrated HTML syntax
+18. Paragraph - <p>,</p>
+    1.  Create a unique id for CSS styling - id
+    2.  Create a class to share CSS styling among multiple elements - class
+19. Semantic Sections - <section>,</section>
+20. Title - <title>,</title>
+    Title is displayed on the browser tab
+    1.  Create a unique id for CSS styling - id
+    2.  Create a class to share CSS styling among multiple elements - class
+21. Emphasis (Semantic Italicization) - <em>,</em>
+22. Strong (Semantic Bold) - <strong>,</strong>
+23. Adding scripting languages - <script>,</script>
+24. Content Division - <div>,</div>
+    Division elements are non-semantic meaning they don't carry meaning. They are useful for
+    grouping together elements that need to share the same CSS styling. However, more often than not
+    there is usually a more appropriate semantic element that can be used instead.
+    1.  Create a unique id for CSS styling - id
+    2.  Create a class to share CSS styling among multiple elements - class
+25. Section - <section>,</section>
+26. Audio - <audio>,</audio>
+    1.  Source - src
+    2.  Audio Controls - controls
+    3.  Autoplay Audio - autoplay
+    4.  Mute audio by default - muted
+    5.  Loop audio - loop
+    6.  Video Format - type
+27. Source - <source/>
+    Used as a nested element to store multiple sources for its parent element.
+28. Video - <video>,</video>       
+    1.  Source - src
+    2.  Video Controls - controls
+    3.  Autoplay video - autoplay
+    4.  Mute audio by default - muted
+    5.  Loop video - loop
+    6.  Adjust width - width
+    7.  Put a video thumbnail while the video is downloading - poster
+    8.  Video Format - type
+29. Audio and video text tracks - <track/>
+    1.  Source - src
+    2.  Kind/Type of track - kind
+        Values can be captions (includes descriptions of sounds), subtitles, chapters (for
+        navigation), descriptions (summary of the media) and metadata
+    3.  Language - srclang
+    4.  Language Label - label
+    5.  Enable the track by default - default
+30. Inline Frame used to embed content such as videos, maps and documents - <iframe>,</iframe>
+    1.  Source - src
+    2.  HTML Source - srcdoc
+    3.  Width - width
+    4.  Height - height
+    5.  Title which works like alt-text - title
+    6.  Allowing what the iframe can do - allow
+31. SVG - <svg>,</svg>
+    1.  Width - width
+    2.  Height - height
+    3.  How much the browser will display - viewbox
+32. SVG Circles - <circle/>
+    1.  Border - stroke
+    2.  Border width - stroke-width
+    3.  Colour fill - fill
+33. SVG Paths - <path/>
+    1.  Path colour - stroke
+    2.  Path width - stroke-width
+    3.  Area between path colour - fill
+34. Embedded content - <embed>,</embed>
+    General purpose embedding tool with little to no use
+35. Embedded content - <object>,</object>    
+    General purpose embedding tool with little to no use
 
 
-<a id="org9df084a"></a>
+<a id="org4fd4f19"></a>
 
 ## CSS
 
