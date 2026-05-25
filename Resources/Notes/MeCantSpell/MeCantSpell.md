@@ -1,44 +1,41 @@
 
 # Table of Contents
 
-1.  [Responsive Web Design Certificate (BWC Notes)](#orgeee7160)
-    1.  [Computers Basics](#org5959c42)
-        1.  [Parts of a Computer](#org8aec7d1)
-        2.  [Working Effectively With Input Devices](#org594e45d)
-        3.  [Internet Service Providers](#org39d466c)
-        4.  [Sign In Security](#org354c5ef)
-        5.  [Developer Tools](#org8f2ce3d)
-        6.  [File Management Applications](#org647d75a)
-        7.  [Naming Files for Web Applications](#orgb0d9293)
-        8.  [File/Folder Organization for Web Applications](#orgeaa7802)
-        9.  [Creating, Moving and Deleting Files](#org6bb7c58)
-        10. [Searching for Files](#org1614a3f)
-        11. [File Types used in Web Applications](#org600d095)
-        12. [Web Browsers](#orgc519d11)
-        13. [Web Terms](#org2ac0499)
-        14. [Advanced Search Engine Capabilities](#org01078b0)
-    2.  [HTML](#org63a9f61)
-        1.  [Elements](#orgd79dd6f)
-        2.  [Boilerplate](#org6bc0fb2)
-        3.  [UTF-8](#org6cfb428)
-        4.  [HTML Entities](#orgf8124d9)
-        5.  [Media Assets](#org8f82fc7)
-        6.  [Accessibility](#org5024df9)
-        7.  [HTML Syntax](#orga29380c)
-    3.  [CSS](#org4fd4f19)
-
-
-<a id="orgeee7160"></a>
-
-# Responsive Web Design Certificate (BWC Notes)
+1.  [Computers Basics](#org8ab7ff3)
+    1.  [Parts of a Computer](#orge06f7c5)
+    2.  [Working Effectively With Input Devices](#org349b7b9)
+    3.  [Internet Service Providers](#orgba67e5c)
+    4.  [Sign In Security](#org7b30b60)
+    5.  [Developer Tools](#org3e838c9)
+    6.  [File Management Applications](#org7accea6)
+    7.  [Naming Files for Web Applications](#org77dc272)
+    8.  [File/Folder Organization for Web Applications](#orge29e4d4)
+    9.  [Creating, Moving and Deleting Files](#org50f3ac8)
+    10. [Searching for Files](#org3759a4b)
+    11. [File Types used in Web Applications](#org30ae90d)
+    12. [Web Browsers](#org6bb830e)
+    13. [Web Terms](#orgee113d0)
+    14. [Advanced Search Engine Capabilities](#org2b7678f)
+2.  [HTML](#orgb908cd2)
+    1.  [Elements](#orgeb7cae3)
+    2.  [Comments](#orgbb733f9)
+    3.  [Boilerplate](#orgf2605a8)
+    4.  [UTF-8](#org74ebc07)
+    5.  [HTML Entities](#org5fae93c)
+    6.  [Media Assets](#org8c1be2d)
+    7.  [Paths](#org6520450)
+    8.  [Accessibility](#org47b9ea6)
+    9.  [HTML Syntax](#orge186560)
+3.  [CSS](#org9a9e84b)
+    1.  [CSS Syntax](#org04a44e2)
 
 This file contains the notes for my Responsive Web Design Certificate. I am following a Bad Website
 Club bootcamp!
 
 
-<a id="org5959c42"></a>
+<a id="org8ab7ff3"></a>
 
-## Computers Basics
+# Computers Basics
 
 Computers are machines that allow people to accomplish certain tasks including playing games,
 browsing the internet and even writing this note.
@@ -46,9 +43,9 @@ As a developer it's important to take a look at the parts of a computer as it's 
 which we will be developing software for.
 
 
-<a id="org8aec7d1"></a>
+<a id="orge06f7c5"></a>
 
-### Parts of a Computer
+## Parts of a Computer
 
 **Motherboard** : The motherboard is the main part of a computer as it's the circuit board that houses
 all of the other important components. It can be thought of as the skull of the computer.
@@ -81,9 +78,9 @@ commonly used include:
 3.  Network Cards - Responsible for connecting the computer to the internet.
 
 
-<a id="org594e45d"></a>
+<a id="org349b7b9"></a>
 
-### Working Effectively With Input Devices
+## Working Effectively With Input Devices
 
 There are certain ways in which we can improve the efficiency of our work on the computer with
 computer peripherals. We'll take a look at some of the tips we can incorporate in our daily tech
@@ -97,9 +94,9 @@ lives.
 6.  **MOST IMPORTANTLY** Taking regular breaks
 
 
-<a id="org39d466c"></a>
+<a id="orgba67e5c"></a>
 
-### Internet Service Providers
+## Internet Service Providers
 
 Internet Service Providers or ISPs are companies that sell people the access to the global
 internet. There are 3 types of ISPs.
@@ -131,9 +128,9 @@ some connections here.
 6.  **Cellular Network Connections (4G/5G)** : They transmit data between cellular
 
 
-<a id="org354c5ef"></a>
+<a id="org7b30b60"></a>
 
-### Sign In Security
+## Sign In Security
 
 When it comes to your computer it's important to make sure it's password protected. When setting up
 a password use a password that is long and complex, and not an easy password. Passwords should also
@@ -144,9 +141,9 @@ When setting up your passwords for services, using 2FA (two factor authorization
 manager (E.g.:[Proton Pass](https://proton.me/pass)) are recommended.
 
 
-<a id="org8f2ce3d"></a>
+<a id="org3e838c9"></a>
 
-### Developer Tools
+## Developer Tools
 
 In order to create software, developers rely on a bunch of tools to make their work more productive
 and efficient.
@@ -178,9 +175,9 @@ and efficient.
     many users as possible.
 
 
-<a id="org647d75a"></a>
+<a id="org7accea6"></a>
 
-### File Management Applications
+## File Management Applications
 
 A file management application makes it easy to store, organize and view the files on your
 computer. On Windows the default file management application is File Explorer whereas on Mac it's
@@ -191,9 +188,9 @@ around.
 These file management applications provide features like tags,search and Smart Folders.
 
 
-<a id="orgb0d9293"></a>
+<a id="org77dc272"></a>
 
-### Naming Files for Web Applications
+## Naming Files for Web Applications
 
 HTML files used for web applications have the extension **.html** after the name of the file. For web
 applications we will also use files like CSS files and JavaScript files which have the extensions
@@ -206,9 +203,9 @@ The exception to this is **index.html** which is a special file that represents 
 website. It's the first file that is loaded when you visit a website.
 
 
-<a id="orgeaa7802"></a>
+<a id="orge29e4d4"></a>
 
-### File/Folder Organization for Web Applications
+## File/Folder Organization for Web Applications
 
 When building out web applications (or any applications in general), it makes sense to have all the
 files and folders you need arranged in a way that makes your workflow productive.
@@ -236,9 +233,9 @@ Personally I like to add a little TODO.org so that I have an idea what I have to
 little note of what I have already done, or failed doing.
 
 
-<a id="org6bb7c58"></a>
+<a id="org50f3ac8"></a>
 
-### Creating, Moving and Deleting Files
+## Creating, Moving and Deleting Files
 
 In windows while in File Explorer, once you have entered your desire directory you can create a new
 file <span class="underline">by right-clicking and going to the "New" menu and selecting the type of file you would like to</span>
@@ -258,9 +255,9 @@ In order to select multiple files on Windows you can either <span class="underli
 <span class="underline">Ctrl+click over the relevant files (Ctrl+click really helps when the files aren't adjacent).</span>
 
 
-<a id="org1614a3f"></a>
+<a id="org3759a4b"></a>
 
-### Searching for Files
+## Searching for Files
 
 In Windows you used to be able to search for the files you needed using the taskbar, this no longer
 works properly. You could go to the directory where you know the file is and search from there. But honestly
@@ -268,11 +265,11 @@ if you have internalized all the details from the previous chapter you won't nee
 anything as you will be well organized to always know where everything is.
 
 
-<a id="org600d095"></a>
+<a id="org30ae90d"></a>
 
-### File Types used in Web Applications
+## File Types used in Web Applications
 
-Earlier in [1.1.7](#orgb0d9293) we looked at files like .html, .css and .js that we
+Earlier in [1.7](#org77dc272) we looked at files like .html, .css and .js that we
 will use when we develop web applications. Apart from these we will also use some other files types
 such as:
 
@@ -295,9 +292,9 @@ Which are some image formats used in web applications.
     be exported as markdown, html and even pdf)
 
 
-<a id="orgc519d11"></a>
+<a id="org6bb830e"></a>
 
-### Web Browsers
+## Web Browsers
 
 Web browsers are appilcations that allow you to access the internet. The current most popular
 browsers are Microsoft Edge, Mozilla Firefox, Google Chrome and Safari. Your system should come with
@@ -307,9 +304,9 @@ On some systems you can install a browser using your operating system's package 
 MacOS with homebrew or Arch Linux.
 
 
-<a id="org2ac0499"></a>
+<a id="orgee113d0"></a>
 
-### Web Terms
+## Web Terms
 
 We've already looked at what a web browser is, now let's take a look at some terms that are often
 confused for each other, like search engine and website.
@@ -333,9 +330,9 @@ you know the website you want to go to you don't need a search engine, however i
 of where to go you can use a search engine to help you get there.
 
 
-<a id="org01078b0"></a>
+<a id="org2b7678f"></a>
 
-### Advanced Search Engine Capabilities
+## Advanced Search Engine Capabilities
 
 When using your search engine there are certain ways that you can search more efficiently. For
 example if you want to search for a specific phrase you can put that phrase in between **quotation
@@ -359,9 +356,9 @@ see the exact syntax that is used for these advanced functionalities.
 For more tips on using the Google Search Engine, and by extension Startpage, visit this [site](https://woodward.libguides.com/google/basicsearch).
 
 
-<a id="org63a9f61"></a>
+<a id="orgb908cd2"></a>
 
-## HTML
+# HTML
 
 HTML stands for Hypertext Markup Language and is a language used for building webpages. When you
 visit a website, its content including headings, paragraphs, sentences, images, videos and links are
@@ -371,9 +368,9 @@ website functionality in HTML. A modern day website also needs CSS for styling a
 interactivity.
 
 
-<a id="orgd79dd6f"></a>
+<a id="orgeb7cae3"></a>
 
-### Elements
+## Elements
 
 HTML is made up of elements. This elements usually have an opening tag and an ending tag. Elements
 that do not have ending tags are referred to as void elements. These elements can also be classified
@@ -429,9 +426,19 @@ present or absent. Other boolean attributes include disabled, readonly and requi
 the state of an element.
 
 
-<a id="org6bc0fb2"></a>
+<a id="orgbb733f9"></a>
 
-### Boilerplate
+## Comments
+
+In order to type in comments in HTML we start them with the characters **<!--** and end them with the
+characters **&#x2013;>**. A full comment will look something like this:
+
+    <!--This is an HTML comment.-->
+
+
+<a id="orgf2605a8"></a>
+
+## Boilerplate
 
 A boilerplate is a readymade template for making websites using HTML. The boilerplate can be
 considered as the skeleton of the site, and you can add the bones and meat to it using the specific
@@ -443,9 +450,9 @@ As you personalize your own boilerplate, you will realize that it saves time whe
 projects and it will become your default starting point for any web project.
 
 
-<a id="org6cfb428"></a>
+<a id="org74ebc07"></a>
 
-### UTF-8
+## UTF-8
 
 UTF-8 stands for UCS Transformation Format-8, UCS in turn stands for Universal Character Set. It is
 the standardized character encoding widely used on the web (99% of the web uses UTF-8). The other
@@ -463,9 +470,9 @@ is:
 Having this code in your boilerplate will also prove efficient.
 
 
-<a id="orgf8124d9"></a>
+<a id="org5fae93c"></a>
 
-### HTML Entities
+## HTML Entities
 
 As you may have seen when creating your web document you will have used a varying amount of syntax
 including symbols like "<",">" and "=". However sometimes, there may be a need to display those
@@ -486,9 +493,9 @@ start with an **ampersand(&)** and end with a **semi-colon(;)** in common.
     **semi-colon(;)**.
 
 
-<a id="org8f82fc7"></a>
+<a id="org8c1be2d"></a>
 
-### Media Assets
+## Media Assets
 
 In order to enhance the visual aspect of a webpage or to pass out visual inforamtion we will use
 media assets such as images, audios and videos. However it is important to note that using such
@@ -526,14 +533,74 @@ of three things has occurred:
     Fair use requires that your use of the original media is both limited and transformative.
 
 
-<a id="org5024df9"></a>
+<a id="org6520450"></a>
 
-### Accessibility
+## Paths
+
+The goal of creating websites is to share content. Now, all of this content may not be on the same
+webpage or it may not be feasible to have it all on the same webpage and therefore it is vital that
+we find a way to like our content to wherever the user is currently. We have already seen the anchor
+element that is used to link content and allow users to move to another site. We have also looked at
+other elements such as images, videos, audios and iframes that allow us to link content of those
+specific nature from a different source.
+Let's take a look at the specificities of those sources. There are two types of paths that exist:
+
+1.  **Relative Paths**
+    These are paths that specify the location of a file relevant to the current file
+2.  **Absolute Paths**
+    These are paths that specify the location of a file directly.
+
+Think of it like this, let's say you are friends with 2 guys: Sam and Jack. Let's also assume that
+your house is next to Jack's. If Sam is at your house and asks where Jack's house is, you are not
+going to describe every street, corner and road you have to take to get there, you'd simply say
+"Oh. He's house is on the right.", however if Sam asked you where Jack's house is from school, you
+might have to explain how to get all the way to Jack's house from Sam's house, or the school or the
+most common **root** you both share.
+That's how these paths work. It's also important to understand that absolute paths and absolute URLs
+are different as well. The former gives the absolute direction to the file within a file system
+whereas the latter gives the absolute directions to the file including the protocols and for web
+resources the domain name as well.
+There are different instances of when we should use relative and absolute paths. For example when
+testing on our own PC we might know the exact paths that the files need to access in order to
+complete their tasks, but when we ship our program to another PC they might not have installed the
+files in the same way and therefore using an absolute path there will cause the program to not
+function correctly. Likewise, when we need to get an exact resource for say, an iframe, from another
+webpage we cannot use a relative path and we have to give the absolute URL.
+Knowing when to use and not to use absolute and relative paths is very important in web development.
+When using relative paths there are some syntax that we should remember. Let us create a new example
+directory and take a look through it:
+
+    Project/
+    |___Resources/
+    |___|___Images/
+    |___|___Videos/
+    |___Site/
+    |___|___index.html
+    |___|___styles.css
+    |___|___scripts.js
+
+Let's say our index.html needed to access our styles.css file. In order to for it to access it, we
+will use **a single dot(.)** in order to indicate that we want to access a file that is in the
+subdirectory that we are sharing. So in order to link the relevant file using relative path we will
+use the following link:
+
+    ./styles.css
+
+Let's say that there exists a file called favicon.svg in our images folder and we need to access it
+via our index.html. In this case we will use **two double dots(..)** in order to access the parent
+directory (i.e. Project/)
+
+    ../Resources/Images/favicon.svg
 
 
-<a id="orga29380c"></a>
+<a id="org47b9ea6"></a>
 
-### HTML Syntax
+## Accessibility
+
+
+<a id="orge186560"></a>
+
+## HTML Syntax
 
 This list has been created using the syntax that I have personally encountered and syntax that I am
 much likely to use. For a full reference on all the HTML syntax please refer to this [link](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes).
@@ -652,7 +719,26 @@ much likely to use. For a full reference on all the HTML syntax please refer to 
     General purpose embedding tool with little to no use
 
 
-<a id="org4fd4f19"></a>
+<a id="org9a9e84b"></a>
 
-## CSS
+# CSS
+
+
+<a id="org04a44e2"></a>
+
+## CSS Syntax
+
+1.  Anchor Elements
+    
+    1.  Default link state - :link
+    2.  Visited links - :visited
+    3.  Links being hovered upon - :hover
+    4.  Links being focused upon - :focus
+        I personally cannot tell the difference between :focus and :active
+    5.  Links that are being actively interacted with - :active
+    
+    When creating a CSS style for anchor elements it is important to style them in this specific
+    order:
+    
+        :link, :visited, :hover, :focus, :active
 

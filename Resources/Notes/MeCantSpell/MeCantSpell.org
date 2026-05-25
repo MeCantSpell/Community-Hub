@@ -1,14 +1,16 @@
-* Responsive Web Design Certificate (BWC Notes)
+#+Title: Responsive Web Design Certificate Notes
+#+Author: MeCantSpell
+
 This file contains the notes for my Responsive Web Design Certificate. I am following a Bad Website
 Club bootcamp!
 
-** Computers Basics
+* Computers Basics
 Computers are machines that allow people to accomplish certain tasks including playing games,
 browsing the internet and even writing this note.
 As a developer it's important to take a look at the parts of a computer as it's the machine for
 which we will be developing software for.
 
-*** Parts of a Computer
+** Parts of a Computer
 *Motherboard* : The motherboard is the main part of a computer as it's the circuit board that houses
 all of the other important components. It can be thought of as the skull of the computer.
 *CPU* : CPU stands for Central Processing Unit, it's needed for
@@ -38,7 +40,7 @@ commonly used include:
 2. Sound Cards - Responsible for the audio output of a computer
 3. Network Cards - Responsible for connecting the computer to the internet.
    
-*** Working Effectively With Input Devices
+** Working Effectively With Input Devices
 There are certain ways in which we can improve the efficiency of our work on the computer with
 computer peripherals. We'll take a look at some of the tips we can incorporate in our daily tech
 lives.
@@ -49,7 +51,7 @@ lives.
 5. Using keyboard shortcuts
 6. *MOST IMPORTANTLY* Taking regular breaks
 
-*** Internet Service Providers
+** Internet Service Providers
 Internet Service Providers or ISPs are companies that sell people the access to the global
 internet. There are 3 types of ISPs.
 1. *Tier 1 ISPs* : These are ISPs that can handle most of their network traffic independently. They
@@ -77,7 +79,7 @@ some connections here.
 5. *Satellite Connections* : They transmit data between an array of satellites.
 6. *Cellular Network Connections (4G/5G)* : They transmit data between cellular
 
-*** Sign In Security
+** Sign In Security
 When it comes to your computer it's important to make sure it's password protected. When setting up
 a password use a password that is long and complex, and not an easy password. Passwords should also
 not use personal information such as names, dates and ages. On your computer, if your device allows
@@ -86,7 +88,7 @@ approach when compared to traditional passwords.
 When setting up your passwords for services, using 2FA (two factor authorization) and a password
 manager (E.g.:[[https://proton.me/pass][Proton Pass]]) are recommended.
 
-*** Developer Tools
+** Developer Tools
 In order to create software, developers rely on a bunch of tools to make their work more productive
 and efficient.
 1. *Computers* : Developers have to use a computer in order to write their code. However compared to
@@ -115,7 +117,7 @@ and efficient.
    Thorium. Testing on different browsers is important to make sure the product is accessible by as
    many users as possible.
 
-*** File Management Applications
+** File Management Applications
 A file management application makes it easy to store, organize and view the files on your
 computer. On Windows the default file management application is File Explorer whereas on Mac it's
 finder.
@@ -124,7 +126,7 @@ _clicking the Windows Icon on your taskbar._ Using File Explorer you can pin, co
 around.
 These file management applications provide features like tags,search and Smart Folders.
 
-*** Naming Files for Web Applications
+** Naming Files for Web Applications
 HTML files used for web applications have the extension *.html* after the name of the file. For web
 applications we will also use files like CSS files and JavaScript files which have the extensions
 *.css* and *.js* respectively.
@@ -135,7 +137,7 @@ naming you files.
 The exception to this is *index.html* which is a special file that represents the main page of the
 website. It's the first file that is loaded when you visit a website.
 
-*** File/Folder Organization for Web Applications
+** File/Folder Organization for Web Applications
 When building out web applications (or any applications in general), it makes sense to have all the
 files and folders you need arranged in a way that makes your workflow productive.
 In a file system a root directory is referred to as the top-level directory in a file system, all
@@ -161,7 +163,7 @@ A best practice directory will look like this:
 Personally I like to add a little TODO.org so that I have an idea what I have to do next and a
 little note of what I have already done, or failed doing.
 
-*** Creating, Moving and Deleting Files
+** Creating, Moving and Deleting Files
 In windows while in File Explorer, once you have entered your desire directory you can create a new
 file _by right-clicking and going to the "New" menu and selecting the type of file you would like to_
 _create._ You can also rename files _by either selecting your file and clicking the rename button on_
@@ -179,13 +181,13 @@ to paste these files _simply right-click and select paste or use the Ctrl-V shor
 In order to select multiple files on Windows you can either _click and drag your mouse or use_
 _Ctrl+click over the relevant files (Ctrl+click really helps when the files aren't adjacent)._
 
-*** Searching for Files
+** Searching for Files
 In Windows you used to be able to search for the files you needed using the taskbar, this no longer
 works properly. You could go to the directory where you know the file is and search from there. But honestly
 if you have internalized all the details from the previous chapter you won't need to search for
 anything as you will be well organized to always know where everything is.
 
-*** File Types used in Web Applications
+** File Types used in Web Applications
 Earlier in [[*Naming Files for Web Applications]] we looked at files like .html, .css and .js that we
 will use when we develop web applications. Apart from these we will also use some other files types
 such as:
@@ -205,7 +207,7 @@ Which are some image formats used in web applications.
 13. *Markdown* : Files that can be used to create structured documents (use org though, org files can
     be exported as markdown, html and even pdf)
 
-*** Web Browsers
+** Web Browsers
 Web browsers are appilcations that allow you to access the internet. The current most popular
 browsers are Microsoft Edge, Mozilla Firefox, Google Chrome and Safari. Your system should come with
 a default browser and if you feel like you want to change your browser it's just a matter of looking
@@ -213,7 +215,7 @@ up your preferred browser on your defualt browser and downloading the one you wa
 On some systems you can install a browser using your operating system's package manager like on
 MacOS with homebrew or Arch Linux.
 
-*** Web Terms
+** Web Terms
 We've already looked at what a web browser is, now let's take a look at some terms that are often
 confused for each other, like search engine and website.
 *Web Browsers* : Web browsers are the applications used to navigate the world wide web, they are
@@ -235,7 +237,7 @@ websites are the content of the internet, they can be accessed via search engine
 you know the website you want to go to you don't need a search engine, however if you are not sure
 of where to go you can use a search engine to help you get there.
 
-*** Advanced Search Engine Capabilities
+** Advanced Search Engine Capabilities
 When using your search engine there are certain ways that you can search more efficiently. For
 example if you want to search for a specific phrase you can put that phrase in between *quotation
 marks ("")*. If you want to search for specific words but they do not have to necessarily be together
@@ -257,14 +259,15 @@ Startpage. However, it makes sense to read the documentation on the search engin
 see the exact syntax that is used for these advanced functionalities.
 For more tips on using the Google Search Engine, and by extension Startpage, visit this [[https://woodward.libguides.com/google/basicsearch][site]].
 
-** HTML
+
+* HTML
 HTML stands for Hypertext Markup Language and is a language used for building webpages. When you
 visit a website, its content including headings, paragraphs, sentences, images, videos and links are
 all made of HTML.
 While HTML is enough to create a functional website, and it is considered a best-practice to have
 website functionality in HTML. A modern day website also needs CSS for styling and JavaScript for
 interactivity.
-*** Elements
+** Elements
 HTML is made up of elements. This elements usually have an opening tag and an ending tag. Elements
 that do not have ending tags are referred to as void elements. These elements can also be classified
 as semantic and non-semantic elements. Simply put, semantic elements are elements that have meaning
@@ -318,7 +321,14 @@ Such attributes are referred to as boolean attributes because just like boolean 
 present or absent. Other boolean attributes include disabled, readonly and required which describe
 the state of an element.
 
-*** Boilerplate
+** Comments
+In order to type in comments in HTML we start them with the characters *<!--* and end them with the
+characters *-->*. A full comment will look something like this:
+#+begin_src 
+  <!--This is an HTML comment.-->
+#+end_src
+
+** Boilerplate
 A boilerplate is a readymade template for making websites using HTML. The boilerplate can be
 considered as the skeleton of the site, and you can add the bones and meat to it using the specific
 HTML that is required for the instance, as well as using CSS and JS.
@@ -328,7 +338,7 @@ best-practices.
 As you personalize your own boilerplate, you will realize that it saves time when creating new
 projects and it will become your default starting point for any web project.
 
-*** UTF-8
+** UTF-8
 UTF-8 stands for UCS Transformation Format-8, UCS in turn stands for Universal Character Set. It is
 the standardized character encoding widely used on the web (99% of the web uses UTF-8). The other
 unicode standard that exists (existed) is UTF-16 which is now nearly obsolete with only 0.004% of
@@ -344,7 +354,7 @@ is:
 #+end_src
 Having this code in your boilerplate will also prove efficient.
 
-*** HTML Entities
+** HTML Entities
 As you may have seen when creating your web document you will have used a varying amount of syntax
 including symbols like "<",">" and "=". However sometimes, there may be a need to display those
 symbols on your webpage. An HTML entity is therefore referred to as a set of characters used to
@@ -362,7 +372,7 @@ start with an *ampersand(&)* and end with a *semi-colon(;)* in common.
    hexadecimal numerics that correlate to the relevant symbol. Finally it is also closed with a
    *semi-colon(;)*.
 
-*** Media Assets
+** Media Assets
 In order to enhance the visual aspect of a webpage or to pass out visual inforamtion we will use
 media assets such as images, audios and videos. However it is important to note that using such
 assets will take a heavier toll on the data consumed to retrieve them, loading times and
@@ -395,10 +405,64 @@ of three things has occurred:
 3. You incorporate the media under fair use.
    Fair use requires that your use of the original media is both limited and transformative.
 
-   
-*** Accessibility
+** Paths
+The goal of creating websites is to share content. Now, all of this content may not be on the same
+webpage or it may not be feasible to have it all on the same webpage and therefore it is vital that
+we find a way to like our content to wherever the user is currently. We have already seen the anchor
+element that is used to link content and allow users to move to another site. We have also looked at
+other elements such as images, videos, audios and iframes that allow us to link content of those
+specific nature from a different source.
+Let's take a look at the specificities of those sources. There are two types of paths that exist:
+1. *Relative Paths*
+   These are paths that specify the location of a file relevant to the current file
+2. *Absolute Paths*
+   These are paths that specify the location of a file directly.
+Think of it like this, let's say you are friends with 2 guys: Sam and Jack. Let's also assume that
+your house is next to Jack's. If Sam is at your house and asks where Jack's house is, you are not
+going to describe every street, corner and road you have to take to get there, you'd simply say
+"Oh. He's house is on the right.", however if Sam asked you where Jack's house is from school, you
+might have to explain how to get all the way to Jack's house from Sam's house, or the school or the
+most common *root* you both share.
+That's how these paths work. It's also important to understand that absolute paths and absolute URLs
+are different as well. The former gives the absolute direction to the file within a file system
+whereas the latter gives the absolute directions to the file including the protocols and for web
+resources the domain name as well.
+There are different instances of when we should use relative and absolute paths. For example when
+testing on our own PC we might know the exact paths that the files need to access in order to
+complete their tasks, but when we ship our program to another PC they might not have installed the
+files in the same way and therefore using an absolute path there will cause the program to not
+function correctly. Likewise, when we need to get an exact resource for say, an iframe, from another
+webpage we cannot use a relative path and we have to give the absolute URL.
+Knowing when to use and not to use absolute and relative paths is very important in web development.
+When using relative paths there are some syntax that we should remember. Let us create a new example
+directory and take a look through it:
+#+begin_src
+  Project/
+  |___Resources/
+  |___|___Images/
+  |___|___Videos/
+  |___Site/
+  |___|___index.html
+  |___|___styles.css
+  |___|___scripts.js
+#+end_src
+Let's say our index.html needed to access our styles.css file. In order to for it to access it, we
+will use *a single dot(.)* in order to indicate that we want to access a file that is in the
+subdirectory that we are sharing. So in order to link the relevant file using relative path we will
+use the following link:
+#+begin_src
+  ./styles.css
+#+end_src
+Let's say that there exists a file called favicon.svg in our images folder and we need to access it
+via our index.html. In this case we will use *two double dots(..)* in order to access the parent
+directory (i.e. Project/)
+#+begin_src 
+  ../Resources/Images/favicon.svg
+#+end_src
 
-*** HTML Syntax
+** Accessibility
+
+** HTML Syntax
 This list has been created using the syntax that I have personally encountered and syntax that I am
 much likely to use. For a full reference on all the HTML syntax please refer to this [[https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes][link]].
 1. Anchor/Hyperlink - <a>,</a>
@@ -514,4 +578,19 @@ much likely to use. For a full reference on all the HTML syntax please refer to 
 35. Embedded content - <object>,</object>    
     General purpose embedding tool with little to no use
 
-** CSS
+
+* CSS
+
+** CSS Syntax
+1. Anchor Elements
+   a. Default link state - :link
+   b. Visited links - :visited
+   c. Links being hovered upon - :hover
+   d. Links being focused upon - :focus
+      I personally cannot tell the difference between :focus and :active
+   e. Links that are being actively interacted with - :active
+   When creating a CSS style for anchor elements it is important to style them in this specific
+   order:
+   #+begin_src 
+      :link, :visited, :hover, :focus, :active
+   #+end_src

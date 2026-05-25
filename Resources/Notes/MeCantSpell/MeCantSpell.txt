@@ -1,0 +1,810 @@
+               ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+                RESPONSIVE WEB DESIGN CERTIFICATE NOTES
+
+                              MeCantSpell
+               ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+Table of Contents
+─────────────────
+
+1. Computers Basics
+.. 1. Parts of a Computer
+.. 2. Working Effectively With Input Devices
+.. 3. Internet Service Providers
+.. 4. Sign In Security
+.. 5. Developer Tools
+.. 6. File Management Applications
+.. 7. Naming Files for Web Applications
+.. 8. File/Folder Organization for Web Applications
+.. 9. Creating, Moving and Deleting Files
+.. 10. Searching for Files
+.. 11. File Types used in Web Applications
+.. 12. Web Browsers
+.. 13. Web Terms
+.. 14. Advanced Search Engine Capabilities
+2. HTML
+.. 1. Elements
+.. 2. Comments
+.. 3. Boilerplate
+.. 4. UTF-8
+.. 5. HTML Entities
+.. 6. Media Assets
+.. 7. Paths
+.. 8. Accessibility
+.. 9. HTML Syntax
+3. CSS
+.. 1. CSS Syntax
+
+
+This file contains the notes for my Responsive Web Design Certificate. I
+am following a Bad Website Club bootcamp!
+
+
+1 Computers Basics
+══════════════════
+
+  Computers are machines that allow people to accomplish certain tasks
+  including playing games, browsing the internet and even writing this
+  note.  As a developer it's important to take a look at the parts of a
+  computer as it's the machine for which we will be developing software
+  for.
+
+
+1.1 Parts of a Computer
+───────────────────────
+
+  *Motherboard* : The motherboard is the main part of a computer as it's
+  the circuit board that houses all of the other important
+  components. It can be thought of as the skull of the computer.  *CPU*
+  : CPU stands for Central Processing Unit, it's needed for the computer
+  to function. It's a small square chip tht goes into a CPU Socket on
+  the motherboard. It's speed is calculated in MHz and GHz (Million and
+  Billion Cycles per Second respectively). It's responsible for
+  calculations, providing CPU time for tasks and other functions as
+  well. It can be thought of as the brain of the computer.  *RAM* : RAM
+  stands for Random Access Memory and and it's needed to store important
+  details required to perform functions by the CPU. The CPU takes data
+  and information stored in the RAM when it needs to complete its
+  tasks. Memory stored in the RAM is not persistent among restarts of
+  the computer. Any important data must therefore be saved to the
+  permanent memory. It can be thought of as the short term memory of the
+  computer.  *HDD/SSD* : HDD stands for Hard Disk Drive and is one of
+  the most important storage devices in the history of
+  computers. Utilizing platters and heads it stores data across the
+  platters for retrieval. While in today's modern computers they are
+  overshadowed by their newer counterpart of SSD, standing for Solid
+  State Drives, they are still cheaper and can be found in often larger
+  sizes. These storage devices are persistent and can be considered as
+  the long term memory of the computer.  *PSU* : PSU stands for Power
+  Supply Unit and is the device by which a computer recieves electricity
+  to function. It converts the power from out powerlines into power
+  suitable to be consumed by the computer(AC –> DC). Without it the
+  computer will not function. The PSU can be thought of as the digestive
+  tract of the computer.  *Expansion Cards* : In order to give the
+  computer additional functionality, the motherboard will house certain
+  expansion slots in which expansion cards can be slot in. Expansion
+  cards that are commonly used include:
+  1. Video Cards - Also known as GPUs which help with rendering video
+     graphics.
+  2. Sound Cards - Responsible for the audio output of a computer
+  3. Network Cards - Responsible for connecting the computer to the
+     internet.
+
+
+1.2 Working Effectively With Input Devices
+──────────────────────────────────────────
+
+  There are certain ways in which we can improve the efficiency of our
+  work on the computer with computer peripherals. We'll take a look at
+  some of the tips we can incorporate in our daily tech lives.
+  1. Gripping the mouse gently in a relaxed manner
+  2. Using ergonomic peripherals
+  3. Keeping the mouse at the same height as the keyboard
+  4. Maintaining good posture *(No slouching!)*
+  5. Using keyboard shortcuts
+  6. *MOST IMPORTANTLY* Taking regular breaks
+
+
+1.3 Internet Service Providers
+──────────────────────────────
+
+  Internet Service Providers or ISPs are companies that sell people the
+  access to the global internet. There are 3 types of ISPs.
+  1. *Tier 1 ISPs* : These are ISPs that can handle most of their
+     network traffic independently. They can also access most of the
+     internet without any restrictions.  E.g.: Lumen Technology (Rank 1)
+  2. *Tier 2 ISPs* : These are the ISPs that handle the network of a
+     country mostly. They can access some parts of the internet without
+     restrictions but have to pay to access some parts of the internet.
+     E.g.: Vodafone (Purchases access from Arelion)
+  3. *Tier 3 ISPs* : These are the ISPs that handle regional networks
+     and solely rely on larger ISPs to access parts of the internet.
+     E.g.: Hutch (4 million users though)
+
+  These ISPs will offer different types of connections to access the
+  internet. We'll take a look at some connections here.
+  1. *Fibre Connections* : Transmits data via glass or plastic fibre
+     cables, allows for very high speed connections and data
+     exchanges. (We have fibre UwU)
+  2. *Cable Connections* : Transmits data via television cables making
+     them readily available and accessible in many regions.
+  3. *DSL Connections* : Transmits data via landline cables making them
+     much more accessible than cable connections.
+  4. *Dial-UP Connections* : They also transmit data via landline
+     cables, however they are only able to do one thing at a time
+     (either calls or internet). This is an archaic form of internet
+     connection.
+  5. *Satellite Connections* : They transmit data between an array of
+      satellites.
+  6. *Cellular Network Connections (4G/5G)* : They transmit data between
+      cellular
+
+
+1.4 Sign In Security
+────────────────────
+
+  When it comes to your computer it's important to make sure it's
+  password protected. When setting up a password use a password that is
+  long and complex, and not an easy password. Passwords should also not
+  use personal information such as names, dates and ages. On your
+  computer, if your device allows it, setting up biometric methods
+  (fingerprints, face recognition) to sign in is considered a safer
+  approach when compared to traditional passwords.  When setting up your
+  passwords for services, using 2FA (two factor authorization) and a
+  password manager (E.g.:[Proton Pass]) are recommended.
+
+
+[Proton Pass] <https://proton.me/pass>
+
+
+1.5 Developer Tools
+───────────────────
+
+  In order to create software, developers rely on a bunch of tools to
+  make their work more productive and efficient.
+  1. *Computers* : Developers have to use a computer in order to write
+     their code. However compared to the average user, a developer would
+     require a computer with higher processing power and RAM so they can
+     carryout resource intensive tasks.
+  2. *IDEs/Code Editors* : The software that a developer chooses to
+     write their code in is referred to as a code editor. The software
+     in which this note is being written on (Emacs) is also a code
+     editor. IDEs on the other hand stand for Integrated Development
+     Environments and provide powerful features including code
+     completion, debugging and integrated terminal support (All of this
+     can be kind of added to Emacs, so I dunno… it's also an IDE or
+     something).
+  3. *VC Systems* : When writing code, code is likely to break. Also,
+     when a team is involved in development, different developers will
+     code in different styles and ways. A VC (Version Control) system
+     allows developers to retrieve previous versions of a codebase in
+     case something goes wrong. Think of it as an elaborate undo button
+     for code. The most popular version control system is GitHub (we'll
+     get magit later, don't worry)
+  4. *Package Managers* : When writing complex code, developers will
+     make use of packages and libraries. Package managers simplify the
+     process of adding, updating and removing these packages.  E.g.: PIP
+     for Python
+  5. *Testing Frameworks* : In order to test whether the code that
+     developers have written is functioning as expected. While you can
+     manually test your code by running it through test cases and
+     documenting the pass/fail of your code, a testing framework allows
+     you to automatically do that.  E.g.: pytest for Python
+  6. *Web Browsers* : Developers also need to test what the code looks
+     like visually beyond just the functionality. This can be done using
+     browsers like Mozilla Firefox, Vivaldi, Opera GX, Thorium. Testing
+     on different browsers is important to make sure the product is
+     accessible by as many users as possible.
+
+
+1.6 File Management Applications
+────────────────────────────────
+
+  A file management application makes it easy to store, organize and
+  view the files on your computer. On Windows the default file
+  management application is File Explorer whereas on Mac it's finder.
+  File Explorer can be accessed via the _Start Menu by pressing the
+  Windows Key on your keyboard or by_ _clicking the Windows Icon on your
+  taskbar._ Using File Explorer you can pin, copy and move files around.
+  These file management applications provide features like tags,search
+  and Smart Folders.
+
+
+1.7 Naming Files for Web Applications
+─────────────────────────────────────
+
+  HTML files used for web applications have the extension *.html* after
+  the name of the file. For web applications we will also use files like
+  CSS files and JavaScript files which have the extensions *.css* and
+  *.js* respectively.  While there are no set conventions for naming
+  your web application files, it is recommended that you name them using
+  sensible names and avoid using special characters that can make the
+  name look confusing. Importantly, when working with a team it is vital
+  to follow your team's style-guide when naming you files.  The
+  exception to this is *index.html* which is a special file that
+  represents the main page of the website. It's the first file that is
+  loaded when you visit a website.
+
+
+1.8 File/Folder Organization for Web Applications
+─────────────────────────────────────────────────
+
+  When building out web applications (or any applications in general),
+  it makes sense to have all the files and folders you need arranged in
+  a way that makes your workflow productive.  In a file system a root
+  directory is referred to as the top-level directory in a file system,
+  all other files and sub-directories located within this root directory
+  are referenced via the root directory.  Think of the root directory as
+  the District you live in, and the sub directories point to the street
+  you live in and the files within them finally point to your house (I
+  am in your walls).  A root directory can be represented by a single
+  dot *(.)* You can have sub directories within your directory for the
+  assets used in your website, CSS stylesheets, JS scripts and perhaps
+  one for your webpages.  A best practice directory will look like this:
+  ┌────
+  │ .
+  │ |___/assets
+  │ |___/css
+  │ |___/pages
+  │ |___/js
+  │ |___/admin
+  │ |___/blogs
+  │ |___index.html
+  │ |___README.org
+  └────
+  Personally I like to add a little TODO.org so that I have an idea what
+  I have to do next and a little note of what I have already done, or
+  failed doing.
+
+
+1.9 Creating, Moving and Deleting Files
+───────────────────────────────────────
+
+  In windows while in File Explorer, once you have entered your desire
+  directory you can create a new file _by right-clicking and going to
+  the "New" menu and selecting the type of file you would like to_
+  _create._ You can also rename files _by either selecting your file and
+  clicking the rename button on_ _the top, right-clicking and choosing
+  the rename option, selecting your file and hitting F2 or by_
+  _double-clicking on the name underneath the file._ By default you
+  don't have to enter the extension as files will be saved in their
+  appropriate file extension, in order to change the file extension you
+  can either _enable file extensions on your systema and manually edit
+  the extensions of your desired_ _files or by editing the extension
+  name in your "Save As" prompt when you are initially saving._ Deleting
+  files in Windows is really easy, you just have to _select the files
+  you want to delete and_ _press the del key, use the delete option on
+  the top or right-click and select the delete option._ In order to move
+  files you will either have to copy/cut and paste them elsewhere. You
+  can copy files _by selecting the desired files and right-clicking to
+  copy or using the Ctrl-C shortcut_. You can cut files _by selecting
+  the desired files and right-clicking to cut orusing the Ctrl-X
+  shortcut._ Finally, to paste these files _simply right-click and
+  select paste or use the Ctrl-V shortcut._ In order to select multiple
+  files on Windows you can either _click and drag your mouse or use_
+  _Ctrl+click over the relevant files (Ctrl+click really helps when the
+  files aren't adjacent)._
+
+
+1.10 Searching for Files
+────────────────────────
+
+  In Windows you used to be able to search for the files you needed
+  using the taskbar, this no longer works properly. You could go to the
+  directory where you know the file is and search from there. But
+  honestly if you have internalized all the details from the previous
+  chapter you won't need to search for anything as you will be well
+  organized to always know where everything is.
+
+
+1.11 File Types used in Web Applications
+────────────────────────────────────────
+
+  Earlier in 1.7 we looked at files like .html, .css and .js that we
+  will use when we develop web applications. Apart from these we will
+  also use some other files types such as:
+  1. *JPEG* : Joint Photographic Experts Group
+  2. *PNG* : Portable Network Graphics
+  3. *GIF* : Graphics Interchange Format (pronounced JIF)
+  4. *SVG* : Scalable Vector Graphics
+  Which are some image formats used in web applications.
+  5. *MP3* : A lossy audio format
+  6. *WAV* : A lossless audio format
+  7. *MP4* : The most common video format
+  8. *WebM* : A high-quality lossless open-source video format
+  9. *TFF* : A font format
+  10. *WOFF* : A modern font format
+  11. *WOFF2* : WOFF but 2
+  12. *ZIP* : Compressed folders
+  13. *Markdown* : Files that can be used to create structured documents
+      (use org though, org files can be exported as markdown, html and
+      even pdf)
+
+
+1.12 Web Browsers
+─────────────────
+
+  Web browsers are appilcations that allow you to access the
+  internet. The current most popular browsers are Microsoft Edge,
+  Mozilla Firefox, Google Chrome and Safari. Your system should come
+  with a default browser and if you feel like you want to change your
+  browser it's just a matter of looking up your preferred browser on
+  your defualt browser and downloading the one you want.  On some
+  systems you can install a browser using your operating system's
+  package manager like on MacOS with homebrew or Arch Linux.
+
+
+1.13 Web Terms
+──────────────
+
+  We've already looked at what a web browser is, now let's take a look
+  at some terms that are often confused for each other, like search
+  engine and website.  *Web Browsers* : Web browsers are the
+  applications used to navigate the world wide web, they are commonly
+  found with features such as an address bar, rendering engine,
+  bookmarks, extensions and various security pages.  *Websites* :
+  Websites on the other hand are the content that is made available on
+  the World Wide Web and can be accessed through your web browser. They
+  are a collection of web pages and other files, and consist of a domain
+  name and the web pages that make them. Websites often include
+  multimedia and can also be static (content rarely changes) or dynamic
+  (content frequently changes) depending on the needs of the publisher.
+  *Search Engines* : Search engines are web-based tools designed to help
+  users find the content that they are looking for on the internet. Key
+  aspects of search-engines include web crawlers also known as spiders
+  or bots, which are prorgams that systematically browse the web to
+  discover and index new content. They also have complex algorithms that
+  rank the content that they have indexed and display them to the user
+  based on factors such as relevance, authority, popularity and user
+  experience.  Popular search engines include Google, Bing, Yahoo, and
+  DuckDuckGo.  Broswers, search engines and websites are all
+  interconnected. It can be simply thought of this, websites are the
+  content of the internet, they can be accessed via search engines or
+  browsers. If you know the website you want to go to you don't need a
+  search engine, however if you are not sure of where to go you can use
+  a search engine to help you get there.
+
+
+1.14 Advanced Search Engine Capabilities
+────────────────────────────────────────
+
+  When using your search engine there are certain ways that you can
+  search more efficiently. For example if you want to search for a
+  specific phrase you can put that phrase in between *quotation marks
+  ("")*. If you want to search for specific words but they do not have
+  to necessarily be together you can use the *plus symbol (+)* before
+  the words. If you want your search engine to not return search results
+  with certain words you can instead use the *minus symbol (-)*. To
+  search within a specific website or domain you can use the following
+  syntax *site:* A few example searches may look like this:
+  ┌────
+  │ "freecodecamp curriculum"
+  └────
+  This one will return only results that have the exact phrase of
+  "freecodecamp curriculum".
+  ┌────
+  │ site:freecodecamp.org/news +python -curriculum
+  └────
+  This one looks at any webpages with the domain freecodecamp.org and
+  within their "news" path.  Note that search engines are not
+  case-sensitive and essentially convert all searches to lower case. The
+  above capabilities will be available on Google Search Engine, and also
+  work on Startpage. However, it makes sense to read the documentation
+  on the search engine you are using to see the exact syntax that is
+  used for these advanced functionalities.  For more tips on using the
+  Google Search Engine, and by extension Startpage, visit this [site].
+
+
+[site] <https://woodward.libguides.com/google/basicsearch>
+
+
+2 HTML
+══════
+
+  HTML stands for Hypertext Markup Language and is a language used for
+  building webpages. When you visit a website, its content including
+  headings, paragraphs, sentences, images, videos and links are all made
+  of HTML.  While HTML is enough to create a functional website, and it
+  is considered a best-practice to have website functionality in HTML. A
+  modern day website also needs CSS for styling and JavaScript for
+  interactivity.
+
+
+2.1 Elements
+────────────
+
+  HTML is made up of elements. This elements usually have an opening tag
+  and an ending tag. Elements that do not have ending tags are referred
+  to as void elements. These elements can also be classified as semantic
+  and non-semantic elements. Simply put, semantic elements are elements
+  that have meaning whereas non-semantic elements are elements that do
+  not have meaning.  Using semantic elements over non-semantic elements
+  has certain benefits including increased accessibility for screen
+  readers, enhanced SEO for search engine indexing and finally to
+  increase code readability.  After the opening tag of an element we
+  will enter in the content. If the element also has a closing tag, once
+  we are done entering our content we will use the closing tag to close
+  it, otherwise if it is a void element there is no need.  HTML tags are
+  case-insensitive, however the widely adopted best-practice is to use
+  simple-case letters when typing them in. Most tags will start with *<*
+  and end with *>*. For example:
+  ┌────
+  │ <p>
+  └────
+  A closing tag however will also include a forward slash */* as
+  well. Taking the above example:
+  ┌────
+  │ </p>
+  └────
+  We have explained that void tags do not have a closing tag earlier,
+  and therefore they will follow the convention of the opening
+  tags. However, one can write a void tag as such and it will be valid:
+  ┌────
+  │ <img/>
+  └────
+  Many code formatters indeed choose to format void tags like
+  this. However the HTML spec states that the presence of */* "does not
+  mark the start tag as self-closing but instead is unnecessary and has
+  no effect of any kind".  Some elements will take in values known as
+  attributes that define the way the content will behave in said tag is
+  displayed. The basic syntax for an attribute is the attribute name
+  followed by an *=* sign For example the image element will take in
+  attributes such as *src* which indicates the source/location of the
+  image and *alt* which gives alternative text for the user in case the
+  image isn't displayed correctly. For example:
+  ┌────
+  │ <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/catsjpg" alt="Two tabby kittens sleeping together on a couch." >
+  └────
+  Another example is the attributes used for hyperlinks. Hyperlinks are
+  created using the anchor element *<a>*, and attributes such as *href*
+  and *target* can be used. "href" refers to href stands for hypertext
+  reference and is the reference link of the hyperlink and the target
+  attribute indicates how the hyperlink will open up. For example:
+  ┌────
+  │ <a href="https://www.freecodecamp.org" target="_blank"> Visit freeCodeCamp </a>
+  └────
+  The *_blank* value of the target attribute indicates that this
+  hyperlink must be opened in a new tab.  Just like how some elements
+  are unique in their syntax some attributes are also unique in their
+  syntax like the *checked* attribute which indicates whether or not an
+  input element of the type checkbox is checked by default.
+  ┌────
+  │ <input type="checkbox" checked/>
+  └────
+  Such attributes are referred to as boolean attributes because just
+  like boolean they can either be present or absent. Other boolean
+  attributes include disabled, readonly and required which describe the
+  state of an element.
+
+
+2.2 Comments
+────────────
+
+  In order to type in comments in HTML we start them with the characters
+  *<!–* and end them with the characters *–>*. A full comment will look
+  something like this:
+  ┌────
+  │ <!--This is an HTML comment.-->
+  └────
+
+
+2.3 Boilerplate
+───────────────
+
+  A boilerplate is a readymade template for making websites using
+  HTML. The boilerplate can be considered as the skeleton of the site,
+  and you can add the bones and meat to it using the specific HTML that
+  is required for the instance, as well as using CSS and JS.  A
+  boilerplate is important because it ensures that your pages are
+  structured correctly and work well across multiple web browsers. Using
+  a boilerplate helps you avoid common mistakes and follow
+  best-practices.  As you personalize your own boilerplate, you will
+  realize that it saves time when creating new projects and it will
+  become your default starting point for any web project.
+
+
+2.4 UTF-8
+─────────
+
+  UTF-8 stands for UCS Transformation Format-8, UCS in turn stands for
+  Universal Character Set. It is the standardized character encoding
+  widely used on the web (99% of the web uses UTF-8). The other unicode
+  standard that exists (existed) is UTF-16 which is now nearly obsolete
+  with only 0.004% of cwebpages using it.  Using UTF-8 and by that
+  extent, setting it as the characterset in a meta element in your
+  webpages, is crucial to maintaining the standards of the internet as
+  it supports every character in the Unicode set from all writing
+  systems, languages and techincal symbols. It's why you can type in
+  Tamil and Sinhala and Emojis.  The syntax that is therefore required
+  to enter into your webpage withing the <head></head> element is:
+  ┌────
+  │ <meta charset="UTF-8" />
+  └────
+  Having this code in your boilerplate will also prove efficient.
+
+
+2.5 HTML Entities
+─────────────────
+
+  As you may have seen when creating your web document you will have
+  used a varying amount of syntax including symbols like "<",">" and
+  "=". However sometimes, there may be a need to display those symbols
+  on your webpage. An HTML entity is therefore referred to as a set of
+  characters used to represent a reserved charcter in HTML. They are
+  also known as character references.  There are three different types
+  of character references but it is important to note that all of them
+  start with an *ampersand(&)* and end with a *semi-colon(;)* in common.
+  1. *Named character references*: Named character references start with
+     *an *ampersand(&)* and end with a semi-colon(;)*. These are
+     *references that are used for actual HTML elements and prevents the
+     *parser from confusing them for the actual elements.
+  2. *Decimal numeric reference*: Here the reference starts with the
+     usual *ampersand(&)* but is followed immediately by a *hash(#)*
+     symbol. Here specific decimal numerics that correlate to the
+     relevant symbol are used instead. Then it is finally ended with a
+     *semi-colon(;)*
+  3. *Hexadecimal numeric reference*: Just like the decimal numeric
+     *reference, it starts with an ampersand(&)*, *hash(#)* but is the
+     *followed by the simple letter *x* then it is followed by the ASCII
+     *hexadecimal numerics that correlate to the relevant
+     *symbol. Finally it is also closed with a semi-colon(;)*.
+
+
+2.6 Media Assets
+────────────────
+
+  In order to enhance the visual aspect of a webpage or to pass out
+  visual inforamtion we will use media assets such as images, audios and
+  videos. However it is important to note that using such assets will
+  take a heavier toll on the data consumed to retrieve them, loading
+  times and storage. Therefore using these media assets in an optimal
+  way is encouraged and a best practice. There are three important
+  things to consider when using an image, they are the display size,
+  file format and compression.  When it comes to the display size, it is
+  important to remember that our media assets should match the size we
+  are displaying on our webpage. If our webpage is displaying an image
+  that is 640x480 but the image has not been scaled down and is instead
+  a 1920x1080 image, we are making the users download additional data
+  and storing unnecessary data as well.  When it comes to format it is
+  important to use the most ideal format, while PNGs and JPEGs are the
+  most common formats for images, they are not the most ideal formats
+  and instead you should use WEBP or AVIF formats. Below we will give a
+  list of optimal file formats for various media assets:
+  1. *Images*: *WEBP*, AVIF, *SVG*
+  2. *Audios*: *OGG*, *WEBM*, WAV, M4A, MP3
+  3. *Videos*: *WEBM*, MP4 Note however that MP4 with codecs like H.264
+     and HVEC may open you up to legal issues
+  Finally it must be noted that in order to make our files smaller and
+  more efficient, we can make use of compression algorithms. Note that
+  compression takes two forms: lossy and lossless. Their names are
+  self-explanatory. One of them preserves the quality of the original,
+  whereas the other loses data to reduce its size.  Another important
+  point to consider when using media assets in your webpages, is the
+  license they hold. By default all creative works released are released
+  with all rights reserved, meaning the creator or publisher holds all
+  the rights for the media asset. Such assets cannot be used unless one
+  of three things has occurred:
+  1. You have expressed written permission by the author.
+  2. You have purchased a licensing fee.
+  3. You incorporate the media under fair use.  Fair use requires that
+     your use of the original media is both limited and transformative.
+
+
+2.7 Paths
+─────────
+
+  The goal of creating websites is to share content. Now, all of this
+  content may not be on the same webpage or it may not be feasible to
+  have it all on the same webpage and therefore it is vital that we find
+  a way to like our content to wherever the user is currently. We have
+  already seen the anchor element that is used to link content and allow
+  users to move to another site. We have also looked at other elements
+  such as images, videos, audios and iframes that allow us to link
+  content of those specific nature from a different source.  Let's take
+  a look at the specificities of those sources. There are two types of
+  paths that exist:
+  1. *Relative Paths* These are paths that specify the location of a
+     file relevant to the current file
+  2. *Absolute Paths* These are paths that specify the location of a
+     file directly.
+  Think of it like this, let's say you are friends with 2 guys: Sam and
+  Jack. Let's also assume that your house is next to Jack's. If Sam is
+  at your house and asks where Jack's house is, you are not going to
+  describe every street, corner and road you have to take to get there,
+  you'd simply say "Oh. He's house is on the right.", however if Sam
+  asked you where Jack's house is from school, you might have to explain
+  how to get all the way to Jack's house from Sam's house, or the school
+  or the most common *root* you both share.  That's how these paths
+  work. It's also important to understand that absolute paths and
+  absolute URLs are different as well. The former gives the absolute
+  direction to the file within a file system whereas the latter gives
+  the absolute directions to the file including the protocols and for
+  web resources the domain name as well.  There are different instances
+  of when we should use relative and absolute paths. For example when
+  testing on our own PC we might know the exact paths that the files
+  need to access in order to complete their tasks, but when we ship our
+  program to another PC they might not have installed the files in the
+  same way and therefore using an absolute path there will cause the
+  program to not function correctly. Likewise, when we need to get an
+  exact resource for say, an iframe, from another webpage we cannot use
+  a relative path and we have to give the absolute URL.  Knowing when to
+  use and not to use absolute and relative paths is very important in
+  web development.  When using relative paths there are some syntax that
+  we should remember. Let us create a new example directory and take a
+  look through it:
+  ┌────
+  │ Project/
+  │ |___Resources/
+  │ |___|___Images/
+  │ |___|___Videos/
+  │ |___Site/
+  │ |___|___index.html
+  │ |___|___styles.css
+  │ |___|___scripts.js
+  └────
+  Let's say our index.html needed to access our styles.css file. In
+  order to for it to access it, we will use *a single dot(.)* in order
+  to indicate that we want to access a file that is in the subdirectory
+  that we are sharing. So in order to link the relevant file using
+  relative path we will use the following link:
+  ┌────
+  │ ./styles.css
+  └────
+  Let's say that there exists a file called favicon.svg in our images
+  folder and we need to access it via our index.html. In this case we
+  will use *two double dots(..)* in order to access the parent directory
+  (i.e. Project/)
+  ┌────
+  │ ../Resources/Images/favicon.svg
+  └────
+
+
+2.8 Accessibility
+─────────────────
+
+
+2.9 HTML Syntax
+───────────────
+
+  This list has been created using the syntax that I have personally
+  encountered and syntax that I am much likely to use. For a full
+  reference on all the HTML syntax please refer to this [link].
+  1. Anchor/Hyperlink - <a>,</a>
+     1. Hypertext Reference - href
+     2. Browsing Context - target ("_self" for the same tab, "_blank"
+        for a new tab or new window, there are other values as well but
+        since they are values that deal with the now obsolete frames we
+        will ignore them)
+  2. Blink - <blink>,</blink> Blink is now a depecrated HTML syntax
+  3. Body - <body>,</body>
+  4. Bold - <b>,</b>
+  5. Content Division - <div>,</div>
+  6. Figure - <figure>,</figure> The figure is a new element introduced
+     in HTML5 with the goal of adding semantics to figures including
+     images, video clips, drawings and other visual content. Within the
+     figure element you can add <figcaption></figcaption> that will add
+     a caption to the image/s as well as the images themselves.
+  7. Head - <head>,</head>
+  8. Headings - <h1 - 6>,</h1 - 6>
+     1. Create a unique id for CSS styling - id
+     2. Create a class to share CSS styling among multiple elements -
+        class
+  9. HTML - <html>,</html> Webpage language - lang
+  10. HTML initialization - <!DOCTYPE html>
+  11. Image - <img/>
+      1. Source - src
+      2. Alternative Text - alt
+  12. Input - <input/>
+      1. Type - type Sets the type of input obtained (checkbox,
+         password, email, url)
+      2. Autocrrect - autocorrect
+      3. Defualt check for checkbox - checked
+      4. Disable element by default - disabled
+      5. Make element immutable - readonly
+      6. Makes the element mandatorily accept a value - required
+  13. Italicize - <i>,</i>
+  14. Linking to external resources - <link/>
+      1. Defining the relationship - rel Sets the relationship type
+         (stylesheet, preconnect, icon)
+      2. Hyperlink reference - href
+  15. Main - <main>,</main>
+  16. Metadata - <meta/> Defining the character set - charset Defining a
+      metadata - name Entering content for the metadata - content
+  17. Moving around - <marquee>,</marquee> Marquee is now a depecrated
+      HTML syntax
+  18. Paragraph - <p>,</p>
+      1. Create a unique id for CSS styling - id
+      2. Create a class to share CSS styling among multiple elements -
+         class
+  19. Semantic Sections - <section>,</section>
+  20. Title - <title>,</title> Title is displayed on the browser tab
+      1. Create a unique id for CSS styling - id
+      2. Create a class to share CSS styling among multiple elements -
+         class
+  21. Emphasis (Semantic Italicization) - <em>,</em>
+  22. Strong (Semantic Bold) - <strong>,</strong>
+  23. Adding scripting languages - <script>,</script>
+  24. Content Division - <div>,</div> Division elements are non-semantic
+      meaning they don't carry meaning. They are useful for grouping
+      together elements that need to share the same CSS
+      styling. However, more often than not there is usually a more
+      appropriate semantic element that can be used instead.
+      1. Create a unique id for CSS styling - id
+      2. Create a class to share CSS styling among multiple elements -
+         class
+  25. Section - <section>,</section>
+  26. Audio - <audio>,</audio>
+      1. Source - src
+      2. Audio Controls - controls
+      3. Autoplay Audio - autoplay
+      4. Mute audio by default - muted
+      5. Loop audio - loop
+      6. Video Format - type
+  27. Source - <source/> Used as a nested element to store multiple
+      sources for its parent element.
+  28. Video - <video>,</video>
+      1. Source - src
+      2. Video Controls - controls
+      3. Autoplay video - autoplay
+      4. Mute audio by default - muted
+      5. Loop video - loop
+      6. Adjust width - width
+      7. Put a video thumbnail while the video is downloading - poster
+      8. Video Format - type
+  29. Audio and video text tracks - <track/>
+      1. Source - src
+      2. Kind/Type of track - kind Values can be captions (includes
+         descriptions of sounds), subtitles, chapters (for navigation),
+         descriptions (summary of the media) and metadata
+      3. Language - srclang
+      4. Language Label - label
+      5. Enable the track by default - default
+  30. Inline Frame used to embed content such as videos, maps and
+      documents - <iframe>,</iframe>
+      1. Source - src
+      2. HTML Source - srcdoc
+      3. Width - width
+      4. Height - height
+      5. Title which works like alt-text - title
+      6. Allowing what the iframe can do - allow
+  31. SVG - <svg>,</svg>
+      1. Width - width
+      2. Height - height
+      3. How much the browser will display - viewbox
+  32. SVG Circles - <circle/>
+      1. Border - stroke
+      2. Border width - stroke-width
+      3. Colour fill - fill
+  33. SVG Paths - <path/>
+      1. Path colour - stroke
+      2. Path width - stroke-width
+      3. Area between path colour - fill
+  34. Embedded content - <embed>,</embed> General purpose embedding tool
+      with little to no use
+  35. Embedded content - <object>,</object> General purpose embedding
+      tool with little to no use
+
+
+[link]
+<https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes>
+
+
+3 CSS
+═════
+
+3.1 CSS Syntax
+──────────────
+
+  1. Anchor Elements
+     1. Default link state - :link
+     2. Visited links - :visited
+     3. Links being hovered upon - :hover
+     4. Links being focused upon - :focus I personally cannot tell the
+        difference between :focus and :active
+     5. Links that are being actively interacted with - :active
+     When creating a CSS style for anchor elements it is important to
+     style them in this specific order:
+     ┌────
+     │ :link, :visited, :hover, :focus, :active
+     └────
