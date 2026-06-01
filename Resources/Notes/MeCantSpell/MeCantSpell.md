@@ -1,39 +1,44 @@
 
 # Table of Contents
 
-1.  [Computers Basics](#org8ab7ff3)
-    1.  [Parts of a Computer](#orge06f7c5)
-    2.  [Working Effectively With Input Devices](#org349b7b9)
-    3.  [Internet Service Providers](#orgba67e5c)
-    4.  [Sign In Security](#org7b30b60)
-    5.  [Developer Tools](#org3e838c9)
-    6.  [File Management Applications](#org7accea6)
-    7.  [Naming Files for Web Applications](#org77dc272)
-    8.  [File/Folder Organization for Web Applications](#orge29e4d4)
-    9.  [Creating, Moving and Deleting Files](#org50f3ac8)
-    10. [Searching for Files](#org3759a4b)
-    11. [File Types used in Web Applications](#org30ae90d)
-    12. [Web Browsers](#org6bb830e)
-    13. [Web Terms](#orgee113d0)
-    14. [Advanced Search Engine Capabilities](#org2b7678f)
-2.  [HTML](#orgb908cd2)
-    1.  [Elements](#orgeb7cae3)
-    2.  [Comments](#orgbb733f9)
-    3.  [Boilerplate](#orgf2605a8)
-    4.  [UTF-8](#org74ebc07)
-    5.  [HTML Entities](#org5fae93c)
-    6.  [Media Assets](#org8c1be2d)
-    7.  [Paths](#org6520450)
-    8.  [Accessibility](#org47b9ea6)
-    9.  [HTML Syntax](#orge186560)
-3.  [CSS](#org9a9e84b)
-    1.  [CSS Syntax](#org04a44e2)
+1.  [Computers Basics](#orga8ecbc0)
+    1.  [Parts of a Computer](#org494ad74)
+    2.  [Working Effectively With Input Devices](#orge0a1737)
+    3.  [Internet Service Providers](#org8e0807c)
+    4.  [Sign In Security](#org416ae24)
+    5.  [Developer Tools](#orgb1699e0)
+    6.  [File Management Applications](#orge170332)
+    7.  [Naming Files for Web Applications](#orge53b5bd)
+    8.  [File/Folder Organization for Web Applications](#orgfa10606)
+    9.  [Creating, Moving and Deleting Files](#org0a9e411)
+    10. [Searching for Files](#orgc27cd99)
+    11. [File Types used in Web Applications](#orgff9fdc1)
+    12. [Web Browsers](#orgd76f487)
+    13. [Web Terms](#orga0c6a66)
+    14. [Advanced Search Engine Capabilities](#orgb535715)
+2.  [HTML](#orgffdacf3)
+    1.  [Elements](#org0c1b39e)
+    2.  [Comments](#org1857334)
+    3.  [Boilerplate](#org591f2ef)
+    4.  [UTF-8](#orgeab63c2)
+    5.  [HTML Entities](#org22ec701)
+    6.  [Media Assets](#orge0b1158)
+    7.  [Paths](#org610d24a)
+    8.  [Accessibility](#orgb1d8251)
+        1.  [Fundamentals of Accessibility](#orgf13cd56)
+        2.  [Screen Readers](#org8336d60)
+        3.  [I/O Devices](#orgaf91652)
+        4.  [Screen Magnifiers](#org11f1cda)
+        5.  [Voice Recognition Software](#org6186a02)
+    9.  [HTML Syntax](#org898d53b)
+3.  [CSS](#orgfdb357c)
+    1.  [CSS Syntax](#orge424be7)
 
 This file contains the notes for my Responsive Web Design Certificate. I am following a Bad Website
 Club bootcamp!
 
 
-<a id="org8ab7ff3"></a>
+<a id="orga8ecbc0"></a>
 
 # Computers Basics
 
@@ -43,7 +48,7 @@ As a developer it's important to take a look at the parts of a computer as it's 
 which we will be developing software for.
 
 
-<a id="orge06f7c5"></a>
+<a id="org494ad74"></a>
 
 ## Parts of a Computer
 
@@ -78,7 +83,7 @@ commonly used include:
 3.  Network Cards - Responsible for connecting the computer to the internet.
 
 
-<a id="org349b7b9"></a>
+<a id="orge0a1737"></a>
 
 ## Working Effectively With Input Devices
 
@@ -94,7 +99,7 @@ lives.
 6.  **MOST IMPORTANTLY** Taking regular breaks
 
 
-<a id="orgba67e5c"></a>
+<a id="org8e0807c"></a>
 
 ## Internet Service Providers
 
@@ -128,7 +133,7 @@ some connections here.
 6.  **Cellular Network Connections (4G/5G)** : They transmit data between cellular
 
 
-<a id="org7b30b60"></a>
+<a id="org416ae24"></a>
 
 ## Sign In Security
 
@@ -141,7 +146,7 @@ When setting up your passwords for services, using 2FA (two factor authorization
 manager (E.g.:[Proton Pass](https://proton.me/pass)) are recommended.
 
 
-<a id="org3e838c9"></a>
+<a id="orgb1699e0"></a>
 
 ## Developer Tools
 
@@ -175,7 +180,7 @@ and efficient.
     many users as possible.
 
 
-<a id="org7accea6"></a>
+<a id="orge170332"></a>
 
 ## File Management Applications
 
@@ -188,7 +193,7 @@ around.
 These file management applications provide features like tags,search and Smart Folders.
 
 
-<a id="org77dc272"></a>
+<a id="orge53b5bd"></a>
 
 ## Naming Files for Web Applications
 
@@ -203,7 +208,7 @@ The exception to this is **index.html** which is a special file that represents 
 website. It's the first file that is loaded when you visit a website.
 
 
-<a id="orge29e4d4"></a>
+<a id="orgfa10606"></a>
 
 ## File/Folder Organization for Web Applications
 
@@ -233,7 +238,7 @@ Personally I like to add a little TODO.org so that I have an idea what I have to
 little note of what I have already done, or failed doing.
 
 
-<a id="org50f3ac8"></a>
+<a id="org0a9e411"></a>
 
 ## Creating, Moving and Deleting Files
 
@@ -255,7 +260,7 @@ In order to select multiple files on Windows you can either <span class="underli
 <span class="underline">Ctrl+click over the relevant files (Ctrl+click really helps when the files aren't adjacent).</span>
 
 
-<a id="org3759a4b"></a>
+<a id="orgc27cd99"></a>
 
 ## Searching for Files
 
@@ -265,11 +270,11 @@ if you have internalized all the details from the previous chapter you won't nee
 anything as you will be well organized to always know where everything is.
 
 
-<a id="org30ae90d"></a>
+<a id="orgff9fdc1"></a>
 
 ## File Types used in Web Applications
 
-Earlier in [1.7](#org77dc272) we looked at files like .html, .css and .js that we
+Earlier in [1.7](#orge53b5bd) we looked at files like .html, .css and .js that we
 will use when we develop web applications. Apart from these we will also use some other files types
 such as:
 
@@ -292,7 +297,7 @@ Which are some image formats used in web applications.
     be exported as markdown, html and even pdf)
 
 
-<a id="org6bb830e"></a>
+<a id="orgd76f487"></a>
 
 ## Web Browsers
 
@@ -304,7 +309,7 @@ On some systems you can install a browser using your operating system's package 
 MacOS with homebrew or Arch Linux.
 
 
-<a id="orgee113d0"></a>
+<a id="orga0c6a66"></a>
 
 ## Web Terms
 
@@ -330,7 +335,7 @@ you know the website you want to go to you don't need a search engine, however i
 of where to go you can use a search engine to help you get there.
 
 
-<a id="org2b7678f"></a>
+<a id="orgb535715"></a>
 
 ## Advanced Search Engine Capabilities
 
@@ -356,7 +361,7 @@ see the exact syntax that is used for these advanced functionalities.
 For more tips on using the Google Search Engine, and by extension Startpage, visit this [site](https://woodward.libguides.com/google/basicsearch).
 
 
-<a id="orgb908cd2"></a>
+<a id="orgffdacf3"></a>
 
 # HTML
 
@@ -368,7 +373,7 @@ website functionality in HTML. A modern day website also needs CSS for styling a
 interactivity.
 
 
-<a id="orgeb7cae3"></a>
+<a id="org0c1b39e"></a>
 
 ## Elements
 
@@ -426,7 +431,7 @@ present or absent. Other boolean attributes include disabled, readonly and requi
 the state of an element.
 
 
-<a id="orgbb733f9"></a>
+<a id="org1857334"></a>
 
 ## Comments
 
@@ -436,7 +441,7 @@ characters **&#x2013;>**. A full comment will look something like this:
     <!--This is an HTML comment.-->
 
 
-<a id="orgf2605a8"></a>
+<a id="org591f2ef"></a>
 
 ## Boilerplate
 
@@ -450,7 +455,7 @@ As you personalize your own boilerplate, you will realize that it saves time whe
 projects and it will become your default starting point for any web project.
 
 
-<a id="org74ebc07"></a>
+<a id="orgeab63c2"></a>
 
 ## UTF-8
 
@@ -470,7 +475,7 @@ is:
 Having this code in your boilerplate will also prove efficient.
 
 
-<a id="org5fae93c"></a>
+<a id="org22ec701"></a>
 
 ## HTML Entities
 
@@ -493,7 +498,7 @@ start with an **ampersand(&)** and end with a **semi-colon(;)** in common.
     **semi-colon(;)**.
 
 
-<a id="org8c1be2d"></a>
+<a id="orge0b1158"></a>
 
 ## Media Assets
 
@@ -533,7 +538,7 @@ of three things has occurred:
     Fair use requires that your use of the original media is both limited and transformative.
 
 
-<a id="org6520450"></a>
+<a id="org610d24a"></a>
 
 ## Paths
 
@@ -593,12 +598,107 @@ directory (i.e. Project/)
     ../Resources/Images/favicon.svg
 
 
-<a id="org47b9ea6"></a>
+<a id="orgb1d8251"></a>
 
 ## Accessibility
 
 
-<a id="orge186560"></a>
+<a id="orgf13cd56"></a>
+
+### Fundamentals of Accessibility
+
+Accessibility is the process of making products and services that everyone can use. The major goal
+of accessibility is to target people with various disabilities and various severities. In the case
+of web development the goal is to make websites that are accessible by everyone across the internet.
+In order to help create accessible websites, the World Wide Web Consortium (W3C); the people in
+charge of making a standardized web, have a set of standards that must be followed to make
+accessible content known as WCAG (Web Content Accessibility Guidelines). These guidelines are made
+with 4 core principles in mind:
+
+1.  **Perceivable**: The content must be perceivable by all users.
+2.  **Operable**: The content must be operable by all users.
+    For example, some users may not be able to use a mouse and may need to navigate your webpage
+    using only the keyboard.
+3.  **Understandable**: The content must be easily understandable by all users.
+4.  **Robust**: The content must be interpreted by a wide range of tools including browsers and other
+    tools that may be used to help with accessibility (for example: a screen reader)
+
+These 4 core principles can be remembered using the acronymn: "**POUR**"
+
+
+<a id="org8336d60"></a>
+
+### Screen Readers
+
+When it comes to the topic of accessibility we mentioned earlier that there are certain tools that
+can be used to "**O**-perate" the web. One of the more infamous ones is the screen-reader. While it's
+most commonly thought as a device used to help people who are visually impaired, it can also help
+people who have cognitive disabilities and dyslexia as well. Almost all OS come with built-in screen
+readers:
+
+1.  **Windows**: Windows Narrator (can be accessed by using the shortcut <span class="underline">WIN+CTRL+ENTER</span>)
+2.  **iOS & MacOS**: VoiceOver (on MacOS can be accessed via <span class="underline">CMD+F5</span> and for iOS via <span class="underline">settings</span>)
+3.  **Linux**: Orca for desktop environments and Speakup for terminal.
+4.  **Android**: Talkback, Ella and Select to Speak. (can be accessed via <span class="underline">settings</span>)
+
+Despite this wide range of availability of screen readers, not to mention the third-party screen
+readers not mentioned here, a lot of people have a hard time navigating the web using screen
+readers, this is because despite the extensive guidelines provided by the W3C, many developers still
+create their websites in a way that is inaccessible to users.
+
+
+<a id="orgaf91652"></a>
+
+### I/O Devices
+
+Apart from this particular tool, there are other devices that also help enhance accessibility. For
+example our day to day keyboard can also be made with larger keys with high contaasting colours to
+help people with visual impairments. Keyboards with braille can help people who are completely blind
+to navigate the web. The mouse which is a pointing device can also be replaced by alternatives such
+as the trackball, touchpad and joystick. Trackballs limit the physical movement a user has to make,
+making it more accessible for people who have mobility issues. Touchpads also are more accessible
+because they can both function as a more traditional mouse while at the same time adding extra
+functionality (for example: pinch-to-zoom). And joysticks have a limited number of precise
+movements, while they make it ideal for gamers, they can also be an accessible pointing device that
+can be used by people who have tremors in their hands.
+
+
+<a id="org11f1cda"></a>
+
+### Screen Magnifiers
+
+Screen magnifiers also help people who are visually impaired by making the content on the screen
+larger to view. While most browsers can accommodate upto 200% magnification, a screen magnifier can
+go beyond that, sometimes even surpassing 500%. Most operating systems come with a built-in screen
+magnifier just like screen-readers:
+
+1.  **Windows**: Magnifier (can be accessed via <span class="underline">settings -> Ease of Access -> Magnifier</span> or by <span class="underline">simply</span>
+    <span class="underline">typing "magnifier" in the Windows search bar</span>)
+2.  **iOS & MacOS**: Zoom (can be accessed via <span class="underline">settings</span>)
+3.  **Android**: Magnification (can be accessed via <span class="underline">settings -> special function -> accessibility</span>
+    <span class="underline">->magnification</span>)
+4.  **Linux**: Zoom or Magnifier
+    Depends on the distro that you are using.
+
+Other than these in-built ones, there are also a bunch of third-party screen magnifiers as well.
+However it is important for web developers to remember to make
+web pages that can also accomodate screen magnifiers. Here are some tips to make your webpages
+accessible to people who use screen magnifiers:
+
+1.  Using scalable fonts
+2.  Creating an adaptive user interface using responsive web design
+3.  Using high contrast schemes and customizable colors
+4.  Implementing a non-sticky and tiny navbar
+5.  Using HTML text instead of images that have text.
+6.  Providing feedback directly next to the element that triggers it.
+
+
+<a id="org6186a02"></a>
+
+### Voice Recognition Software
+
+
+<a id="org898d53b"></a>
 
 ## HTML Syntax
 
@@ -719,12 +819,12 @@ much likely to use. For a full reference on all the HTML syntax please refer to 
     General purpose embedding tool with little to no use
 
 
-<a id="org9a9e84b"></a>
+<a id="orgfdb357c"></a>
 
 # CSS
 
 
-<a id="org04a44e2"></a>
+<a id="orge424be7"></a>
 
 ## CSS Syntax
 
@@ -741,4 +841,6 @@ much likely to use. For a full reference on all the HTML syntax please refer to 
     order:
     
         :link, :visited, :hover, :focus, :active
+    
+    This can be easily rememebered using the mnemonic "**LoVe Hates FeAr**"
 

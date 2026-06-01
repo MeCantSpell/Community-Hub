@@ -461,6 +461,74 @@ directory (i.e. Project/)
 #+end_src
 
 ** Accessibility
+*** Fundamentals of Accessibility
+Accessibility is the process of making products and services that everyone can use. The major goal
+of accessibility is to target people with various disabilities and various severities. In the case
+of web development the goal is to make websites that are accessible by everyone across the internet.
+In order to help create accessible websites, the World Wide Web Consortium (W3C); the people in
+charge of making a standardized web, have a set of standards that must be followed to make
+accessible content known as WCAG (Web Content Accessibility Guidelines). These guidelines are made
+with 4 core principles in mind:
+1. *Perceivable*: The content must be perceivable by all users.
+2. *Operable*: The content must be operable by all users.
+   For example, some users may not be able to use a mouse and may need to navigate your webpage
+   using only the keyboard.
+3. *Understandable*: The content must be easily understandable by all users.
+4. *Robust*: The content must be interpreted by a wide range of tools including browsers and other
+   tools that may be used to help with accessibility (for example: a screen reader)
+These 4 core principles can be remembered using the acronymn: "*POUR*"
+
+*** Screen Readers
+When it comes to the topic of accessibility we mentioned earlier that there are certain tools that
+can be used to "*O*-perate" the web. One of the more infamous ones is the screen-reader. While it's
+most commonly thought as a device used to help people who are visually impaired, it can also help
+people who have cognitive disabilities and dyslexia as well. Almost all OS come with built-in screen
+readers:
+1. *Windows*: Windows Narrator (can be accessed by using the shortcut _WIN+CTRL+ENTER_)
+2. *iOS & MacOS*: VoiceOver (on MacOS can be accessed via _CMD+F5_ and for iOS via _settings_)
+3. *Linux*: Orca for desktop environments and Speakup for terminal.
+4. *Android*: Talkback, Ella and Select to Speak. (can be accessed via _settings_)
+Despite this wide range of availability of screen readers, not to mention the third-party screen
+readers not mentioned here, a lot of people have a hard time navigating the web using screen
+readers, this is because despite the extensive guidelines provided by the W3C, many developers still
+create their websites in a way that is inaccessible to users.
+
+*** I/O Devices
+Apart from this particular tool, there are other devices that also help enhance accessibility. For
+example our day to day keyboard can also be made with larger keys with high contaasting colours to
+help people with visual impairments. Keyboards with braille can help people who are completely blind
+to navigate the web. The mouse which is a pointing device can also be replaced by alternatives such
+as the trackball, touchpad and joystick. Trackballs limit the physical movement a user has to make,
+making it more accessible for people who have mobility issues. Touchpads also are more accessible
+because they can both function as a more traditional mouse while at the same time adding extra
+functionality (for example: pinch-to-zoom). And joysticks have a limited number of precise
+movements, while they make it ideal for gamers, they can also be an accessible pointing device that
+can be used by people who have tremors in their hands.
+
+*** Screen Magnifiers
+Screen magnifiers also help people who are visually impaired by making the content on the screen
+larger to view. While most browsers can accommodate upto 200% magnification, a screen magnifier can
+go beyond that, sometimes even surpassing 500%. Most operating systems come with a built-in screen
+magnifier just like screen-readers:
+1. *Windows*: Magnifier (can be accessed via _settings -> Ease of Access -> Magnifier_ or by _simply_
+   _typing "magnifier" in the Windows search bar_)
+2. *iOS & MacOS*: Zoom (can be accessed via _settings_)
+3. *Android*: Magnification (can be accessed via _settings -> special function -> accessibility_
+   _->magnification_)
+4. *Linux*: Zoom or Magnifier
+   Depends on the distro that you are using.
+Other than these in-built ones, there are also a bunch of third-party screen magnifiers as well.
+However it is important for web developers to remember to make
+web pages that can also accomodate screen magnifiers. Here are some tips to make your webpages
+accessible to people who use screen magnifiers:
+1. Using scalable fonts
+2. Creating an adaptive user interface using responsive web design
+3. Using high contrast schemes and customizable colors
+4. Implementing a non-sticky and tiny navbar
+5. Using HTML text instead of images that have text.
+6. Providing feedback directly next to the element that triggers it.
+
+*** Voice Recognition Software
 
 ** HTML Syntax
 This list has been created using the syntax that I have personally encountered and syntax that I am
@@ -594,3 +662,6 @@ much likely to use. For a full reference on all the HTML syntax please refer to 
    #+begin_src 
       :link, :visited, :hover, :focus, :active
    #+end_src
+   This can be easily rememebered using the mnemonic "*LoVe Hates FeAr*"
+   
+   
