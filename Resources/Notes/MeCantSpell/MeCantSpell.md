@@ -1,44 +1,44 @@
 
 # Table of Contents
 
-1.  [Computers Basics](#orga8ecbc0)
-    1.  [Parts of a Computer](#org494ad74)
-    2.  [Working Effectively With Input Devices](#orge0a1737)
-    3.  [Internet Service Providers](#org8e0807c)
-    4.  [Sign In Security](#org416ae24)
-    5.  [Developer Tools](#orgb1699e0)
-    6.  [File Management Applications](#orge170332)
-    7.  [Naming Files for Web Applications](#orge53b5bd)
-    8.  [File/Folder Organization for Web Applications](#orgfa10606)
-    9.  [Creating, Moving and Deleting Files](#org0a9e411)
-    10. [Searching for Files](#orgc27cd99)
-    11. [File Types used in Web Applications](#orgff9fdc1)
-    12. [Web Browsers](#orgd76f487)
-    13. [Web Terms](#orga0c6a66)
-    14. [Advanced Search Engine Capabilities](#orgb535715)
-2.  [HTML](#orgffdacf3)
-    1.  [Elements](#org0c1b39e)
-    2.  [Comments](#org1857334)
-    3.  [Boilerplate](#org591f2ef)
-    4.  [UTF-8](#orgeab63c2)
-    5.  [HTML Entities](#org22ec701)
-    6.  [Media Assets](#orge0b1158)
-    7.  [Paths](#org610d24a)
-    8.  [Accessibility](#orgb1d8251)
-        1.  [Fundamentals of Accessibility](#orgf13cd56)
-        2.  [Screen Readers](#org8336d60)
-        3.  [I/O Devices](#orgaf91652)
-        4.  [Screen Magnifiers](#org11f1cda)
-        5.  [Voice Recognition Software](#org6186a02)
-    9.  [HTML Syntax](#org898d53b)
-3.  [CSS](#orgfdb357c)
-    1.  [CSS Syntax](#orge424be7)
+1.  [Computers Basics](#org1d4b5e8)
+    1.  [Parts of a Computer](#org90adba2)
+    2.  [Working Effectively With Input Devices](#orgea238bc)
+    3.  [Internet Service Providers](#org639ff85)
+    4.  [Sign In Security](#org38b0ca0)
+    5.  [Developer Tools](#orgd06e9f5)
+    6.  [File Management Applications](#org0433c39)
+    7.  [Naming Files for Web Applications](#org82e10a1)
+    8.  [File/Folder Organization for Web Applications](#orgab72d30)
+    9.  [Creating, Moving and Deleting Files](#org411ec59)
+    10. [Searching for Files](#orga9df6c3)
+    11. [File Types used in Web Applications](#org5382c64)
+    12. [Web Browsers](#orgcacb651)
+    13. [Web Terms](#org2165118)
+    14. [Advanced Search Engine Capabilities](#orgfd4c55f)
+2.  [HTML](#org6268615)
+    1.  [Elements](#orgece3c0f)
+    2.  [Comments](#org005bbb3)
+    3.  [Boilerplate](#orgf647af6)
+    4.  [UTF-8](#org1ec4e58)
+    5.  [HTML Entities](#org7da327a)
+    6.  [Media Assets](#orga9b6e44)
+    7.  [Paths](#orgf47aa52)
+    8.  [Accessibility](#orgcb5eb18)
+        1.  [Fundamentals of Accessibility](#orgbf2e358)
+        2.  [Screen Readers](#org280f76a)
+        3.  [I/O Devices](#org8d0be9a)
+        4.  [Screen Magnifiers](#orgee5a2be)
+        5.  [Voice Recognition Software](#orge28cc09)
+    9.  [HTML Syntax](#org7a5f8e7)
+3.  [CSS](#org984d15d)
+    1.  [CSS Syntax](#org8689128)
 
 This file contains the notes for my Responsive Web Design Certificate. I am following a Bad Website
 Club bootcamp!
 
 
-<a id="orga8ecbc0"></a>
+<a id="org1d4b5e8"></a>
 
 # Computers Basics
 
@@ -48,7 +48,7 @@ As a developer it's important to take a look at the parts of a computer as it's 
 which we will be developing software for.
 
 
-<a id="org494ad74"></a>
+<a id="org90adba2"></a>
 
 ## Parts of a Computer
 
@@ -83,7 +83,7 @@ commonly used include:
 3.  Network Cards - Responsible for connecting the computer to the internet.
 
 
-<a id="orge0a1737"></a>
+<a id="orgea238bc"></a>
 
 ## Working Effectively With Input Devices
 
@@ -99,7 +99,7 @@ lives.
 6.  **MOST IMPORTANTLY** Taking regular breaks
 
 
-<a id="org8e0807c"></a>
+<a id="org639ff85"></a>
 
 ## Internet Service Providers
 
@@ -133,7 +133,7 @@ some connections here.
 6.  **Cellular Network Connections (4G/5G)** : They transmit data between cellular
 
 
-<a id="org416ae24"></a>
+<a id="org38b0ca0"></a>
 
 ## Sign In Security
 
@@ -146,7 +146,7 @@ When setting up your passwords for services, using 2FA (two factor authorization
 manager (E.g.:[Proton Pass](https://proton.me/pass)) are recommended.
 
 
-<a id="orgb1699e0"></a>
+<a id="orgd06e9f5"></a>
 
 ## Developer Tools
 
@@ -180,7 +180,7 @@ and efficient.
     many users as possible.
 
 
-<a id="orge170332"></a>
+<a id="org0433c39"></a>
 
 ## File Management Applications
 
@@ -193,7 +193,7 @@ around.
 These file management applications provide features like tags,search and Smart Folders.
 
 
-<a id="orge53b5bd"></a>
+<a id="org82e10a1"></a>
 
 ## Naming Files for Web Applications
 
@@ -208,7 +208,7 @@ The exception to this is **index.html** which is a special file that represents 
 website. It's the first file that is loaded when you visit a website.
 
 
-<a id="orgfa10606"></a>
+<a id="orgab72d30"></a>
 
 ## File/Folder Organization for Web Applications
 
@@ -238,7 +238,7 @@ Personally I like to add a little TODO.org so that I have an idea what I have to
 little note of what I have already done, or failed doing.
 
 
-<a id="org0a9e411"></a>
+<a id="org411ec59"></a>
 
 ## Creating, Moving and Deleting Files
 
@@ -260,7 +260,7 @@ In order to select multiple files on Windows you can either <span class="underli
 <span class="underline">Ctrl+click over the relevant files (Ctrl+click really helps when the files aren't adjacent).</span>
 
 
-<a id="orgc27cd99"></a>
+<a id="orga9df6c3"></a>
 
 ## Searching for Files
 
@@ -270,11 +270,11 @@ if you have internalized all the details from the previous chapter you won't nee
 anything as you will be well organized to always know where everything is.
 
 
-<a id="orgff9fdc1"></a>
+<a id="org5382c64"></a>
 
 ## File Types used in Web Applications
 
-Earlier in [1.7](#orge53b5bd) we looked at files like .html, .css and .js that we
+Earlier in [1.7](#org82e10a1) we looked at files like .html, .css and .js that we
 will use when we develop web applications. Apart from these we will also use some other files types
 such as:
 
@@ -297,7 +297,7 @@ Which are some image formats used in web applications.
     be exported as markdown, html and even pdf)
 
 
-<a id="orgd76f487"></a>
+<a id="orgcacb651"></a>
 
 ## Web Browsers
 
@@ -309,7 +309,7 @@ On some systems you can install a browser using your operating system's package 
 MacOS with homebrew or Arch Linux.
 
 
-<a id="orga0c6a66"></a>
+<a id="org2165118"></a>
 
 ## Web Terms
 
@@ -335,7 +335,7 @@ you know the website you want to go to you don't need a search engine, however i
 of where to go you can use a search engine to help you get there.
 
 
-<a id="orgb535715"></a>
+<a id="orgfd4c55f"></a>
 
 ## Advanced Search Engine Capabilities
 
@@ -361,7 +361,7 @@ see the exact syntax that is used for these advanced functionalities.
 For more tips on using the Google Search Engine, and by extension Startpage, visit this [site](https://woodward.libguides.com/google/basicsearch).
 
 
-<a id="orgffdacf3"></a>
+<a id="org6268615"></a>
 
 # HTML
 
@@ -373,7 +373,7 @@ website functionality in HTML. A modern day website also needs CSS for styling a
 interactivity.
 
 
-<a id="org0c1b39e"></a>
+<a id="orgece3c0f"></a>
 
 ## Elements
 
@@ -431,7 +431,7 @@ present or absent. Other boolean attributes include disabled, readonly and requi
 the state of an element.
 
 
-<a id="org1857334"></a>
+<a id="org005bbb3"></a>
 
 ## Comments
 
@@ -441,7 +441,7 @@ characters **&#x2013;>**. A full comment will look something like this:
     <!--This is an HTML comment.-->
 
 
-<a id="org591f2ef"></a>
+<a id="orgf647af6"></a>
 
 ## Boilerplate
 
@@ -455,7 +455,7 @@ As you personalize your own boilerplate, you will realize that it saves time whe
 projects and it will become your default starting point for any web project.
 
 
-<a id="orgeab63c2"></a>
+<a id="org1ec4e58"></a>
 
 ## UTF-8
 
@@ -475,7 +475,7 @@ is:
 Having this code in your boilerplate will also prove efficient.
 
 
-<a id="org22ec701"></a>
+<a id="org7da327a"></a>
 
 ## HTML Entities
 
@@ -498,7 +498,7 @@ start with an **ampersand(&)** and end with a **semi-colon(;)** in common.
     **semi-colon(;)**.
 
 
-<a id="orge0b1158"></a>
+<a id="orga9b6e44"></a>
 
 ## Media Assets
 
@@ -538,7 +538,7 @@ of three things has occurred:
     Fair use requires that your use of the original media is both limited and transformative.
 
 
-<a id="org610d24a"></a>
+<a id="orgf47aa52"></a>
 
 ## Paths
 
@@ -598,12 +598,12 @@ directory (i.e. Project/)
     ../Resources/Images/favicon.svg
 
 
-<a id="orgb1d8251"></a>
+<a id="orgcb5eb18"></a>
 
 ## Accessibility
 
 
-<a id="orgf13cd56"></a>
+<a id="orgbf2e358"></a>
 
 ### Fundamentals of Accessibility
 
@@ -626,7 +626,7 @@ with 4 core principles in mind:
 These 4 core principles can be remembered using the acronymn: "**POUR**"
 
 
-<a id="org8336d60"></a>
+<a id="org280f76a"></a>
 
 ### Screen Readers
 
@@ -647,7 +647,7 @@ readers, this is because despite the extensive guidelines provided by the W3C, m
 create their websites in a way that is inaccessible to users.
 
 
-<a id="orgaf91652"></a>
+<a id="org8d0be9a"></a>
 
 ### I/O Devices
 
@@ -663,7 +663,7 @@ movements, while they make it ideal for gamers, they can also be an accessible p
 can be used by people who have tremors in their hands.
 
 
-<a id="org11f1cda"></a>
+<a id="orgee5a2be"></a>
 
 ### Screen Magnifiers
 
@@ -693,12 +693,12 @@ accessible to people who use screen magnifiers:
 6.  Providing feedback directly next to the element that triggers it.
 
 
-<a id="org6186a02"></a>
+<a id="orge28cc09"></a>
 
 ### Voice Recognition Software
 
 
-<a id="org898d53b"></a>
+<a id="org7a5f8e7"></a>
 
 ## HTML Syntax
 
@@ -819,12 +819,12 @@ much likely to use. For a full reference on all the HTML syntax please refer to 
     General purpose embedding tool with little to no use
 
 
-<a id="orgfdb357c"></a>
+<a id="org984d15d"></a>
 
 # CSS
 
 
-<a id="orge424be7"></a>
+<a id="org8689128"></a>
 
 ## CSS Syntax
 
@@ -842,5 +842,25 @@ much likely to use. For a full reference on all the HTML syntax please refer to 
     
         :link, :visited, :hover, :focus, :active
     
-    This can be easily rememebered using the mnemonic "**LoVe Hates FeAr**"
+    This can be easily rememebered using the mnemonic "**LoVe Hates FeAr**". It must also be noted that
+    these are not CSS properties but rather pseudo-classes that mimic both classes as well as properties.
+2.  Text Elements
+    1.  Set the text alignment - text-align:
+        Text alignment can be said to several different types:
+        -   start - aligns text depending on the start direction of the letters used.
+        -   end - aligns text depending on the end direction of the letters used.
+        -   left - aligns text to the left.
+        -   right - aligns text to the right.
+        -   center - aligns text to the middle.
+        -   justify - justifies the text.
+        -   match-parent - aligns the text as the parent element of the element is aligned.
+    2.  Set the margin of the element - margin:
+        The syntax of the margin property depends on the number of inputs that are put in as the
+        value. For example if 4 values are input they follow the below order:
+        
+            margin: top right bottom left
+        
+        However if only three values are specified, they instead follow:
+        
+            margin: top sides bottom
 

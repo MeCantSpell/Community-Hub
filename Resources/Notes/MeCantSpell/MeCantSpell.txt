@@ -914,4 +914,30 @@ am following a Bad Website Club bootcamp!
      │ :link, :visited, :hover, :focus, :active
      └────
      This can be easily rememebered using the mnemonic "*LoVe Hates
-     FeAr*"
+     FeAr*". It must also be noted that these are not CSS properties but
+     rather pseudo-classes that mimic both classes as well as
+     properties.
+  2. Text Elements
+     1. Set the text alignment - text-align: Text alignment can be said
+        to several different types:
+        ‣ start - aligns text depending on the start direction of the
+          letters used.
+        ‣ end - aligns text depending on the end direction of the
+          letters used.
+        ‣ left - aligns text to the left.
+        ‣ right - aligns text to the right.
+        ‣ center - aligns text to the middle.
+        ‣ justify - justifies the text.
+        ‣ match-parent - aligns the text as the parent element of the
+          element is aligned.
+     2. Set the margin of the element - margin: The syntax of the margin
+        property depends on the number of inputs that are put in as the
+        value. For example if 4 values are input they follow the below
+        order:
+        ┌────
+        │ margin: top right bottom left
+        └────
+        However if only three values are specified, they instead follow:
+        ┌────
+        │ margin: top sides bottom
+        └────
