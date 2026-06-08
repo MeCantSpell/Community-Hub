@@ -1,0 +1,1010 @@
+% Created 2026-06-08 Mon 22:33
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{MeCantSpell}
+\date{\today}
+\title{Responsive Web Design Certificate Notes}
+\hypersetup{
+ pdfauthor={MeCantSpell},
+ pdftitle={Responsive Web Design Certificate Notes},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 30.2 (Org mode 9.7.11)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+This file contains the notes for my Responsive Web Design Certificate. I am following a Bad Website
+Club bootcamp!
+\section{Computers Basics}
+\label{sec:orgd8acff2}
+Computers are machines that allow people to accomplish certain tasks including playing games,
+browsing the internet and even writing this note.
+As a developer it's important to take a look at the parts of a computer as it's the machine for
+which we will be developing software for.
+\subsection{Parts of a Computer}
+\label{sec:orge992b1f}
+\textbf{Motherboard} : The motherboard is the main part of a computer as it's the circuit board that houses
+all of the other important components. It can be thought of as the skull of the computer.
+\textbf{CPU} : CPU stands for Central Processing Unit, it's needed for
+the computer to function. It's a small square chip tht goes into a CPU Socket on the
+motherboard. It's speed is calculated in MHz and GHz (Million and Billion Cycles per Second
+respectively). It's responsible for calculations, providing CPU time for tasks and other functions
+as well. It can be thought of as the brain of the computer.
+\textbf{RAM} : RAM stands for Random Access Memory and and it's needed to store important details required
+to perform functions by the CPU. The CPU takes data and information stored in the RAM when it needs
+to complete its tasks. Memory stored in the RAM is not persistent among
+restarts of the computer. Any important data must therefore be saved to the permanent memory. It can
+be thought of as the short term memory of the computer.
+\textbf{HDD/SSD} : HDD stands for Hard Disk Drive and is one of the most important storage devices in the
+history of computers. Utilizing platters and heads it stores data across the platters for
+retrieval. While in today's modern computers they are overshadowed by their newer counterpart of
+SSD, standing for Solid State Drives, they are still cheaper and can be found in often larger
+sizes. These storage devices are persistent and can be considered as the long term memory of the
+computer.
+\textbf{PSU} : PSU stands for Power Supply Unit and is the device by which a computer recieves electricity
+to function. It converts the power from out powerlines into power suitable to be consumed by the
+computer(AC --> DC). Without it the computer will not function. The PSU can be thought of as the
+digestive tract of the computer.
+\textbf{Expansion Cards} : In order to give the computer additional functionality, the motherboard will
+house certain expansion slots in which expansion cards can be slot in. Expansion cards that are
+commonly used include:
+\begin{enumerate}
+\item Video Cards - Also known as GPUs which help with rendering video graphics.
+\item Sound Cards - Responsible for the audio output of a computer
+\item Network Cards - Responsible for connecting the computer to the internet.
+\end{enumerate}
+\subsection{Working Effectively With Input Devices}
+\label{sec:org911980e}
+There are certain ways in which we can improve the efficiency of our work on the computer with
+computer peripherals. We'll take a look at some of the tips we can incorporate in our daily tech
+lives.
+\begin{enumerate}
+\item Gripping the mouse gently in a relaxed manner
+\item Using ergonomic peripherals
+\item Keeping the mouse at the same height as the keyboard
+\item Maintaining good posture \textbf{(No slouching!)}
+\item Using keyboard shortcuts
+\item \textbf{MOST IMPORTANTLY} Taking regular breaks
+\end{enumerate}
+\subsection{Internet Service Providers}
+\label{sec:org0b4d08b}
+Internet Service Providers or ISPs are companies that sell people the access to the global
+internet. There are 3 types of ISPs.
+\begin{enumerate}
+\item \textbf{Tier 1 ISPs} : These are ISPs that can handle most of their network traffic independently. They
+can also access most of the internet without any restrictions.
+E.g.: Lumen Technology (Rank 1)
+\item \textbf{Tier 2 ISPs} : These are the ISPs that handle the network of a country mostly. They can access
+some parts of the internet without restrictions but have to pay to access some parts of the
+internet.
+E.g.: Vodafone (Purchases access from Arelion)
+\item \textbf{Tier 3 ISPs} : These are the ISPs that handle regional networks and solely rely on larger ISPs
+to access parts of the internet.
+E.g.: Hutch (4 million users though)
+\end{enumerate}
+
+These ISPs will offer different types of connections to access the internet. We'll take a look at
+some connections here.
+\begin{enumerate}
+\item \textbf{Fibre Connections} : Transmits data via glass or plastic fibre cables, allows for very high speed
+connections and data exchanges. (We have fibre UwU)
+\item \textbf{Cable Connections} : Transmits data via television cables making them readily available and
+accessible in many regions.
+\item \textbf{DSL Connections} : Transmits data via landline cables making them much more accessible than
+cable connections.
+\item \textbf{Dial-UP Connections} : They also transmit data via landline cables, however they are only able
+to do one thing at a time (either calls or internet). This is an archaic form of internet
+connection.
+\item \textbf{Satellite Connections} : They transmit data between an array of satellites.
+\item \textbf{Cellular Network Connections (4G/5G)} : They transmit data between cellular
+\end{enumerate}
+\subsection{Sign In Security}
+\label{sec:org2aa19fc}
+When it comes to your computer it's important to make sure it's password protected. When setting up
+a password use a password that is long and complex, and not an easy password. Passwords should also
+not use personal information such as names, dates and ages. On your computer, if your device allows
+it, setting up biometric methods (fingerprints, face recognition) to sign in is considered a safer
+approach when compared to traditional passwords.
+When setting up your passwords for services, using 2FA (two factor authorization) and a password
+manager (E.g.:\href{https://proton.me/pass}{Proton Pass}) are recommended.
+\subsection{Developer Tools}
+\label{sec:org4f7f029}
+In order to create software, developers rely on a bunch of tools to make their work more productive
+and efficient.
+\begin{enumerate}
+\item \textbf{Computers} : Developers have to use a computer in order to write their code. However compared to
+the average user, a developer would require a computer with higher processing power and RAM so
+they can carryout resource intensive tasks.
+\item \textbf{IDEs/Code Editors} : The software that a developer chooses to write their code in is referred to
+as a code editor. The software in which this note is being written on (Emacs) is also a code
+editor. IDEs on the other hand stand for Integrated Development Environments and provide powerful
+features including code completion, debugging and integrated terminal support (All of this can be
+kind of added to Emacs, so I dunno\ldots{} it's also an IDE or something).
+\item \textbf{VC Systems} : When writing code, code is likely to break. Also, when a team is involved in
+development, different developers will code in different styles and ways. A VC (Version Control)
+system allows developers to retrieve previous versions of a codebase in case something goes
+wrong. Think of it as an elaborate undo button for code. The most popular version control system
+is GitHub (we'll get magit later, don't worry)
+\item \textbf{Package Managers} : When writing complex code, developers will make use of packages and
+libraries. Package managers simplify the process of adding, updating and removing these packages.
+E.g.: PIP for Python
+\item \textbf{Testing Frameworks} : In order to test whether the code that developers have written is
+functioning as expected. While you can manually test your code by running it through test cases
+and documenting the pass/fail of your code, a testing framework allows you to automatically do
+that.
+E.g.: pytest for Python
+\item \textbf{Web Browsers} : Developers also need to test what the code looks like visually beyond just the
+functionality. This can be done using browsers like Mozilla Firefox, Vivaldi, Opera GX,
+Thorium. Testing on different browsers is important to make sure the product is accessible by as
+many users as possible.
+\end{enumerate}
+\subsection{File Management Applications}
+\label{sec:orgd84a889}
+A file management application makes it easy to store, organize and view the files on your
+computer. On Windows the default file management application is File Explorer whereas on Mac it's
+finder.
+File Explorer can be accessed via the \uline{Start Menu by pressing the Windows Key on your keyboard or by}
+\uline{clicking the Windows Icon on your taskbar.} Using File Explorer you can pin, copy and move files
+around.
+These file management applications provide features like tags,search and Smart Folders.
+\subsection{Naming Files for Web Applications}
+\label{sec:org77910b0}
+HTML files used for web applications have the extension \textbf{.html} after the name of the file. For web
+applications we will also use files like CSS files and JavaScript files which have the extensions
+\textbf{.css} and \textbf{.js} respectively.
+While there are no set conventions for naming your web application files, it is recommended that you
+name them using sensible names and avoid using special characters that can make the name look
+confusing. Importantly, when working with a team it is vital to follow your team's style-guide when
+naming you files.
+The exception to this is \textbf{index.html} which is a special file that represents the main page of the
+website. It's the first file that is loaded when you visit a website.
+\subsection{File/Folder Organization for Web Applications}
+\label{sec:org83ff8ba}
+When building out web applications (or any applications in general), it makes sense to have all the
+files and folders you need arranged in a way that makes your workflow productive.
+In a file system a root directory is referred to as the top-level directory in a file system, all
+other files and sub-directories located within this root directory are referenced via the root
+directory.
+Think of the root directory as the District you live in, and the sub directories point to the street
+you live in and the files within them finally point to your house (I am in your walls).
+A root directory can be represented by a single dot \textbf{(.)}
+You can have sub directories within your directory for the assets used in your website, CSS
+stylesheets, JS scripts and perhaps one for your webpages.
+A best practice directory will look like this:
+\begin{verbatim}
+.
+|___/assets
+|___/css
+|___/pages
+|___/js
+|___/admin
+|___/blogs
+|___index.html
+|___README.org
+\end{verbatim}
+Personally I like to add a little TODO.org so that I have an idea what I have to do next and a
+little note of what I have already done, or failed doing.
+\subsection{Creating, Moving and Deleting Files}
+\label{sec:orgd4f4e7f}
+In windows while in File Explorer, once you have entered your desire directory you can create a new
+file \uline{by right-clicking and going to the "New" menu and selecting the type of file you would like to}
+\uline{create.} You can also rename files \uline{by either selecting your file and clicking the rename button on}
+\uline{the top, right-clicking and choosing the rename option, selecting your file and hitting F2 or by}
+\uline{double-clicking on the name underneath the file.} By default you don't have to enter the extension as
+files will be saved in their appropriate file extension, in order to change the file extension you
+can either \uline{enable file extensions on your systema and manually edit the extensions of your desired}
+\uline{files or by editing the extension name in your "Save As" prompt when you are initially saving.}
+Deleting files in Windows is really easy, you just have to \uline{select the files you want to delete and}
+\uline{press the del key, use the delete option on the top or right-click and select the delete option.}
+In order to move files you will either have to copy/cut and paste them elsewhere. You can copy files
+\uline{by selecting the desired files and right-clicking to copy or using the Ctrl-C shortcut}. You can cut
+files \uline{by selecting the desired files and right-clicking to cut orusing the Ctrl-X shortcut.} Finally,
+to paste these files \uline{simply right-click and select paste or use the Ctrl-V shortcut.}
+In order to select multiple files on Windows you can either \uline{click and drag your mouse or use}
+\uline{Ctrl+click over the relevant files (Ctrl+click really helps when the files aren't adjacent).}
+\subsection{Searching for Files}
+\label{sec:org8281f61}
+In Windows you used to be able to search for the files you needed using the taskbar, this no longer
+works properly. You could go to the directory where you know the file is and search from there. But honestly
+if you have internalized all the details from the previous chapter you won't need to search for
+anything as you will be well organized to always know where everything is.
+\subsection{File Types used in Web Applications}
+\label{sec:org7181872}
+Earlier in \ref{sec:org77910b0} we looked at files like .html, .css and .js that we
+will use when we develop web applications. Apart from these we will also use some other files types
+such as:
+\begin{enumerate}
+\item \textbf{JPEG} : Joint Photographic Experts Group
+\item \textbf{PNG} : Portable Network Graphics
+\item \textbf{GIF} : Graphics Interchange Format (pronounced JIF)
+\item \textbf{SVG} : Scalable Vector Graphics
+\end{enumerate}
+Which are some image formats used in web applications.
+\begin{enumerate}
+\setcounter{enumi}{4}
+\item \textbf{MP3} : A lossy audio format
+\item \textbf{WAV} : A lossless audio format
+\item \textbf{MP4} : The most common video format
+\item \textbf{WebM} : A high-quality lossless open-source video format
+\item \textbf{TFF} : A font format
+\item \textbf{WOFF} : A modern font format
+\item \textbf{WOFF2} : WOFF but 2
+\item \textbf{ZIP} : Compressed folders
+\item \textbf{Markdown} : Files that can be used to create structured documents (use org though, org files can
+be exported as markdown, html and even pdf)
+\end{enumerate}
+\subsection{Web Browsers}
+\label{sec:orgf719896}
+Web browsers are appilcations that allow you to access the internet. The current most popular
+browsers are Microsoft Edge, Mozilla Firefox, Google Chrome and Safari. Your system should come with
+a default browser and if you feel like you want to change your browser it's just a matter of looking
+up your preferred browser on your defualt browser and downloading the one you want.
+On some systems you can install a browser using your operating system's package manager like on
+MacOS with homebrew or Arch Linux.
+\subsection{Web Terms}
+\label{sec:orgfde5296}
+We've already looked at what a web browser is, now let's take a look at some terms that are often
+confused for each other, like search engine and website.
+\textbf{Web Browsers} : Web browsers are the applications used to navigate the world wide web, they are
+commonly found with features such as an address bar, rendering engine, bookmarks, extensions and
+various security pages.
+\textbf{Websites} : Websites on the other hand are the content that is made available on the World Wide Web
+and can be accessed through your web browser. They are a collection of web pages and other files,
+and consist of a domain name and the web pages that make them. Websites often include multimedia and
+can also be static (content rarely changes) or dynamic (content frequently changes) depending on the
+needs of the publisher.
+\textbf{Search Engines} : Search engines are web-based tools designed to help users find the content that
+they are looking for on the internet. Key aspects of search-engines include web crawlers also known
+as spiders or bots, which are prorgams that systematically browse the web to discover and index new
+content. They also have complex algorithms that rank the content that they have indexed and display
+them to the user based on factors such as relevance, authority, popularity and user experience.
+Popular search engines include Google, Bing, Yahoo, and DuckDuckGo.
+Broswers, search engines and websites are all interconnected. It can be simply thought of this,
+websites are the content of the internet, they can be accessed via search engines or browsers. If
+you know the website you want to go to you don't need a search engine, however if you are not sure
+of where to go you can use a search engine to help you get there.
+\subsection{Advanced Search Engine Capabilities}
+\label{sec:org7b42b84}
+When using your search engine there are certain ways that you can search more efficiently. For
+example if you want to search for a specific phrase you can put that phrase in between \textbf{quotation
+marks ("")}. If you want to search for specific words but they do not have to necessarily be together
+you can use the \textbf{plus symbol (+)} before the words. If you want your search engine to not return
+search results with certain words you can instead use the \textbf{minus symbol (-)}. To search within a
+specific website or domain you can use the following syntax \textbf{site:}
+A few example searches may look like this:
+\begin{verbatim}
+"freecodecamp curriculum"
+\end{verbatim}
+This one will return only results that have the exact phrase of "freecodecamp curriculum".
+\begin{verbatim}
+site:freecodecamp.org/news +python -curriculum
+\end{verbatim}
+This one looks at any webpages with the domain freecodecamp.org and within their "news" path.
+Note that search engines are not case-sensitive and essentially convert all searches to lower
+case. The above capabilities will be available on Google Search Engine, and also work on
+Startpage. However, it makes sense to read the documentation on the search engine you are using to
+see the exact syntax that is used for these advanced functionalities.
+For more tips on using the Google Search Engine, and by extension Startpage, visit this \href{https://woodward.libguides.com/google/basicsearch}{site}.
+\section{HTML}
+\label{sec:orga87767d}
+HTML stands for Hypertext Markup Language and is a language used for building webpages. When you
+visit a website, its content including headings, paragraphs, sentences, images, videos and links are
+all made of HTML.
+While HTML is enough to create a functional website, and it is considered a best-practice to have
+website functionality in HTML. A modern day website also needs CSS for styling and JavaScript for
+interactivity.
+\subsection{Elements}
+\label{sec:orgc3640b0}
+HTML is made up of elements. This elements usually have an opening tag and an ending tag. Elements
+that do not have ending tags are referred to as void elements. These elements can also be classified
+as semantic and non-semantic elements. Simply put, semantic elements are elements that have meaning
+whereas non-semantic elements are elements that do not have meaning.
+Using semantic elements over non-semantic elements has certain benefits including increased
+accessibility for screen readers, enhanced SEO for search engine indexing and finally to increase
+code readability.
+After the opening tag of an element we will enter in the content. If the element also has a closing
+tag, once we are done entering our content we will use the closing tag to close it, otherwise if it
+is a void element there is no need.
+HTML tags are case-insensitive, however the widely adopted best-practice is to use simple-case
+letters when typing them in. Most tags will start with \textbf{<} and end with \textbf{>}. For example:
+\begin{verbatim}
+<p>
+\end{verbatim}
+A closing tag however will also include a forward slash \textbf{/} as well. Taking the above example:
+\begin{verbatim}
+</p>
+\end{verbatim}
+We have explained that void tags do not have a closing tag earlier, and therefore they will follow
+the convention of the opening tags. However, one can write a void tag as such and it will be valid:
+\begin{verbatim}
+<img/>
+\end{verbatim}
+Many code formatters indeed choose to format void tags like this. However the HTML spec states that
+the presence of \textbf{/} "does not mark the start tag as self-closing but instead is unnecessary and has no
+effect of any kind".
+Some elements will take in values known as attributes that define the way the content will behave in
+said tag is displayed. The basic syntax for an attribute is the attribute name followed by an \textbf{=} sign
+For example the image element will take in attributes such as \textbf{src} which
+indicates the source/location of the image and \textbf{alt} which gives alternative text for the user in case
+the image isn't displayed correctly. For example:
+\begin{verbatim}
+<img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/catsjpg" alt="Two tabby kittens sleeping together on a couch." >
+\end{verbatim}
+Another example is the attributes used for hyperlinks. Hyperlinks are created using the anchor
+element \textbf{<a>}, and attributes such as \textbf{href} and \textbf{target} can be used. "href" refers to href stands for
+hypertext reference and is the reference link of the hyperlink and the target attribute indicates
+how the hyperlink will open up. For example:
+\begin{verbatim}
+<a href="https://www.freecodecamp.org" target="_blank"> Visit freeCodeCamp </a>
+\end{verbatim}
+The \textbf{\_blank} value of the target attribute indicates that this hyperlink must be opened in a new tab.
+Just like how some elements are unique in their syntax some attributes are also unique in their
+syntax like the \textbf{checked} attribute which indicates whether or not an input element of the type
+checkbox is checked by default.
+\begin{verbatim}
+<input type="checkbox" checked/>
+\end{verbatim}
+Such attributes are referred to as boolean attributes because just like boolean they can either be
+present or absent. Other boolean attributes include disabled, readonly and required which describe
+the state of an element.
+\subsection{Comments}
+\label{sec:orgb9e10df}
+In order to type in comments in HTML we start them with the characters \textbf{<!--} and end them with the
+characters \textbf{-->}. A full comment will look something like this:
+\begin{verbatim}
+<!--This is an HTML comment.-->
+\end{verbatim}
+\subsection{Boilerplate}
+\label{sec:orgb6d19b0}
+A boilerplate is a readymade template for making websites using HTML. The boilerplate can be
+considered as the skeleton of the site, and you can add the bones and meat to it using the specific
+HTML that is required for the instance, as well as using CSS and JS.
+A boilerplate is important because it ensures that your pages are structured correctly and work well
+across multiple web browsers. Using a boilerplate helps you avoid common mistakes and follow
+best-practices.
+As you personalize your own boilerplate, you will realize that it saves time when creating new
+projects and it will become your default starting point for any web project.
+\subsection{UTF-8}
+\label{sec:org096ef2a}
+UTF-8 stands for UCS Transformation Format-8, UCS in turn stands for Universal Character Set. It is
+the standardized character encoding widely used on the web (99\% of the web uses UTF-8). The other
+unicode standard that exists (existed) is UTF-16 which is now nearly obsolete with only 0.004\% of
+webpages using it.
+Using UTF-8 and by that extent, setting it as the characterset in a meta element in your webpages,
+is crucial to maintaining the standards of the internet as it supports every character in the
+Unicode set from all writing systems, languages and techincal symbols. It's why you can type in
+Tamil and Sinhala and Emojis.
+The syntax that is therefore required to enter into your webpage withing the <head></head> element
+is:
+\begin{verbatim}
+<meta charset="UTF-8" />
+\end{verbatim}
+Having this code in your boilerplate will also prove efficient.
+\subsection{HTML Entities}
+\label{sec:orgb47616e}
+As you may have seen when creating your web document you will have used a varying amount of syntax
+including symbols like "<",">" and "=". However sometimes, there may be a need to display those
+symbols on your webpage. An HTML entity is therefore referred to as a set of characters used to
+represent a reserved charcter in HTML. They are also known as character references.
+There are three different types of character references but it is important to note that all of them
+start with an \textbf{ampersand(\&)} and end with a \textbf{semi-colon(;)} in common.
+\begin{enumerate}
+\item \textbf{Named character references}: Named character references start with an \textbf{ampersand(\&)} and end with a
+\textbf{semi-colon(;)}. These are references that are used for actual HTML elements and prevents the
+parser from confusing them for the actual elements.
+\item \textbf{Decimal numeric reference}: Here the reference starts with the usual \textbf{ampersand(\&)} but is followed
+immediately by a \textbf{hash(\#)} symbol. Here specific decimal numerics that correlate to the relevant
+symbol are used instead. Then it is finally ended with a \textbf{semi-colon(;)}
+\item \textbf{Hexadecimal numeric reference}: Just like the decimal numeric reference, it starts with an
+\textbf{ampersand(\&)}, \textbf{hash(\#)} but is the followed by the simple letter \textbf{x} then it is followed by the ASCII
+hexadecimal numerics that correlate to the relevant symbol. Finally it is also closed with a
+\textbf{semi-colon(;)}.
+\end{enumerate}
+\subsection{Media Assets}
+\label{sec:orgefa96d7}
+In order to enhance the visual aspect of a webpage or to pass out visual inforamtion we will use
+media assets such as images, audios and videos. However it is important to note that using such
+assets will take a heavier toll on the data consumed to retrieve them, loading times and
+storage. Therefore using these media assets in an optimal way is encouraged and a best
+practice. There are three important things to consider when using an image, they are the display
+size, file format and compression.
+When it comes to the display size, it is important to remember
+that our media assets should match the size we are displaying on our webpage. If our webpage is
+displaying an image that is 640x480 but the image has not been scaled down and is instead a
+1920x1080 image, we are making the users download additional data and storing unnecessary data as
+well.
+When it comes to format it is important to use the most ideal format, while PNGs and JPEGs
+are the most common formats for images, they are not the most ideal formats and instead you should
+use WEBP or AVIF formats. Below we will give a list of optimal file formats for various media
+assets:
+\begin{enumerate}
+\item \textbf{Images}: \textbf{WEBP}, AVIF, \textbf{SVG}
+\item \textbf{Audios}: \textbf{OGG}, \textbf{WEBM}, WAV, M4A, MP3
+\item \textbf{Videos}: \textbf{WEBM}, MP4
+Note however that MP4 with codecs like H.264 and HVEC may open you up to legal issues
+\end{enumerate}
+Finally it must be noted that in order to make our files smaller and more efficient, we can make use
+of compression algorithms. Note that compression takes two forms: lossy and lossless. Their names
+are self-explanatory. One of them preserves the quality of the original, whereas the other loses
+data to reduce its size.
+Another important point to consider when using media assets in your webpages, is the license they
+hold. By default all creative works released are released with all rights reserved, meaning the
+creator or publisher holds all the rights for the media asset. Such assets cannot be used unless one
+of three things has occurred:
+\begin{enumerate}
+\item You have expressed written permission by the author.
+\item You have purchased a licensing fee.
+\item You incorporate the media under fair use.
+Fair use requires that your use of the original media is both limited and transformative.
+\end{enumerate}
+\subsection{Paths}
+\label{sec:orgb888483}
+The goal of creating websites is to share content. Now, all of this content may not be on the same
+webpage or it may not be feasible to have it all on the same webpage and therefore it is vital that
+we find a way to like our content to wherever the user is currently. We have already seen the anchor
+element that is used to link content and allow users to move to another site. We have also looked at
+other elements such as images, videos, audios and iframes that allow us to link content of those
+specific nature from a different source.
+Let's take a look at the specificities of those sources. There are two types of paths that exist:
+\begin{enumerate}
+\item \textbf{Relative Paths}
+These are paths that specify the location of a file relevant to the current file
+\item \textbf{Absolute Paths}
+These are paths that specify the location of a file directly.
+\end{enumerate}
+Think of it like this, let's say you are friends with 2 guys: Sam and Jack. Let's also assume that
+your house is next to Jack's. If Sam is at your house and asks where Jack's house is, you are not
+going to describe every street, corner and road you have to take to get there, you'd simply say
+"Oh. He's house is on the right.", however if Sam asked you where Jack's house is from school, you
+might have to explain how to get all the way to Jack's house from Sam's house, or the school or the
+most common \textbf{root} you both share.
+That's how these paths work. It's also important to understand that absolute paths and absolute URLs
+are different as well. The former gives the absolute direction to the file within a file system
+whereas the latter gives the absolute directions to the file including the protocols and for web
+resources the domain name as well.
+There are different instances of when we should use relative and absolute paths. For example when
+testing on our own PC we might know the exact paths that the files need to access in order to
+complete their tasks, but when we ship our program to another PC they might not have installed the
+files in the same way and therefore using an absolute path there will cause the program to not
+function correctly. Likewise, when we need to get an exact resource for say, an iframe, from another
+webpage we cannot use a relative path and we have to give the absolute URL.
+Knowing when to use and not to use absolute and relative paths is very important in web development.
+When using relative paths there are some syntax that we should remember. Let us create a new example
+directory and take a look through it:
+\begin{verbatim}
+Project/
+|___Resources/
+|___|___Images/
+|___|___Videos/
+|___Site/
+|___|___index.html
+|___|___styles.css
+|___|___scripts.js
+\end{verbatim}
+Let's say our index.html needed to access our styles.css file. In order to for it to access it, we
+will use \textbf{a single dot(.)} in order to indicate that we want to access a file that is in the
+subdirectory that we are sharing. So in order to link the relevant file using relative path we will
+use the following link:
+\begin{verbatim}
+./styles.css
+\end{verbatim}
+Let's say that there exists a file called favicon.svg in our images folder and we need to access it
+via our index.html. In this case we will use \textbf{two double dots(..)} in order to access the parent
+directory (i.e. Project/)
+\begin{verbatim}
+../Resources/Images/favicon.svg
+\end{verbatim}
+\subsection{Client-Server Model}
+\label{sec:orgb3d4bf8}
+Much of the internet is based on the client-server model, in this model user devices (clients)
+communicate via a network to centrally located servers to get the information they need instead of
+communicating directly with each other. One of the important reasons for this model being used in
+web development is for accessibility of the content. No content on the internet should become
+inaccessible to users because someone's individual laptop got broken or lost. Of course this does
+not mean that servers are 100\% reliable, most of them have outtages and breakdowns, but most servers
+have a backup server and manage to be up for most of the time.
+In terms of the client-server model there are 2 noticeable aspects:
+\begin{enumerate}
+\item Client
+\item Server
+\end{enumerate}
+"Client-side" refers to everything that happens on the client's side, including layout, design and
+any interactive features. Most of the HTML, CSS and JavaScript occurs on the client-side.
+"Server-side" refers to everything that happens on the server that hosts the content, the
+server-side activities may include: data processing, running applications and handling user
+requests.
+If we think in terms of the MVC Architectural Paradigm, we can compare the client-side to the View
+and the server-side to the controller. Servers, do not process data however it does occur on the
+"server-side", data is processed by databases instead, and that would be the model of the paradigm
+but that topic leaves the scope of this chapter.
+Client-side validation is a pretty important to ensure that the user is filling in all the necessary
+details of a form correctly. While this is a true to a certain extent, it is important to ensure
+that there is also adequate and robust server-side validation as malicious users can attempt to bypass
+client-side validation checks.
+\subsection{Accessibility}
+\label{sec:orgbc160b6}
+\subsubsection{Fundamentals of Accessibility}
+\label{sec:org82671c9}
+Accessibility is the process of making products and services that everyone can use. The major goal
+of accessibility is to target people with various disabilities and various severities. In the case
+of web development the goal is to make websites that are accessible by everyone across the internet.
+In order to help create accessible websites, the World Wide Web Consortium (W3C); the people in
+charge of making a standardized web, have a set of standards that must be followed to make
+accessible content known as WCAG (Web Content Accessibility Guidelines). These guidelines are made
+with 4 core principles in mind:
+\begin{enumerate}
+\item \textbf{Perceivable}: The content must be perceivable by all users.
+\item \textbf{Operable}: The content must be operable by all users.
+For example, some users may not be able to use a mouse and may need to navigate your webpage
+using only the keyboard.
+\item \textbf{Understandable}: The content must be easily understandable by all users.
+\item \textbf{Robust}: The content must be interpreted by a wide range of tools including browsers and other
+tools that may be used to help with accessibility (for example: a screen reader)
+\end{enumerate}
+These 4 core principles can be remembered using the acronymn: "\textbf{POUR}"
+\subsubsection{Screen Readers}
+\label{sec:orgb61944b}
+When it comes to the topic of accessibility we mentioned earlier that there are certain tools that
+can be used to "\textbf{O}-perate" the web. One of the more infamous ones is the screen-reader. While it's
+most commonly thought as a device used to help people who are visually impaired, it can also help
+people who have cognitive disabilities and dyslexia as well. Almost all OS come with built-in screen
+readers:
+\begin{enumerate}
+\item \textbf{Windows}: Windows Narrator (can be accessed by using the shortcut \uline{WIN+CTRL+ENTER})
+\item \textbf{iOS \& MacOS}: VoiceOver (on MacOS can be accessed via \uline{CMD+F5} and for iOS via \uline{settings})
+\item \textbf{Linux}: Orca for desktop environments and Speakup for terminal.
+\item \textbf{Android}: Talkback, Ella and Select to Speak. (can be accessed via \uline{settings})
+\end{enumerate}
+Despite this wide range of availability of screen readers, not to mention the third-party screen
+readers not mentioned here, a lot of people have a hard time navigating the web using screen
+readers, this is because despite the extensive guidelines provided by the W3C, many developers still
+create their websites in a way that is inaccessible to users.
+\subsubsection{I/O Devices}
+\label{sec:org09b81d9}
+Apart from this particular tool, there are other devices that also help enhance accessibility. For
+example our day to day keyboard can also be made with larger keys with high contaasting colours to
+help people with visual impairments. Keyboards with braille can help people who are completely blind
+to navigate the web. The mouse which is a pointing device can also be replaced by alternatives such
+as the trackball, touchpad and joystick. Trackballs limit the physical movement a user has to make,
+making it more accessible for people who have mobility issues. Touchpads also are more accessible
+because they can both function as a more traditional mouse while at the same time adding extra
+functionality (for example: pinch-to-zoom). And joysticks have a limited number of precise
+movements, while they make it ideal for gamers, they can also be an accessible pointing device that
+can be used by people who have tremors in their hands.
+\subsubsection{Screen Magnifiers}
+\label{sec:org89474b4}
+Screen magnifiers also help people who are visually impaired by making the content on the screen
+larger to view. While most browsers can accommodate upto 200\% magnification, a screen magnifier can
+go beyond that, sometimes even surpassing 500\%. Most operating systems come with a built-in screen
+magnifier just like screen-readers:
+\begin{enumerate}
+\item \textbf{Windows}: Magnifier (can be accessed via \uline{settings -> Ease of Access -> Magnifier} or by \uline{simply}
+\uline{typing "magnifier" in the Windows search bar})
+\item \textbf{iOS \& MacOS}: Zoom (can be accessed via \uline{settings})
+\item \textbf{Android}: Magnification (can be accessed via \uline{settings -> special function -> accessibility}
+\uline{->magnification})
+\item \textbf{Linux}: Zoom or Magnifier
+Depends on the distro that you are using.
+\end{enumerate}
+Other than these in-built ones, there are also a bunch of third-party screen magnifiers as well.
+However it is important for web developers to remember to make
+web pages that can also accomodate screen magnifiers. Here are some tips to make your webpages
+accessible to people who use screen magnifiers:
+\begin{enumerate}
+\item Using scalable fonts
+\item Creating an adaptive user interface using responsive web design
+\item Using high contrast schemes and customizable colors
+\item Implementing a non-sticky and tiny navbar
+\item Using HTML text instead of images that have text.
+\item Providing feedback directly next to the element that triggers it.
+\end{enumerate}
+\subsubsection{Voice Recognition Software}
+\label{sec:org9f7216e}
+Voice recognition software allows people with disabilities to use their voice to pass commands
+instead of physically interacting with the hardware. They are especially helpful for people who have
+visual impairments, mobility impairments, injuries, cognitive disorders and an easier time using
+voice recognition software such as elderly.
+There are certain voice recognition software available on the popular operating systems:
+\begin{enumerate}
+\item \textbf{Windows}: Voice Access
+\item \textbf{Android}: Voice Access
+\item \textbf{iOS/MacOS}: Voice Control
+\end{enumerate}
+There is also Dragon Naturally Speaking by Nuance that is a very popular third party software.
+\subsubsection{Accessibility Auditing}
+\label{sec:orgde35140}
+Accessibility is crucial in making our web more accessible to people. However many web developers
+overlook it and even the developers who make their webpages with accessibility in mind can forget a
+bunch of stuff. In order to make sure that we are actually developing our webpages in an accessible
+manner it is important for our elements to be scutinized/audited to see if they fit the criteria for
+accessibility.
+One way to audit our websites is to use accessibility auditing tools. They will report
+accessibilty issues as well as suggestions and improvements that can be made to your webpage to make
+it more accessible. Note that while these tools are easily accessible to all developers and are
+geuninely a right step in making your webpages more accessible to more people, these tools usually
+only catch about one third of accessibility issues. The best way to audit your webpages will always
+be Manual auditing done preferably by a person with disabilities.
+Some of the free accessibility auditing tools available for people to use are:
+\textbf{Google Lighthouse}: This is already built into your DevTools which can be opened using the \uline{F12} key.
+\textbf{WAVE}: This is a free extension available for Chromium and FireFox Browsers
+\textbf{IBM Equal Accessibility Checker}: Another robust tool available as an extension for Chromium and
+FireFox browsers. This tool can also generate an accessibility report for you that can be a
+spreadsheet or HTML doc.
+\subsection{ARIA}
+\label{sec:org0d3ece1}
+When we looked at the \ref{sec:org82671c9} we learnt about WCAG which provided guidelines
+for making our content more accessible to people who needed it. We also learnt about the 4 core
+principles they have and how their goal is to make a standardized and accessible web. However,
+sometimes following these guidelines and using semantic HTML is not enough to provide a clear
+picture of the content in our web-pages, especially if we use dynamic content that isn't static. In
+such occasions we make use of ARIA; actually WAI-ARIA which stands for Web Accessibility
+Initiative - Accessible Rich Internet Applications. This gives an additional set of attributes that
+are further divided into roles, states and properties and allows us to give additional semantics to
+or content that will make it easier for people using screen readers to understand our content. It's
+important to note that the best ARIA is the lack of ARIA (i.e. It's better to use native semantic
+HTML than creating a complex non-semantic HTML and giving it ARIA attributes), only use ARIA when
+you are sure this cannot be done using native HTML. Do not overuse ARIA as well as it can make it
+more confusing for users.
+\subsubsection{ARIA Roles}
+\label{sec:org410bf00}
+Roles are one of the three types of ARIA attributes that can be given to your elements. The purpose
+of using roles is to make known to the user what role that particular element does. It only makes
+the user aware of what the element's "supposed" function is but adds no functionality to the
+element. It is the repsonsibility of the developer to add the expected functionality and behaviour
+of th element themselves.
+When it comes to ARIA Roles there are 6 different types of them:
+\begin{enumerate}
+\item \textbf{Document Structure Roles}: Roles that define the overall structure of the webpage, most of these
+are pointless as there are relevant semantic HTML. Some of the roles that do need to be specified
+however include: toolbar, tooltip, feed, math, presentation, none and note.
+\item \textbf{Widget Roles}: Roles that define the purpose and functionality of interactive widgets such as:
+scrollbar, searchbox, separator, slider, spinbutton, switch, tab, tabpanel and treeitem. Some of
+these roles do have semantic HTML elements like buttons for example.
+\item \textbf{Landmark Roles}: Landmark roles label the primary sections of a webpage. Almost all landmark roles
+have an equivalent HTML element that can be used. If landmark roles, must be used it is important
+to use them only sparingly to keep the overall layout simple for users to understand.
+\item \textbf{Live Region Roles}: These are roles that define elements that are being changed live (dynamic
+elements). These roles allow users' screen readers to announce changes as they happen
+live. Examples for live region roles include: timer, alert, log, marquee and status
+\item \textbf{Window Roles}: These are roles that define sub-windows such as pop-up modal dialogues. Examples
+include: alertdialog and dialog. However, note that it is a best practice to use the native HTML
+dialog element instead of making a manual dialog.
+\item \textbf{Abstract Roles}: These are roles that the browsers use to organize the document. These are not
+used by developers.
+\end{enumerate}
+\subsubsection{ARIA Properties}
+\label{sec:orgf06d760}
+ARIA Properties provide additional semantic information about an element that is being used. For
+example if the default label of the element, perhaps the text of the element, is not an appropriate
+label; we can set the value of the label as something else using the aria-label and aria-labelledby
+attributes. Note that ARIA Roles are also a sort of ARIA Property, but because they are more focused
+on the functionality than the actual naming of the element they are considered their own
+thing. Let's take a look at a few important ARIA Properties:
+\begin{enumerate}
+\item \textbf{aria-label}: Used to create a text label that can identify the element.
+\item \textbf{aria-labelledby}: Used to create a text label that can identify the element by referencing text
+that is present elsewhere. The text that is being referenced must have an id by which it can be
+referenced. Also note that by using aria-labelledby, we can reference mutliple ids to make one
+unique label. Finally, note that aria-labelledby takes precedence over aria-label.
+\item \textbf{aria-describedby}: Used to add additional context to an element. Such as a warning message or
+instruction that may provide vital information to using the element in a productive manner.
+\end{enumerate}
+\subsubsection{ARIA States}
+\label{sec:org468dffa}
+ARIA States are used to describe the temporary, dynamic or even in some cases permanent condition of an
+element. For example if there is a button that reveals additional content by means of expanding
+itself, it is important to make it know to people using a screen reader that the button is in it's
+collapsed state, then when the user interacts with it, it's important to also let the users know
+that it is currently expanded. In order to obtain this functionality explained we will make use of
+the aria-expanded attribute, when the content is collapsed it can be set to "false" and when the
+content is visible it can be set to "true".
+One of the most important ARIA States is aria-hidden, any elements that have aria-hidden as set to
+"true" will be hidden from screen readers. While it is important to make all content that is
+accessible to regular users also accessible to user with visual and cognitive impairments, some
+content that is fluff, junk or decorative can be removed from being interpreted by the screen reader
+in order to give the user a more fluid experience.
+An argument can be made that removing even such "extra" content is also depriving the disabled user
+access to your original content.
+\subsection{HTML Syntax}
+\label{sec:orge707038}
+This list has been created using the syntax that I have personally encountered and syntax that I am
+much likely to use. For a full reference on all the HTML syntax please refer to this \href{https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global\_attributes}{link}.
+\begin{enumerate}
+\item Anchor/Hyperlink - <a>,</a>
+\begin{enumerate}
+\item Hypertext Reference - href
+\item Browsing Context - target
+("\textsubscript{self}" for the same tab, "\textsubscript{blank}" for a new tab or new window, there are other values as
+well but since they are values that deal with the now obsolete frames we will ignore them)
+\end{enumerate}
+\item Blink - <blink>,</blink>
+Blink is now a depecrated HTML syntax
+\item Body - <body>,</body>
+\item Bold - <b>,</b>
+\item Content Division - <div>,</div>
+\item Figure - <figure>,</figure>
+The figure is a new element introduced in HTML5 with the goal of adding semantics to figures
+including images, video clips, drawings and other visual content. Within the figure element you
+can add <figcaption></figcaption> that will add a caption to the image/s as well as the images
+themselves.
+\item Head - <head>,</head>
+\item Headings - <h1 - 6>,</h1 - 6>
+Note that when using headings, it is important to make sure you don't skip any headings
+(i.e. jumping from say h1 to then h3 without h2) and also include only 1 h1 heading per page in
+order to help with accessibility.
+\begin{enumerate}
+\item Create a unique id for CSS styling - id
+\item Create a class to share CSS styling among multiple elements - class
+\end{enumerate}
+\item HTML - <html>,</html>
+Webpage language - lang
+\item HTML initialization - <!DOCTYPE html>
+\item Image - <img/>
+\begin{enumerate}
+\item Source - src
+\item Alternative Text - alt
+\end{enumerate}
+\item Input - <input/>
+\begin{enumerate}
+\item Type - type
+Sets the type of input obtained (checkbox, password, email, url, button, submit, reset, tel,
+number, url, radio, search, date, datetime-local, week, month, hidden)
+\item Autocorrect - autocorrect
+\item Defualt check for checkbox - checked
+\item Disable element by default - disabled
+\item Make element immutable - readonly
+\item Makes the element mandatorily accept a value - required
+\item Add a placeholder value in your input field - placeholder
+\item Minimum characters that have to be input - minlength
+\item Maximum characters that have to be input - maxlength
+\item The focused state of the input - focused
+\item Size of the input box - size
+\item Have a checkbox/radio already checked - checked
+\end{enumerate}
+\item Italicize - <i>,</i>
+\item Linking to external resources - <link/>
+\begin{enumerate}
+\item Defining the relationship - rel
+Sets the relationship type (stylesheet, preconnect, icon)
+\item Hyperlink reference - href
+\end{enumerate}
+\item Main - <main>,</main>
+\item Metadata - <meta/>
+Defining the character set - charset
+Defining a metadata - name
+Entering content for the metadata - content
+\item Moving around - <marquee>,</marquee>
+Marquee is now a depecrated HTML syntax
+\item Paragraph - <p>,</p>
+\begin{enumerate}
+\item Create a unique id for CSS styling - id
+\item Create a class to share CSS styling among multiple elements - class
+\end{enumerate}
+\item Semantic Sections - <section>,</section>
+\item Title - <title>,</title>
+Title is displayed on the browser tab
+\begin{enumerate}
+\item Create a unique id for CSS styling - id
+\item Create a class to share CSS styling among multiple elements - class
+\end{enumerate}
+\item Emphasis (Semantic Italicization) - <em>,</em>
+\item Strong (Semantic Bold) - <strong>,</strong>
+\item Adding scripting languages - <script>,</script>
+\item Content Division - <div>,</div>
+Division elements are non-semantic meaning they don't carry meaning. They are useful for
+grouping together elements that need to share the same CSS styling. However, more often than not
+there is usually a more appropriate semantic element that can be used instead.
+\begin{enumerate}
+\item Create a unique id for CSS styling - id
+\item Create a class to share CSS styling among multiple elements - class
+\end{enumerate}
+\item Section - <section>,</section>
+\item Audio - <audio>,</audio>
+\begin{enumerate}
+\item Source - src
+\item Audio Controls - controls
+\item Autoplay Audio - autoplay
+\item Mute audio by default - muted
+\item Loop audio - loop
+\item Video Format - type
+\end{enumerate}
+\item Source - <source/>
+Used as a nested element to store multiple sources for its parent element.
+\item Video - <video>,</video>       
+\begin{enumerate}
+\item Source - src
+\item Video Controls - controls
+\item Autoplay video - autoplay
+\item Mute audio by default - muted
+\item Loop video - loop
+\item Adjust width - width
+\item Put a video thumbnail while the video is downloading - poster
+\item Video Format - type
+\end{enumerate}
+\item Audio and video text tracks - <track/>
+\begin{enumerate}
+\item Source - src
+\item Kind/Type of track - kind
+Values can be captions (includes descriptions of sounds), subtitles, chapters (for
+navigation), descriptions (summary of the media) and metadata
+\item Language - srclang
+\item Language Label - label
+\item Enable the track by default - default
+\end{enumerate}
+\item Inline Frame used to embed content such as videos, maps and documents - <iframe>,</iframe>
+\begin{enumerate}
+\item Source - src
+\item HTML Source - srcdoc
+\item Width - width
+\item Height - height
+\item Title which works like alt-text - title
+\item Allowing what the iframe can do - allow
+\end{enumerate}
+\item SVG - <svg>,</svg>
+\begin{enumerate}
+\item Width - width
+\item Height - height
+\item How much the browser will display - viewbox
+\end{enumerate}
+\item SVG Circles - <circle/>
+\begin{enumerate}
+\item Border - stroke
+\item Border width - stroke-width
+\item Colour fill - fill
+\end{enumerate}
+\item SVG Paths - <path/>
+\begin{enumerate}
+\item Path colour - stroke
+\item Path width - stroke-width
+\item Area between path colour - fill
+\end{enumerate}
+\item Embedded content - <embed>,</embed>
+General purpose embedding tool with little to no use
+\item Embedded content - <object>,</object>    
+General purpose embedding tool with little to no use
+\item Forms - <form>,</form>
+Used along with input elements to collect
+\begin{enumerate}
+\item Where form data will be sent - action
+\item Method in which data will be sent (by default it is get) - method
+\end{enumerate}
+\item Label - <label>,</label>
+You can either implicitly label something by nesting the other element within the label tag.
+However you can also explicitly label an element using the the "for" attribute where the value
+is the id of the target element.
+\item Button - <button>,</button>
+Used to provide a button to the user, by default it will do nothing and requires JavaScript to
+be functional. However you can set certain attributes to give the buttom some limited
+functionality.
+\begin{enumerate}
+\item Set the type of button - type
+You can set the type to be either a submit or reset button.
+\end{enumerate}
+\item Text area for long user input - <textarea>,</textarea>
+\begin{enumerate}
+\item Set the number of columns - cols
+\item Set the number of rows - rows
+\end{enumerate}
+\item Dropdown - <select>,</select>
+\begin{enumerate}
+\item Scrolling List - multiple size
+\end{enumerate}
+\item Dropdown options - <option>,</option>
+\begin{enumerate}
+\item Value of the option - value
+\item Have a preselected option - selected
+\end{enumerate}
+\item Tables - <table>,</table>
+\item Table Heading - <thead>,</thead>
+\item Table Body (Actual Table Content) - <tbody>,</tbody>
+\item Table Footer - <tfoot>,</tfoot>
+\item Table Row - <tr>,</tr>
+\item Table Row Header - <th>,</th>
+\item Table Data - <td>,</td>
+\begin{enumerate}
+\item Span over multiple columns - colspan
+\end{enumerate}
+\item Table Caption - <caption>,</caption>
+\end{enumerate}
+\section{CSS}
+\label{sec:org98792c3}
+
+\subsection{CSS Syntax}
+\label{sec:org5bf22f5}
+\begin{enumerate}
+\item Anchor Elements
+\begin{enumerate}
+\item Default link state - :link
+\item Visited links - :visited
+\item Links being hovered upon - :hover
+\item Links being focused upon - :focus
+I personally cannot tell the difference between :focus and :active
+\item Links that are being actively interacted with - :active
+\end{enumerate}
+When creating a CSS style for anchor elements it is important to style them in this specific
+order:
+\begin{verbatim}
+:link, :visited, :hover, :focus, :active
+\end{verbatim}
+This can be easily rememebered using the mnemonic "\textbf{LoVe Hates FeAr}". It must also be noted that
+these are not CSS properties but rather pseudo-classes that mimic both classes as well as properties.
+\item Text Elements
+\begin{enumerate}
+\item Set the text alignment - text-align:
+Text alignment can be said to several different types:
+\begin{itemize}
+\item start - aligns text depending on the start direction of the letters used.
+\item end - aligns text depending on the end direction of the letters used.
+\item left - aligns text to the left.
+\item right - aligns text to the right.
+\item center - aligns text to the middle.
+\item justify - justifies the text.
+\item match-parent - aligns the text as the parent element of the element is aligned.
+\end{itemize}
+\item Set the margin of the element - margin:
+The syntax of the margin property depends on the number of inputs that are put in as the
+value. For example if 4 values are input they follow the below order:
+\begin{verbatim}
+margin: top right bottom left
+\end{verbatim}
+However if only three values are specified, they instead follow:
+\begin{verbatim}
+margin: top sides bottom
+\end{verbatim}
+If only two values are input, then the syntax follows:
+\begin{verbatim}
+margin: top/bottom sides
+\end{verbatim}
+If only one value is input then it applies to all sides of the element.
+\end{enumerate}
+\item Gradients
+Gradients are present in CSS and allow to be placed in places where you would use an image, for
+example you can use them as a background when styling in CSS. There are three types of gradients
+as well as their repeating gradients.
+\begin{enumerate}
+\item Linear Gradients - linear-gradient:
+Linear gradients can be set up with many properties
+\begin{itemize}
+\item colours - linear gradients can be set up with colours including web colors, RGB Hexadecimal
+Notation, RGB Decimal Notation
+\item direction -  direction can be indicated in many ways inlcuding the literal direction using
+"to" and then the horizontal, vertical or both horizontal and vertical direction. This
+direction will be the end destination of the gradient.
+\item angle - another way is to describe the angle from which the gradient will start and end
+\item colour interpolation - I don't know what that means, but you can interpolate colours in
+rectangular color space using "in oklab", hsl shorter hue using "in hsl shorter hue" and in
+hsl longer hue using "in hsl longer hue".
+\item colour stop - You can indicate where a colour should stop and start, this can be done by
+either using percentage or length.
+\end{itemize}
+Note that in order to combine say the direction and the angle you will not use comma separated
+values and instead combine them with a space. For example:
+\begin{verbatim}
+linear-gradient(90deg in hsl shorter hue, red, 10%, blue 10% 70%, green, 90%, tomato)
+\end{verbatim}
+\item Radial Gradients - radial-gradient:
+Radial gradients follow the same rules for colours and interpolation as linear-gradients, other than that:
+\begin{itemize}
+\item shape - A radial gradient can be specified to be either a circle gradient or an ellipse
+gradient. If no shape is given the gradient defaults to ellipse.
+\item position - A position can be selected where the gradient begins.
+\end{itemize}
+\item Conic Gradients - conic-gradients:
+These follow the same rules as linear gradients accept that they are more circular in manner.
+\end{enumerate}
+\end{enumerate}
+\end{document}
