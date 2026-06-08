@@ -31,13 +31,19 @@ Table of Contents
 .. 5. HTML Entities
 .. 6. Media Assets
 .. 7. Paths
-.. 8. Accessibility
+.. 8. Client-Server Model
+.. 9. Accessibility
 ..... 1. Fundamentals of Accessibility
 ..... 2. Screen Readers
 ..... 3. I/O Devices
 ..... 4. Screen Magnifiers
 ..... 5. Voice Recognition Software
-.. 9. HTML Syntax
+..... 6. Accessibility Auditing
+.. 10. ARIA
+..... 1. ARIA Roles
+..... 2. ARIA Properties
+..... 3. ARIA States
+.. 11. HTML Syntax
 3. CSS
 .. 1. CSS Syntax
 
@@ -516,7 +522,7 @@ am following a Bad Website Club bootcamp!
   Universal Character Set. It is the standardized character encoding
   widely used on the web (99% of the web uses UTF-8). The other unicode
   standard that exists (existed) is UTF-16 which is now nearly obsolete
-  with only 0.004% of cwebpages using it.  Using UTF-8 and by that
+  with only 0.004% of webpages using it.  Using UTF-8 and by that
   extent, setting it as the characterset in a meta element in your
   webpages, is crucial to maintaining the standards of the internet as
   it supports every character in the Unicode set from all writing
@@ -665,10 +671,44 @@ am following a Bad Website Club bootcamp!
   └────
 
 
-2.8 Accessibility
+2.8 Client-Server Model
+───────────────────────
+
+  Much of the internet is based on the client-server model, in this
+  model user devices (clients) communicate via a network to centrally
+  located servers to get the information they need instead of
+  communicating directly with each other. One of the important reasons
+  for this model being used in web development is for accessibility of
+  the content. No content on the internet should become inaccessible to
+  users because someone's individual laptop got broken or lost. Of
+  course this does not mean that servers are 100% reliable, most of them
+  have outtages and breakdowns, but most servers have a backup server
+  and manage to be up for most of the time.  In terms of the
+  client-server model there are 2 noticeable aspects:
+  1. Client
+  2. Server
+  "Client-side" refers to everything that happens on the client's side,
+  including layout, design and any interactive features. Most of the
+  HTML, CSS and JavaScript occurs on the client-side.  "Server-side"
+  refers to everything that happens on the server that hosts the
+  content, the server-side activities may include: data processing,
+  running applications and handling user requests.  If we think in terms
+  of the MVC Architectural Paradigm, we can compare the client-side to
+  the View and the server-side to the controller. Servers, do not
+  process data however it does occur on the "server-side", data is
+  processed by databases instead, and that would be the model of the
+  paradigm but that topic leaves the scope of this chapter.  Client-side
+  validation is a pretty important to ensure that the user is filling in
+  all the necessary details of a form correctly. While this is a true to
+  a certain extent, it is important to ensure that there is also
+  adequate and robust server-side validation as malicious users can
+  attempt to bypass client-side validation checks.
+
+
+2.9 Accessibility
 ─────────────────
 
-2.8.1 Fundamentals of Accessibility
+2.9.1 Fundamentals of Accessibility
 ╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
 
   Accessibility is the process of making products and services that
@@ -693,7 +733,7 @@ am following a Bad Website Club bootcamp!
   These 4 core principles can be remembered using the acronymn: "*POUR*"
 
 
-2.8.2 Screen Readers
+2.9.2 Screen Readers
 ╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
 
   When it comes to the topic of accessibility we mentioned earlier that
@@ -717,7 +757,7 @@ am following a Bad Website Club bootcamp!
   to users.
 
 
-2.8.3 I/O Devices
+2.9.3 I/O Devices
 ╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
 
   Apart from this particular tool, there are other devices that also
@@ -736,7 +776,7 @@ am following a Bad Website Club bootcamp!
   used by people who have tremors in their hands.
 
 
-2.8.4 Screen Magnifiers
+2.9.4 Screen Magnifiers
 ╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
 
   Screen magnifiers also help people who are visually impaired by making
@@ -765,12 +805,162 @@ am following a Bad Website Club bootcamp!
   6. Providing feedback directly next to the element that triggers it.
 
 
-2.8.5 Voice Recognition Software
+2.9.5 Voice Recognition Software
 ╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
 
+  Voice recognition software allows people with disabilities to use
+  their voice to pass commands instead of physically interacting with
+  the hardware. They are especially helpful for people who have visual
+  impairments, mobility impairments, injuries, cognitive disorders and
+  an easier time using voice recognition software such as elderly.
+  There are certain voice recognition software available on the popular
+  operating systems:
+  1. *Windows*: Voice Access
+  2. *Android*: Voice Access
+  3. *iOS/MacOS*: Voice Control
+  There is also Dragon Naturally Speaking by Nuance that is a very
+  popular third party software.
 
-2.9 HTML Syntax
-───────────────
+
+2.9.6 Accessibility Auditing
+╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
+
+  Accessibility is crucial in making our web more accessible to
+  people. However many web developers overlook it and even the
+  developers who make their webpages with accessibility in mind can
+  forget a bunch of stuff. In order to make sure that we are actually
+  developing our webpages in an accessible manner it is important for
+  our elements to be scutinized/audited to see if they fit the criteria
+  for accessibility.  One way to audit our websites is to use
+  accessibility auditing tools. They will report accessibilty issues as
+  well as suggestions and improvements that can be made to your webpage
+  to make it more accessible. Note that while these tools are easily
+  accessible to all developers and are geuninely a right step in making
+  your webpages more accessible to more people, these tools usually only
+  catch about one third of accessibility issues. The best way to audit
+  your webpages will always be Manual auditing done preferably by a
+  person with disabilities.  Some of the free accessibility auditing
+  tools available for people to use are: *Google Lighthouse*: This is
+  already built into your DevTools which can be opened using the _F12_
+  key.  *WAVE*: This is a free extension available for Chromium and
+  FireFox Browsers *IBM Equal Accessibility Checker*: Another robust
+  tool available as an extension for Chromium and FireFox browsers. This
+  tool can also generate an accessibility report for you that can be a
+  spreadsheet or HTML doc.
+
+
+2.10 ARIA
+─────────
+
+  When we looked at the 2.9.1 we learnt about WCAG which provided
+  guidelines for making our content more accessible to people who needed
+  it. We also learnt about the 4 core principles they have and how their
+  goal is to make a standardized and accessible web. However, sometimes
+  following these guidelines and using semantic HTML is not enough to
+  provide a clear picture of the content in our web-pages, especially if
+  we use dynamic content that isn't static. In such occasions we make
+  use of ARIA; actually WAI-ARIA which stands for Web Accessibility
+  Initiative - Accessible Rich Internet Applications. This gives an
+  additional set of attributes that are further divided into roles,
+  states and properties and allows us to give additional semantics to or
+  content that will make it easier for people using screen readers to
+  understand our content. It's important to note that the best ARIA is
+  the lack of ARIA (i.e. It's better to use native semantic HTML than
+  creating a complex non-semantic HTML and giving it ARIA attributes),
+  only use ARIA when you are sure this cannot be done using native
+  HTML. Do not overuse ARIA as well as it can make it more confusing for
+  users.
+
+
+2.10.1 ARIA Roles
+╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
+
+  Roles are one of the three types of ARIA attributes that can be given
+  to your elements. The purpose of using roles is to make known to the
+  user what role that particular element does. It only makes the user
+  aware of what the element's "supposed" function is but adds no
+  functionality to the element. It is the repsonsibility of the
+  developer to add the expected functionality and behaviour of th
+  element themselves.  When it comes to ARIA Roles there are 6 different
+  types of them:
+  1. *Document Structure Roles*: Roles that define the overall structure
+     of the webpage, most of these are pointless as there are relevant
+     semantic HTML. Some of the roles that do need to be specified
+     however include: toolbar, tooltip, feed, math, presentation, none
+     and note.
+  2. *Widget Roles*: Roles that define the purpose and functionality of
+     interactive widgets such as: scrollbar, searchbox, separator,
+     slider, spinbutton, switch, tab, tabpanel and treeitem. Some of
+     these roles do have semantic HTML elements like buttons for
+     example.
+  3. *Landmark Roles*: Landmark roles label the primary sections of a
+     webpage. Almost all landmark roles have an equivalent HTML element
+     that can be used. If landmark roles, must be used it is important
+     to use them only sparingly to keep the overall layout simple for
+     users to understand.
+  4. *Live Region Roles*: These are roles that define elements that are
+     being changed live (dynamic elements). These roles allow users'
+     screen readers to announce changes as they happen live. Examples
+     for live region roles include: timer, alert, log, marquee and
+     status
+  5. *Window Roles*: These are roles that define sub-windows such as
+     pop-up modal dialogues. Examples include: alertdialog and
+     dialog. However, note that it is a best practice to use the native
+     HTML dialog element instead of making a manual dialog.
+  6. *Abstract Roles*: These are roles that the browsers use to organize
+     the document. These are not used by developers.
+
+
+2.10.2 ARIA Properties
+╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
+
+  ARIA Properties provide additional semantic information about an
+  element that is being used. For example if the default label of the
+  element, perhaps the text of the element, is not an appropriate label;
+  we can set the value of the label as something else using the
+  aria-label and aria-labelledby attributes. Note that ARIA Roles are
+  also a sort of ARIA Property, but because they are more focused on the
+  functionality than the actual naming of the element they are
+  considered their own thing. Let's take a look at a few important ARIA
+  Properties:
+  1. *aria-label*: Used to create a text label that can identify the
+      element.
+  2. *aria-labelledby*: Used to create a text label that can identify
+     the element by referencing text that is present elsewhere. The text
+     that is being referenced must have an id by which it can be
+     referenced. Also note that by using aria-labelledby, we can
+     reference mutliple ids to make one unique label. Finally, note that
+     aria-labelledby takes precedence over aria-label.
+  3. *aria-describedby*: Used to add additional context to an
+     element. Such as a warning message or instruction that may provide
+     vital information to using the element in a productive manner.
+
+
+2.10.3 ARIA States
+╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
+
+  ARIA States are used to describe the temporary, dynamic or even in
+  some cases permanent condition of an element. For example if there is
+  a button that reveals additional content by means of expanding itself,
+  it is important to make it know to people using a screen reader that
+  the button is in it's collapsed state, then when the user interacts
+  with it, it's important to also let the users know that it is
+  currently expanded. In order to obtain this functionality explained we
+  will make use of the aria-expanded attribute, when the content is
+  collapsed it can be set to "false" and when the content is visible it
+  can be set to "true".  One of the most important ARIA States is
+  aria-hidden, any elements that have aria-hidden as set to "true" will
+  be hidden from screen readers. While it is important to make all
+  content that is accessible to regular users also accessible to user
+  with visual and cognitive impairments, some content that is fluff,
+  junk or decorative can be removed from being interpreted by the screen
+  reader in order to give the user a more fluid experience.  An argument
+  can be made that removing even such "extra" content is also depriving
+  the disabled user access to your original content.
+
+
+2.11 HTML Syntax
+────────────────
 
   This list has been created using the syntax that I have personally
   encountered and syntax that I am much likely to use. For a full
@@ -791,7 +981,10 @@ am following a Bad Website Club bootcamp!
      figure element you can add <figcaption></figcaption> that will add
      a caption to the image/s as well as the images themselves.
   7. Head - <head>,</head>
-  8. Headings - <h1 - 6>,</h1 - 6>
+  8. Headings - <h1 - 6>,</h1 - 6> Note that when using headings, it is
+     important to make sure you don't skip any headings (i.e. jumping
+     from say h1 to then h3 without h2) and also include only 1 h1
+     heading per page in order to help with accessibility.
      1. Create a unique id for CSS styling - id
      2. Create a class to share CSS styling among multiple elements -
         class
@@ -802,12 +995,19 @@ am following a Bad Website Club bootcamp!
       2. Alternative Text - alt
   12. Input - <input/>
       1. Type - type Sets the type of input obtained (checkbox,
-         password, email, url)
-      2. Autocrrect - autocorrect
+         password, email, url, button, submit, reset, tel, number, url,
+         radio, search, date, datetime-local, week, month, hidden)
+      2. Autocorrect - autocorrect
       3. Defualt check for checkbox - checked
       4. Disable element by default - disabled
       5. Make element immutable - readonly
       6. Makes the element mandatorily accept a value - required
+      7. Add a placeholder value in your input field - placeholder
+      8. Minimum characters that have to be input - minlength
+      9. Maximum characters that have to be input - maxlength
+      10. The focused state of the input - focused
+      11. Size of the input box - size
+      12. Have a checkbox/radio already checked - checked
   13. Italicize - <i>,</i>
   14. Linking to external resources - <link/>
       1. Defining the relationship - rel Sets the relationship type
@@ -889,6 +1089,37 @@ am following a Bad Website Club bootcamp!
       with little to no use
   35. Embedded content - <object>,</object> General purpose embedding
       tool with little to no use
+  36. Forms - <form>,</form> Used along with input elements to collect
+      1. Where form data will be sent - action
+      2. Method in which data will be sent (by default it is get) -
+         method
+  37. Label - <label>,</label> You can either implicitly label something
+      by nesting the other element within the label tag.  However you
+      can also explicitly label an element using the the "for" attribute
+      where the value is the id of the target element.
+  38. Button - <button>,</button> Used to provide a button to the user,
+      by default it will do nothing and requires JavaScript to be
+      functional. However you can set certain attributes to give the
+      buttom some limited functionality.
+      1. Set the type of button - type You can set the type to be either
+         a submit or reset button.
+  39. Text area for long user input - <textarea>,</textarea>
+      1. Set the number of columns - cols
+      2. Set the number of rows - rows
+  40. Dropdown - <select>,</select>
+      1. Scrolling List - multiple size
+  41. Dropdown options - <option>,</option>
+      1. Value of the option - value
+      2. Have a preselected option - selected
+  42. Tables - <table>,</table>
+  43. Table Heading - <thead>,</thead>
+  44. Table Body (Actual Table Content) - <tbody>,</tbody>
+  45. Table Footer - <tfoot>,</tfoot>
+  46. Table Row - <tr>,</tr>
+  47. Table Row Header - <th>,</th>
+  48. Table Data - <td>,</td>
+      1. Span over multiple columns - colspan
+  49. Table Caption - <caption>,</caption>
 
 
 [link]
@@ -941,3 +1172,47 @@ am following a Bad Website Club bootcamp!
         ┌────
         │ margin: top sides bottom
         └────
+        If only two values are input, then the syntax follows:
+        ┌────
+        │ margin: top/bottom sides
+        └────
+        If only one value is input then it applies to all sides of the
+        element.
+  3. Gradients Gradients are present in CSS and allow to be placed in
+     places where you would use an image, for example you can use them
+     as a background when styling in CSS. There are three types of
+     gradients as well as their repeating gradients.
+     1. Linear Gradients - linear-gradient: Linear gradients can be set
+        up with many properties
+        ‣ colours - linear gradients can be set up with colours
+          including web colors, RGB Hexadecimal Notation, RGB Decimal
+          Notation
+        ‣ direction - direction can be indicated in many ways inlcuding
+          the literal direction using "to" and then the horizontal,
+          vertical or both horizontal and vertical direction. This
+          direction will be the end destination of the gradient.
+        ‣ angle - another way is to describe the angle from which the
+          gradient will start and end
+        ‣ colour interpolation - I don't know what that means, but you
+          can interpolate colours in rectangular color space using "in
+          oklab", hsl shorter hue using "in hsl shorter hue" and in hsl
+          longer hue using "in hsl longer hue".
+        ‣ colour stop - You can indicate where a colour should stop and
+          start, this can be done by either using percentage or length.
+        Note that in order to combine say the direction and the angle
+        you will not use comma separated values and instead combine them
+        with a space. For example:
+        ┌────
+        │ linear-gradient(90deg in hsl shorter hue, red, 10%, blue 10% 70%, green, 90%, tomato)
+        └────
+     2. Radial Gradients - radial-gradient: Radial gradients follow the
+        same rules for colours and interpolation as linear-gradients,
+        other than that:
+        ‣ shape - A radial gradient can be specified to be either a
+          circle gradient or an ellipse gradient. If no shape is given
+          the gradient defaults to ellipse.
+        ‣ position - A position can be selected where the gradient
+          begins.
+     3. Conic Gradients - conic-gradients: These follow the same rules
+        as linear gradients accept that they are more circular in
+        manner.

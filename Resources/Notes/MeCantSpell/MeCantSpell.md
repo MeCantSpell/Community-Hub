@@ -1,44 +1,50 @@
 
 # Table of Contents
 
-1.  [Computers Basics](#org1d4b5e8)
-    1.  [Parts of a Computer](#org90adba2)
-    2.  [Working Effectively With Input Devices](#orgea238bc)
-    3.  [Internet Service Providers](#org639ff85)
-    4.  [Sign In Security](#org38b0ca0)
-    5.  [Developer Tools](#orgd06e9f5)
-    6.  [File Management Applications](#org0433c39)
-    7.  [Naming Files for Web Applications](#org82e10a1)
-    8.  [File/Folder Organization for Web Applications](#orgab72d30)
-    9.  [Creating, Moving and Deleting Files](#org411ec59)
-    10. [Searching for Files](#orga9df6c3)
-    11. [File Types used in Web Applications](#org5382c64)
-    12. [Web Browsers](#orgcacb651)
-    13. [Web Terms](#org2165118)
-    14. [Advanced Search Engine Capabilities](#orgfd4c55f)
-2.  [HTML](#org6268615)
-    1.  [Elements](#orgece3c0f)
-    2.  [Comments](#org005bbb3)
-    3.  [Boilerplate](#orgf647af6)
-    4.  [UTF-8](#org1ec4e58)
-    5.  [HTML Entities](#org7da327a)
-    6.  [Media Assets](#orga9b6e44)
-    7.  [Paths](#orgf47aa52)
-    8.  [Accessibility](#orgcb5eb18)
-        1.  [Fundamentals of Accessibility](#orgbf2e358)
-        2.  [Screen Readers](#org280f76a)
-        3.  [I/O Devices](#org8d0be9a)
-        4.  [Screen Magnifiers](#orgee5a2be)
-        5.  [Voice Recognition Software](#orge28cc09)
-    9.  [HTML Syntax](#org7a5f8e7)
-3.  [CSS](#org984d15d)
-    1.  [CSS Syntax](#org8689128)
+1.  [Computers Basics](#org2a69b3c)
+    1.  [Parts of a Computer](#org8cffc80)
+    2.  [Working Effectively With Input Devices](#orgc8f8fdf)
+    3.  [Internet Service Providers](#org7969b2f)
+    4.  [Sign In Security](#orgde8d59c)
+    5.  [Developer Tools](#org70ce1b8)
+    6.  [File Management Applications](#orgc9da55b)
+    7.  [Naming Files for Web Applications](#org360917a)
+    8.  [File/Folder Organization for Web Applications](#orgd63441d)
+    9.  [Creating, Moving and Deleting Files](#orgc13f0b7)
+    10. [Searching for Files](#org7640132)
+    11. [File Types used in Web Applications](#org3cdc896)
+    12. [Web Browsers](#orgc890fb9)
+    13. [Web Terms](#orgd44eb0f)
+    14. [Advanced Search Engine Capabilities](#org0651a5b)
+2.  [HTML](#org23baa23)
+    1.  [Elements](#orge9f3fa6)
+    2.  [Comments](#orgfe22542)
+    3.  [Boilerplate](#org5716f36)
+    4.  [UTF-8](#org676c397)
+    5.  [HTML Entities](#org4d76f50)
+    6.  [Media Assets](#org3e62b82)
+    7.  [Paths](#org7bb15e2)
+    8.  [Client-Server Model](#orgacd72d6)
+    9.  [Accessibility](#orgec0da8e)
+        1.  [Fundamentals of Accessibility](#org54bb494)
+        2.  [Screen Readers](#org2c6123e)
+        3.  [I/O Devices](#org20d0f45)
+        4.  [Screen Magnifiers](#orgc025ed8)
+        5.  [Voice Recognition Software](#org320b9b6)
+        6.  [Accessibility Auditing](#orgd6210ff)
+    10. [ARIA](#org8ab9f0e)
+        1.  [ARIA Roles](#org1e442a4)
+        2.  [ARIA Properties](#org254b176)
+        3.  [ARIA States](#orgfb2ee56)
+    11. [HTML Syntax](#org5fe90d9)
+3.  [CSS](#org5780fb6)
+    1.  [CSS Syntax](#org3bf658f)
 
 This file contains the notes for my Responsive Web Design Certificate. I am following a Bad Website
 Club bootcamp!
 
 
-<a id="org1d4b5e8"></a>
+<a id="org2a69b3c"></a>
 
 # Computers Basics
 
@@ -48,7 +54,7 @@ As a developer it's important to take a look at the parts of a computer as it's 
 which we will be developing software for.
 
 
-<a id="org90adba2"></a>
+<a id="org8cffc80"></a>
 
 ## Parts of a Computer
 
@@ -83,7 +89,7 @@ commonly used include:
 3.  Network Cards - Responsible for connecting the computer to the internet.
 
 
-<a id="orgea238bc"></a>
+<a id="orgc8f8fdf"></a>
 
 ## Working Effectively With Input Devices
 
@@ -99,7 +105,7 @@ lives.
 6.  **MOST IMPORTANTLY** Taking regular breaks
 
 
-<a id="org639ff85"></a>
+<a id="org7969b2f"></a>
 
 ## Internet Service Providers
 
@@ -133,7 +139,7 @@ some connections here.
 6.  **Cellular Network Connections (4G/5G)** : They transmit data between cellular
 
 
-<a id="org38b0ca0"></a>
+<a id="orgde8d59c"></a>
 
 ## Sign In Security
 
@@ -146,7 +152,7 @@ When setting up your passwords for services, using 2FA (two factor authorization
 manager (E.g.:[Proton Pass](https://proton.me/pass)) are recommended.
 
 
-<a id="orgd06e9f5"></a>
+<a id="org70ce1b8"></a>
 
 ## Developer Tools
 
@@ -180,7 +186,7 @@ and efficient.
     many users as possible.
 
 
-<a id="org0433c39"></a>
+<a id="orgc9da55b"></a>
 
 ## File Management Applications
 
@@ -193,7 +199,7 @@ around.
 These file management applications provide features like tags,search and Smart Folders.
 
 
-<a id="org82e10a1"></a>
+<a id="org360917a"></a>
 
 ## Naming Files for Web Applications
 
@@ -208,7 +214,7 @@ The exception to this is **index.html** which is a special file that represents 
 website. It's the first file that is loaded when you visit a website.
 
 
-<a id="orgab72d30"></a>
+<a id="orgd63441d"></a>
 
 ## File/Folder Organization for Web Applications
 
@@ -238,7 +244,7 @@ Personally I like to add a little TODO.org so that I have an idea what I have to
 little note of what I have already done, or failed doing.
 
 
-<a id="org411ec59"></a>
+<a id="orgc13f0b7"></a>
 
 ## Creating, Moving and Deleting Files
 
@@ -260,7 +266,7 @@ In order to select multiple files on Windows you can either <span class="underli
 <span class="underline">Ctrl+click over the relevant files (Ctrl+click really helps when the files aren't adjacent).</span>
 
 
-<a id="orga9df6c3"></a>
+<a id="org7640132"></a>
 
 ## Searching for Files
 
@@ -270,11 +276,11 @@ if you have internalized all the details from the previous chapter you won't nee
 anything as you will be well organized to always know where everything is.
 
 
-<a id="org5382c64"></a>
+<a id="org3cdc896"></a>
 
 ## File Types used in Web Applications
 
-Earlier in [1.7](#org82e10a1) we looked at files like .html, .css and .js that we
+Earlier in [1.7](#org360917a) we looked at files like .html, .css and .js that we
 will use when we develop web applications. Apart from these we will also use some other files types
 such as:
 
@@ -297,7 +303,7 @@ Which are some image formats used in web applications.
     be exported as markdown, html and even pdf)
 
 
-<a id="orgcacb651"></a>
+<a id="orgc890fb9"></a>
 
 ## Web Browsers
 
@@ -309,7 +315,7 @@ On some systems you can install a browser using your operating system's package 
 MacOS with homebrew or Arch Linux.
 
 
-<a id="org2165118"></a>
+<a id="orgd44eb0f"></a>
 
 ## Web Terms
 
@@ -335,7 +341,7 @@ you know the website you want to go to you don't need a search engine, however i
 of where to go you can use a search engine to help you get there.
 
 
-<a id="orgfd4c55f"></a>
+<a id="org0651a5b"></a>
 
 ## Advanced Search Engine Capabilities
 
@@ -361,7 +367,7 @@ see the exact syntax that is used for these advanced functionalities.
 For more tips on using the Google Search Engine, and by extension Startpage, visit this [site](https://woodward.libguides.com/google/basicsearch).
 
 
-<a id="org6268615"></a>
+<a id="org23baa23"></a>
 
 # HTML
 
@@ -373,7 +379,7 @@ website functionality in HTML. A modern day website also needs CSS for styling a
 interactivity.
 
 
-<a id="orgece3c0f"></a>
+<a id="orge9f3fa6"></a>
 
 ## Elements
 
@@ -431,7 +437,7 @@ present or absent. Other boolean attributes include disabled, readonly and requi
 the state of an element.
 
 
-<a id="org005bbb3"></a>
+<a id="orgfe22542"></a>
 
 ## Comments
 
@@ -441,7 +447,7 @@ characters **&#x2013;>**. A full comment will look something like this:
     <!--This is an HTML comment.-->
 
 
-<a id="orgf647af6"></a>
+<a id="org5716f36"></a>
 
 ## Boilerplate
 
@@ -455,14 +461,14 @@ As you personalize your own boilerplate, you will realize that it saves time whe
 projects and it will become your default starting point for any web project.
 
 
-<a id="org1ec4e58"></a>
+<a id="org676c397"></a>
 
 ## UTF-8
 
 UTF-8 stands for UCS Transformation Format-8, UCS in turn stands for Universal Character Set. It is
 the standardized character encoding widely used on the web (99% of the web uses UTF-8). The other
 unicode standard that exists (existed) is UTF-16 which is now nearly obsolete with only 0.004% of
-cwebpages using it.
+webpages using it.
 Using UTF-8 and by that extent, setting it as the characterset in a meta element in your webpages,
 is crucial to maintaining the standards of the internet as it supports every character in the
 Unicode set from all writing systems, languages and techincal symbols. It's why you can type in
@@ -475,7 +481,7 @@ is:
 Having this code in your boilerplate will also prove efficient.
 
 
-<a id="org7da327a"></a>
+<a id="org4d76f50"></a>
 
 ## HTML Entities
 
@@ -498,7 +504,7 @@ start with an **ampersand(&)** and end with a **semi-colon(;)** in common.
     **semi-colon(;)**.
 
 
-<a id="orga9b6e44"></a>
+<a id="org3e62b82"></a>
 
 ## Media Assets
 
@@ -538,7 +544,7 @@ of three things has occurred:
     Fair use requires that your use of the original media is both limited and transformative.
 
 
-<a id="orgf47aa52"></a>
+<a id="org7bb15e2"></a>
 
 ## Paths
 
@@ -598,12 +604,43 @@ directory (i.e. Project/)
     ../Resources/Images/favicon.svg
 
 
-<a id="orgcb5eb18"></a>
+<a id="orgacd72d6"></a>
+
+## Client-Server Model
+
+Much of the internet is based on the client-server model, in this model user devices (clients)
+communicate via a network to centrally located servers to get the information they need instead of
+communicating directly with each other. One of the important reasons for this model being used in
+web development is for accessibility of the content. No content on the internet should become
+inaccessible to users because someone's individual laptop got broken or lost. Of course this does
+not mean that servers are 100% reliable, most of them have outtages and breakdowns, but most servers
+have a backup server and manage to be up for most of the time.
+In terms of the client-server model there are 2 noticeable aspects:
+
+1.  Client
+2.  Server
+
+"Client-side" refers to everything that happens on the client's side, including layout, design and
+any interactive features. Most of the HTML, CSS and JavaScript occurs on the client-side.
+"Server-side" refers to everything that happens on the server that hosts the content, the
+server-side activities may include: data processing, running applications and handling user
+requests.
+If we think in terms of the MVC Architectural Paradigm, we can compare the client-side to the View
+and the server-side to the controller. Servers, do not process data however it does occur on the
+"server-side", data is processed by databases instead, and that would be the model of the paradigm
+but that topic leaves the scope of this chapter.
+Client-side validation is a pretty important to ensure that the user is filling in all the necessary
+details of a form correctly. While this is a true to a certain extent, it is important to ensure
+that there is also adequate and robust server-side validation as malicious users can attempt to bypass
+client-side validation checks.
+
+
+<a id="orgec0da8e"></a>
 
 ## Accessibility
 
 
-<a id="orgbf2e358"></a>
+<a id="org54bb494"></a>
 
 ### Fundamentals of Accessibility
 
@@ -626,7 +663,7 @@ with 4 core principles in mind:
 These 4 core principles can be remembered using the acronymn: "**POUR**"
 
 
-<a id="org280f76a"></a>
+<a id="org2c6123e"></a>
 
 ### Screen Readers
 
@@ -647,7 +684,7 @@ readers, this is because despite the extensive guidelines provided by the W3C, m
 create their websites in a way that is inaccessible to users.
 
 
-<a id="org8d0be9a"></a>
+<a id="org20d0f45"></a>
 
 ### I/O Devices
 
@@ -663,7 +700,7 @@ movements, while they make it ideal for gamers, they can also be an accessible p
 can be used by people who have tremors in their hands.
 
 
-<a id="orgee5a2be"></a>
+<a id="orgc025ed8"></a>
 
 ### Screen Magnifiers
 
@@ -693,12 +730,136 @@ accessible to people who use screen magnifiers:
 6.  Providing feedback directly next to the element that triggers it.
 
 
-<a id="orge28cc09"></a>
+<a id="org320b9b6"></a>
 
 ### Voice Recognition Software
 
+Voice recognition software allows people with disabilities to use their voice to pass commands
+instead of physically interacting with the hardware. They are especially helpful for people who have
+visual impairments, mobility impairments, injuries, cognitive disorders and an easier time using
+voice recognition software such as elderly.
+There are certain voice recognition software available on the popular operating systems:
 
-<a id="org7a5f8e7"></a>
+1.  **Windows**: Voice Access
+2.  **Android**: Voice Access
+3.  **iOS/MacOS**: Voice Control
+
+There is also Dragon Naturally Speaking by Nuance that is a very popular third party software.
+
+
+<a id="orgd6210ff"></a>
+
+### Accessibility Auditing
+
+Accessibility is crucial in making our web more accessible to people. However many web developers
+overlook it and even the developers who make their webpages with accessibility in mind can forget a
+bunch of stuff. In order to make sure that we are actually developing our webpages in an accessible
+manner it is important for our elements to be scutinized/audited to see if they fit the criteria for
+accessibility.
+One way to audit our websites is to use accessibility auditing tools. They will report
+accessibilty issues as well as suggestions and improvements that can be made to your webpage to make
+it more accessible. Note that while these tools are easily accessible to all developers and are
+geuninely a right step in making your webpages more accessible to more people, these tools usually
+only catch about one third of accessibility issues. The best way to audit your webpages will always
+be Manual auditing done preferably by a person with disabilities.
+Some of the free accessibility auditing tools available for people to use are:
+**Google Lighthouse**: This is already built into your DevTools which can be opened using the <span class="underline">F12</span> key.
+**WAVE**: This is a free extension available for Chromium and FireFox Browsers
+**IBM Equal Accessibility Checker**: Another robust tool available as an extension for Chromium and
+FireFox browsers. This tool can also generate an accessibility report for you that can be a
+spreadsheet or HTML doc.
+
+
+<a id="org8ab9f0e"></a>
+
+## ARIA
+
+When we looked at the [2.9.1](#org54bb494) we learnt about WCAG which provided guidelines
+for making our content more accessible to people who needed it. We also learnt about the 4 core
+principles they have and how their goal is to make a standardized and accessible web. However,
+sometimes following these guidelines and using semantic HTML is not enough to provide a clear
+picture of the content in our web-pages, especially if we use dynamic content that isn't static. In
+such occasions we make use of ARIA; actually WAI-ARIA which stands for Web Accessibility
+Initiative - Accessible Rich Internet Applications. This gives an additional set of attributes that
+are further divided into roles, states and properties and allows us to give additional semantics to
+or content that will make it easier for people using screen readers to understand our content. It's
+important to note that the best ARIA is the lack of ARIA (i.e. It's better to use native semantic
+HTML than creating a complex non-semantic HTML and giving it ARIA attributes), only use ARIA when
+you are sure this cannot be done using native HTML. Do not overuse ARIA as well as it can make it
+more confusing for users.
+
+
+<a id="org1e442a4"></a>
+
+### ARIA Roles
+
+Roles are one of the three types of ARIA attributes that can be given to your elements. The purpose
+of using roles is to make known to the user what role that particular element does. It only makes
+the user aware of what the element's "supposed" function is but adds no functionality to the
+element. It is the repsonsibility of the developer to add the expected functionality and behaviour
+of th element themselves.
+When it comes to ARIA Roles there are 6 different types of them:
+
+1.  **Document Structure Roles**: Roles that define the overall structure of the webpage, most of these
+    are pointless as there are relevant semantic HTML. Some of the roles that do need to be specified
+    however include: toolbar, tooltip, feed, math, presentation, none and note.
+2.  **Widget Roles**: Roles that define the purpose and functionality of interactive widgets such as:
+    scrollbar, searchbox, separator, slider, spinbutton, switch, tab, tabpanel and treeitem. Some of
+    these roles do have semantic HTML elements like buttons for example.
+3.  **Landmark Roles**: Landmark roles label the primary sections of a webpage. Almost all landmark roles
+    have an equivalent HTML element that can be used. If landmark roles, must be used it is important
+    to use them only sparingly to keep the overall layout simple for users to understand.
+4.  **Live Region Roles**: These are roles that define elements that are being changed live (dynamic
+    elements). These roles allow users' screen readers to announce changes as they happen
+    live. Examples for live region roles include: timer, alert, log, marquee and status
+5.  **Window Roles**: These are roles that define sub-windows such as pop-up modal dialogues. Examples
+    include: alertdialog and dialog. However, note that it is a best practice to use the native HTML
+    dialog element instead of making a manual dialog.
+6.  **Abstract Roles**: These are roles that the browsers use to organize the document. These are not
+    used by developers.
+
+
+<a id="org254b176"></a>
+
+### ARIA Properties
+
+ARIA Properties provide additional semantic information about an element that is being used. For
+example if the default label of the element, perhaps the text of the element, is not an appropriate
+label; we can set the value of the label as something else using the aria-label and aria-labelledby
+attributes. Note that ARIA Roles are also a sort of ARIA Property, but because they are more focused
+on the functionality than the actual naming of the element they are considered their own
+thing. Let's take a look at a few important ARIA Properties:
+
+1.  **aria-label**: Used to create a text label that can identify the element.
+2.  **aria-labelledby**: Used to create a text label that can identify the element by referencing text
+    that is present elsewhere. The text that is being referenced must have an id by which it can be
+    referenced. Also note that by using aria-labelledby, we can reference mutliple ids to make one
+    unique label. Finally, note that aria-labelledby takes precedence over aria-label.
+3.  **aria-describedby**: Used to add additional context to an element. Such as a warning message or
+    instruction that may provide vital information to using the element in a productive manner.
+
+
+<a id="orgfb2ee56"></a>
+
+### ARIA States
+
+ARIA States are used to describe the temporary, dynamic or even in some cases permanent condition of an
+element. For example if there is a button that reveals additional content by means of expanding
+itself, it is important to make it know to people using a screen reader that the button is in it's
+collapsed state, then when the user interacts with it, it's important to also let the users know
+that it is currently expanded. In order to obtain this functionality explained we will make use of
+the aria-expanded attribute, when the content is collapsed it can be set to "false" and when the
+content is visible it can be set to "true".
+One of the most important ARIA States is aria-hidden, any elements that have aria-hidden as set to
+"true" will be hidden from screen readers. While it is important to make all content that is
+accessible to regular users also accessible to user with visual and cognitive impairments, some
+content that is fluff, junk or decorative can be removed from being interpreted by the screen reader
+in order to give the user a more fluid experience.
+An argument can be made that removing even such "extra" content is also depriving the disabled user
+access to your original content.
+
+
+<a id="org5fe90d9"></a>
 
 ## HTML Syntax
 
@@ -722,6 +883,9 @@ much likely to use. For a full reference on all the HTML syntax please refer to 
     themselves.
 7.  Head - <head>,</head>
 8.  Headings - <h1 - 6>,</h1 - 6>
+    Note that when using headings, it is important to make sure you don't skip any headings
+    (i.e. jumping from say h1 to then h3 without h2) and also include only 1 h1 heading per page in
+    order to help with accessibility.
     1.  Create a unique id for CSS styling - id
     2.  Create a class to share CSS styling among multiple elements - class
 9.  HTML - <html>,</html>
@@ -732,12 +896,19 @@ much likely to use. For a full reference on all the HTML syntax please refer to 
     2.  Alternative Text - alt
 12. Input - <input/>
     1.  Type - type
-        Sets the type of input obtained (checkbox, password, email, url)
-    2.  Autocrrect - autocorrect
+        Sets the type of input obtained (checkbox, password, email, url, button, submit, reset, tel,
+        number, url, radio, search, date, datetime-local, week, month, hidden)
+    2.  Autocorrect - autocorrect
     3.  Defualt check for checkbox - checked
     4.  Disable element by default - disabled
     5.  Make element immutable - readonly
     6.  Makes the element mandatorily accept a value - required
+    7.  Add a placeholder value in your input field - placeholder
+    8.  Minimum characters that have to be input - minlength
+    9.  Maximum characters that have to be input - maxlength
+    10. The focused state of the input - focused
+    11. Size of the input box - size
+    12. Have a checkbox/radio already checked - checked
 13. Italicize - <i>,</i>
 14. Linking to external resources - <link/>
     1.  Defining the relationship - rel
@@ -817,14 +988,45 @@ much likely to use. For a full reference on all the HTML syntax please refer to 
     General purpose embedding tool with little to no use
 35. Embedded content - <object>,</object>    
     General purpose embedding tool with little to no use
+36. Forms - <form>,</form>
+    Used along with input elements to collect
+    1.  Where form data will be sent - action
+    2.  Method in which data will be sent (by default it is get) - method
+37. Label - <label>,</label>
+    You can either implicitly label something by nesting the other element within the label tag.
+    However you can also explicitly label an element using the the "for" attribute where the value
+    is the id of the target element.
+38. Button - <button>,</button>
+    Used to provide a button to the user, by default it will do nothing and requires JavaScript to
+    be functional. However you can set certain attributes to give the buttom some limited
+    functionality.
+    1.  Set the type of button - type
+        You can set the type to be either a submit or reset button.
+39. Text area for long user input - <textarea>,</textarea>
+    1.  Set the number of columns - cols
+    2.  Set the number of rows - rows
+40. Dropdown - <select>,</select>
+    1.  Scrolling List - multiple size
+41. Dropdown options - <option>,</option>
+    1.  Value of the option - value
+    2.  Have a preselected option - selected
+42. Tables - <table>,</table>
+43. Table Heading - <thead>,</thead>
+44. Table Body (Actual Table Content) - <tbody>,</tbody>
+45. Table Footer - <tfoot>,</tfoot>
+46. Table Row - <tr>,</tr>
+47. Table Row Header - <th>,</th>
+48. Table Data - <td>,</td>
+    1.  Span over multiple columns - colspan
+49. Table Caption - <caption>,</caption>
 
 
-<a id="org984d15d"></a>
+<a id="org5780fb6"></a>
 
 # CSS
 
 
-<a id="org8689128"></a>
+<a id="org3bf658f"></a>
 
 ## CSS Syntax
 
@@ -863,4 +1065,40 @@ much likely to use. For a full reference on all the HTML syntax please refer to 
         However if only three values are specified, they instead follow:
         
             margin: top sides bottom
+        
+        If only two values are input, then the syntax follows:
+        
+            margin: top/bottom sides
+        
+        If only one value is input then it applies to all sides of the element.
+3.  Gradients
+    Gradients are present in CSS and allow to be placed in places where you would use an image, for
+    example you can use them as a background when styling in CSS. There are three types of gradients
+    as well as their repeating gradients.
+    1.  Linear Gradients - linear-gradient:
+        Linear gradients can be set up with many properties
+        
+        -   colours - linear gradients can be set up with colours including web colors, RGB Hexadecimal
+            Notation, RGB Decimal Notation
+        -   direction -  direction can be indicated in many ways inlcuding the literal direction using
+            "to" and then the horizontal, vertical or both horizontal and vertical direction. This
+            direction will be the end destination of the gradient.
+        -   angle - another way is to describe the angle from which the gradient will start and end
+        -   colour interpolation - I don't know what that means, but you can interpolate colours in
+            rectangular color space using "in oklab", hsl shorter hue using "in hsl shorter hue" and in
+            hsl longer hue using "in hsl longer hue".
+        -   colour stop - You can indicate where a colour should stop and start, this can be done by
+            either using percentage or length.
+        
+        Note that in order to combine say the direction and the angle you will not use comma separated
+        values and instead combine them with a space. For example:
+        
+            linear-gradient(90deg in hsl shorter hue, red, 10%, blue 10% 70%, green, 90%, tomato)
+    2.  Radial Gradients - radial-gradient:
+        Radial gradients follow the same rules for colours and interpolation as linear-gradients, other than that:
+        -   shape - A radial gradient can be specified to be either a circle gradient or an ellipse
+            gradient. If no shape is given the gradient defaults to ellipse.
+        -   position - A position can be selected where the gradient begins.
+    3.  Conic Gradients - conic-gradients:
+        These follow the same rules as linear gradients accept that they are more circular in manner.
 
